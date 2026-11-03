@@ -1,0 +1,156 @@
+{
+  "sheet_id": "lacity_gf_2026-01",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, January 2026 vs January 2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a significant increase in January 2026 compared to January 2025, with a 1.6% increase in January 2026. This increase is primarily attributed to Non-Departmental - Liability Claims, which saw a 443.3% increase in postings from $28.3m to $19.0m. The increase in Non-Departmental - Capital Finance Administration is also significant, with a 312.0% increase from $4.6m to $19.0m. The increase in City Clerk is also substantial, with a 13.6% increase from $1.1m to $13.5m. The decrease in Fire is also notable, with a 5.1% decrease from $84.6m to $74.5m.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "City Clerk described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 868,
+        "completion_tokens": 187,
+        "total_tokens": 1055,
+        "seconds": 12.51
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- City Clerk described as up but its change is down\n- Fire described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (+1.6%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Liability Claims"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Capital Finance Administration"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "City Clerk described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 920,
+        "completion_tokens": 52,
+        "total_tokens": 972,
+        "seconds": 1.76
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (+1.6%)\n- required driver not mentioned: Non-Departmental - Liability Claims\n- required driver not mentioned: Non-Departmental - Capital Finance Administration\n- City Clerk described as up but its change is down\n- Fire described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "City Clerk described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 976,
+        "completion_tokens": 108,
+        "total_tokens": 1084,
+        "seconds": 4.39
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $928.1m in January 2026, up 1.6% from $913.6m in January 2025. Year-to-date postings were $5.16bn, up 3.9%. The largest movements were: Non-Departmental - Liability Claims increased by $23.1m; Non-Departmental - Capital Finance Administration increased by $14.4m; City Clerk decreased by $12.4m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$928.1m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "1.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$913.6m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$5.16bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "3.9%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$23.1m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$14.4m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$12.4m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 51
+  }
+}

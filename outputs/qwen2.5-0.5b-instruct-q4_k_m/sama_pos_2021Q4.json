@@ -1,0 +1,190 @@
+{
+  "sheet_id": "sama_pos_2021Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2021 vs Q4 2020",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the quarter of 2021 compared to the same quarter of the previous year. The average weekly POS value for the quarter of 2021 was SAR 9.60 bn, which was 19.5% higher than the same quarter of the previous year. This increase was driven primarily by an increase in restaurants and cafes, which saw a 19.5% increase in average weekly value. Gas stations also experienced a 19.5% increase in average weekly value, while electronic and electric devices saw a decrease in average weekly value. The increase in restaurants and cafes was attributed to a 19.5% increase in average weekly value, while the increase in electronic and electric devices was attributed to a 19.5% increase in average weekly value. The decrease in electronic and electric devices was attributed to a 19.5% decrease in average weekly value. The largest movers in the quarter were restaurants and cafes, with an increase of 19.5% in average weekly value. The decrease in electronic and electric devices was also significant, with a decrease of 19.5% in average weekly value.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 192 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'19.5%' described as down but the fact is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'19.5%' described as down but the fact is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 255,
+        "total_tokens": 1213,
+        "seconds": 13.37
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 192 words (allowed 35-180)\n- '19.5%' described as down but the fact is up\n- '19.5%' described as down but the fact is up\n- Electronic & Electric Devices described as up but its change is down\n\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'192' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Restaurants & Café"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Gas Stations"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 92,
+        "total_tokens": 1142,
+        "seconds": 11.52
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In Q4 2021, the Saudi Arabia point-of-sale card spending experienced a significant increase in value, reaching SAR 9.60 billion from SAR 8.04 billion in Q4 2020. This marked a 19.5% increase from the previous year. The increase is attributed to a combination of factors, including a 19.5% increase in average weekly POS value, which is a key metric for businesses in the hospitality sector. The increase is also reflected in the increase in average weekly transactions, which were up by 54.9% from SAR 74.6 million in Q4 2020 to SAR 115.5 million in Q4 2021. The increase in average weekly POS value is primarily driven by a 19.5% increase in the average weekly POS value, which is a key metric for businesses in the hospitality sector. The increase in average weekly transactions is also a result of a 54.9% increase in average weekly transactions, which are a key metric for businesses in the hospitality sector. The increase in average weekly POS value is also reflected in the increase in average weekly transactions, which are a key metric for businesses in the hospitality sector. The increase in average weekly POS value is also reflected in the increase in average weekly transactions, which are a key metric for businesses in the hospitality sector. The increase in average weekly POS value is also reflected in the increase in average weekly transactions, which are a key metric for businesses in the hospitality",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 247 words (allowed 35-180)"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 74.6 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 115.5 million' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Restaurants & Café"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Gas Stations"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1060,
+        "completion_tokens": 320,
+        "total_tokens": 1380,
+        "seconds": 8.22
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 9.60 bn in Q4 2021, up 19.5% from SAR 8.04 bn in Q4 2020. Average weekly transactions were 115.5 million (up 54.9%), and the average ticket was SAR 83.1 (down 22.8%). The largest movements were: Restaurants & Café increased by SAR 304 mn; Gas Stations increased by SAR 299 mn; Miscellaneous Goods and Services increased by SAR 296 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 9.60 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "19.5%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 8.04 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "115.5 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "54.9%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 83.1",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "22.8%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 304 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 299 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 296 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 74
+  }
+}

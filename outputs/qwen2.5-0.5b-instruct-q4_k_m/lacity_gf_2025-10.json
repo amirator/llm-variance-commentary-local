@@ -1,0 +1,140 @@
+{
+  "sheet_id": "lacity_gf_2025-10",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, October 2025 vs October 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a $54.8 million increase in October 2025 compared to the same month last year, marking a 7.6% increase from the $726.0 million posted in October 2024. This growth is attributed to a $64.3 million increase in Non-Departmental - Capital Finance Administration, a $129.9 million increase in Fire, and a $101.1 million increase in Police. The increase in Non-Departmental - Capital Finance Administration is particularly noteworthy as it is the largest mover in the General Fund, with a $64.3 million increase compared to the $43.6 million posted last year.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 893,
+        "completion_tokens": 152,
+        "total_tokens": 1045,
+        "seconds": 6.88
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- Fire described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (+7.6%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Capital Finance Administration"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 933,
+        "completion_tokens": 40,
+        "total_tokens": 973,
+        "seconds": 0.91
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (+7.6%)\n- required driver not mentioned: Non-Departmental - Capital Finance Administration\n- Fire described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 975,
+        "completion_tokens": 82,
+        "total_tokens": 1057,
+        "seconds": 4.9
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $780.9m in October 2025, up 7.6% from $726.0m in October 2024. Year-to-date postings were $2.90bn, up 2.1%. The largest movements were: Non-Departmental - Capital Finance Administration increased by $64.3m; Fire decreased by $21.4m; Police increased by $13.9m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$780.9m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "7.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$726.0m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$2.90bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "2.1%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$64.3m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$21.4m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$13.9m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 48
+  }
+}

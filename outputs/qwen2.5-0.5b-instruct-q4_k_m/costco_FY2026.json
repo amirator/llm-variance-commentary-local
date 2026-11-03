@@ -1,0 +1,120 @@
+{
+  "sheet_id": "costco_FY2026",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2026 vs FY2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a 10.1% increase in revenue from $275.2bn in FY2025 to $303.2bn in FY2026. This represents an increase of $27.9bn, which is a 8.9% increase in operating cash flow from $13.34bn to $15.82bn. The company also reported a 13.9% increase in net income from $8.10bn to $9.23bn, and a 18.6% increase in capital expenditure from $5.50bn to $6.43bn. The largest movers for FY2026 were operating cash flow, capital expenditure, and net income, with up movements for all four.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 797,
+        "completion_tokens": 171,
+        "total_tokens": 968,
+        "seconds": 5.06
+      }
+    }
+  ],
+  "final_text": "Costco Wholesale Corporation reported a 10.1% increase in revenue from $275.2bn in FY2025 to $303.2bn in FY2026. This represents an increase of $27.9bn, which is a 8.9% increase in operating cash flow from $13.34bn to $15.82bn. The company also reported a 13.9% increase in net income from $8.10bn to $9.23bn, and a 18.6% increase in capital expenditure from $5.50bn to $6.43bn. The largest movers for FY2026 were operating cash flow, capital expenditure, and net income, with up movements for all four.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "10.1%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$275.2bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "$303.2bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "$27.9bn",
+        "class": "money",
+        "matched": [
+          "revenue_chg"
+        ]
+      },
+      {
+        "text": "8.9%",
+        "class": "pct",
+        "matched": [
+          "sga_yoy"
+        ]
+      },
+      {
+        "text": "$13.34bn",
+        "class": "money",
+        "matched": [
+          "cfo_prev"
+        ]
+      },
+      {
+        "text": "$15.82bn",
+        "class": "money",
+        "matched": [
+          "cfo_cur"
+        ]
+      },
+      {
+        "text": "13.9%",
+        "class": "pct",
+        "matched": [
+          "net_income_yoy"
+        ]
+      },
+      {
+        "text": "$8.10bn",
+        "class": "money",
+        "matched": [
+          "net_income_prev"
+        ]
+      },
+      {
+        "text": "$9.23bn",
+        "class": "money",
+        "matched": [
+          "net_income_cur"
+        ]
+      },
+      {
+        "text": "18.6%",
+        "class": "pct",
+        "matched": [
+          "cfo_yoy"
+        ]
+      },
+      {
+        "text": "$5.50bn",
+        "class": "money",
+        "matched": [
+          "capex_prev"
+        ]
+      },
+      {
+        "text": "$6.43bn",
+        "class": "money",
+        "matched": [
+          "capex_cur"
+        ]
+      }
+    ],
+    "words": 94
+  }
+}

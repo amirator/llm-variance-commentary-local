@@ -1,0 +1,174 @@
+{
+  "sheet_id": "sama_pos_2023Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2023 vs Q3 2022",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2023 compared to the same quarter of the previous year. The average weekly POS value for the quarter increased by 8.5% to SAR 11.77 bn, compared to SAR 10.85 bn in the same quarter of the previous year. This increase is attributed to a rise in the average weekly transactions, which increased by 22.3% to 176.5 million, while the average ticket remained unchanged at SAR 66.7. The other figures show a decrease in the average weekly value, with the other figures showing a decrease in the average weekly value as well. The largest movers (by size of change) are Other (up), Beverage and Food (up), Restaurants & Café (up), Clothing and Footwear (down), and Jewelry (down).",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 955,
+        "completion_tokens": 190,
+        "total_tokens": 1145,
+        "seconds": 13.07
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- Other described as down but its change is up\n- Other described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+8.5%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Beverage and Food"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 51,
+        "total_tokens": 1057,
+        "seconds": 1.22
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) for the Q3 2023 period compared with the Q3 2022 (year over year) saw a significant increase in value, reaching SAR 11.77 bn. This marks a 8.5% increase from the previous quarter's SAR 10.85 bn. The increase is attributed to a 8.5% increase in average weekly POS value, which is a key indicator of improved spending efficiency. The increase in value is further supported by a 8.5% increase in average weekly transactions, which are crucial for maintaining the overall growth in spending. The rise in average weekly POS value is particularly notable as it is a significant component of the overall spending. The increase in average weekly transactions is also significant, contributing to the overall growth in spending. The increase in average weekly POS value and transactions is further supported by a 8.5% increase in average weekly value, which is a key component of the overall spending. The increase in average weekly POS value and transactions is further supported by a 8.5% increase in average weekly value, which is a key component of the overall spending. The increase in average weekly POS value and transactions is further supported by a 8.5% increase in average weekly value, which is a key component of the overall spending. The increase in average weekly POS value and transactions is further supported by a 8.5% increase in average weekly value, which is a key component of the overall spending. The increase in average weekly",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 254 words (allowed 35-180)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Beverage and Food"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "wrong_comparison_basis: 'previous quarter'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1044,
+        "completion_tokens": 320,
+        "total_tokens": 1364,
+        "seconds": 6.53
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 11.77 bn in Q3 2023, up 8.5% from SAR 10.85 bn in Q3 2022. Average weekly transactions were 176.5 million (up 22.3%), and the average ticket was SAR 66.7 (down 11.3%). The largest movements were: Other increased by SAR 290 mn; Beverage and Food increased by SAR 205 mn; Restaurants & Café increased by SAR 167 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 11.77 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "8.5%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 10.85 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "176.5 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "22.3%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 66.7",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "11.3%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 290 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 205 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 167 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 72
+  }
+}

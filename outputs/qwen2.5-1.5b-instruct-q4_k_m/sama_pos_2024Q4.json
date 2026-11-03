@@ -1,0 +1,64 @@
+{
+  "sheet_id": "sama_pos_2024Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2024 vs Q4 2023",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q4 2024, the Saudi Arabia point-of-sale card spending (SAMA) system recorded an average weekly POS value of SAR 13.09 billion, marking an increase of 8.4% from SAR 12.08 billion in Q4 2023. The largest movers in this quarter were Other, which saw an increase of SAR 311 million, and Miscellaneous Goods and Services, with an increase of SAR 184 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 956,
+        "completion_tokens": 103,
+        "total_tokens": 1059,
+        "seconds": 13.51
+      }
+    }
+  ],
+  "final_text": "In Q4 2024, the Saudi Arabia point-of-sale card spending (SAMA) system recorded an average weekly POS value of SAR 13.09 billion, marking an increase of 8.4% from SAR 12.08 billion in Q4 2023. The largest movers in this quarter were Other, which saw an increase of SAR 311 million, and Miscellaneous Goods and Services, with an increase of SAR 184 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 13.09 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "8.4%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 12.08 billion",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "SAR 311 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 184 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      }
+    ],
+    "words": 64
+  }
+}

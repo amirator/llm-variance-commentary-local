@@ -1,0 +1,457 @@
+{
+  "id": "costco_FY2023",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2023 vs FY2022",
+  "subject": "Costco Wholesale Corporation (SEC 10-K, XBRL companyfacts)",
+  "period": "FY2023",
+  "comparison_period": "FY2022",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "revenue_cur",
+      "label": "Revenue, FY2023",
+      "value": 242290000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$242.3bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "revenue_prev",
+      "label": "Revenue, FY2022",
+      "value": 226954000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$227.0bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "revenue_yoy",
+      "label": "Revenue, change vs prior year",
+      "value": 6.757316460604357,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+6.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "revenue_chg",
+      "label": "Revenue, change",
+      "value": 15336000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$15.3bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "op_margin_cur",
+      "label": "Operating margin, FY2023",
+      "value": 3.3488794419910026,
+      "unit": "pct",
+      "kind": "level",
+      "display": "3.35%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "op_margin_prev",
+      "label": "Operating margin, FY2022",
+      "value": 3.4337354706240033,
+      "unit": "pct",
+      "kind": "level",
+      "display": "3.43%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "op_margin_chg",
+      "label": "Operating margin, change",
+      "value": -0.08485602863300068,
+      "unit": "pp",
+      "kind": "change",
+      "display": "-0.08 pp",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "sga_pct_cur",
+      "label": "SG&A as % of revenue, FY2023",
+      "value": 8.910809360683478,
+      "unit": "pct",
+      "kind": "level",
+      "display": "8.91%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_pct_prev",
+      "label": "SG&A as % of revenue, FY2022",
+      "value": 8.714981890603383,
+      "unit": "pct",
+      "kind": "level",
+      "display": "8.71%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_pct_chg",
+      "label": "SG&A as % of revenue, change",
+      "value": 0.19582747008009527,
+      "unit": "pp",
+      "kind": "change",
+      "display": "+0.20 pp",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "ebit_cur",
+      "label": "Operating income, FY2023",
+      "value": 8114000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$8.11bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_prev",
+      "label": "Operating income, FY2022",
+      "value": 7793000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$7.79bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_yoy",
+      "label": "Operating income, change vs prior year",
+      "value": 4.1190812267419386,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+4.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_chg",
+      "label": "Operating income, change",
+      "value": 321000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$0.32bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "net_income_cur",
+      "label": "Net income, FY2023",
+      "value": 6292000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$6.29bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_prev",
+      "label": "Net income, FY2022",
+      "value": 5844000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$5.84bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_yoy",
+      "label": "Net income, change vs prior year",
+      "value": 7.665982203969879,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+7.7%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_chg",
+      "label": "Net income, change",
+      "value": 448000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$0.45bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "sga_cur",
+      "label": "SG&A, FY2023",
+      "value": 21590000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$21.59bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_prev",
+      "label": "SG&A, FY2022",
+      "value": 19779000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$19.78bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_yoy",
+      "label": "SG&A, change vs prior year",
+      "value": 9.156175741948536,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+9.2%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_chg",
+      "label": "SG&A, change",
+      "value": 1811000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$1.81bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "cfo_cur",
+      "label": "Operating cash flow, FY2023",
+      "value": 11068000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$11.07bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_prev",
+      "label": "Operating cash flow, FY2022",
+      "value": 7392000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$7.39bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_yoy",
+      "label": "Operating cash flow, change vs prior year",
+      "value": 49.72943722943724,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+49.7%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_chg",
+      "label": "Operating cash flow, change",
+      "value": 3676000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$3.68bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "capex_cur",
+      "label": "Capital expenditure, FY2023",
+      "value": 4323000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.32bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_prev",
+      "label": "Capital expenditure, FY2022",
+      "value": 3891000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$3.89bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_yoy",
+      "label": "Capital expenditure, change vs prior year",
+      "value": 11.102544333076336,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+11.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_chg",
+      "label": "Capital expenditure, change",
+      "value": 432000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$0.43bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Operating cash flow",
+      "aliases": [
+        "operating cash flow",
+        "cash from operations",
+        "cash flow from operations",
+        "cash generated from operations",
+        "operating cash"
+      ],
+      "change": 3676000000.0,
+      "change_pct": 49.72943722943724,
+      "rank": 1
+    },
+    {
+      "name": "Capital expenditure",
+      "aliases": [
+        "capital expenditure",
+        "capital expenditures",
+        "capex",
+        "capital spending"
+      ],
+      "change": 432000000.0,
+      "change_pct": 11.102544333076336,
+      "rank": 2
+    },
+    {
+      "name": "SG&A",
+      "aliases": [
+        "sg&a",
+        "selling, general and administrative",
+        "selling, general & administrative"
+      ],
+      "change": 1811000000.0,
+      "change_pct": 9.156175741948536,
+      "rank": 3
+    },
+    {
+      "name": "Net income",
+      "aliases": [
+        "net income",
+        "net profit",
+        "net earnings"
+      ],
+      "change": 448000000.0,
+      "change_pct": 7.665982203969879,
+      "rank": 4
+    },
+    {
+      "name": "Operating income",
+      "aliases": [
+        "operating income",
+        "operating profit",
+        "ebit"
+      ],
+      "change": 321000000.0,
+      "change_pct": 4.1190812267419386,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Operating cash flow",
+    "Capital expenditure"
+  ],
+  "headline_key": "revenue_yoy",
+  "period_tokens": [
+    "FY2023",
+    "FY2022",
+    "2023",
+    "2022",
+    "FY23",
+    "FY22"
+  ],
+  "other_entities": [
+    "Walmart",
+    "Amazon",
+    "Target",
+    "Sam's Club",
+    "BJ's",
+    "Kroger",
+    "Kirkland"
+  ],
+  "notes": [
+    "Fiscal years end on the Sunday closest to 31 August."
+  ]
+}

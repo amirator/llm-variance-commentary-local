@@ -1,0 +1,71 @@
+{
+  "sheet_id": "sama_pos_2021Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2021 vs Q3 2020",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q3 2021, the average weekly POS value increased by 24.0% compared to Q3 2020, marking a significant growth in the Saudi Arabia point-of-sale card spending (SAMA) system. This increase is attributed to the robust performance of the Restaurants & Café sector, which saw an increase of 33.7% in average weekly value. Additionally, the Gas Stations sector also experienced a notable rise of 114.0%, with an average weekly value of SAR 582 mn. The Miscellaneous Goods and Services sector also showed a positive trend, with an increase of 54.0% in average weekly value, reaching SAR 864 mn.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 875,
+        "completion_tokens": 149,
+        "total_tokens": 1024,
+        "seconds": 9.67
+      }
+    }
+  ],
+  "final_text": "In Q3 2021, the average weekly POS value increased by 24.0% compared to Q3 2020, marking a significant growth in the Saudi Arabia point-of-sale card spending (SAMA) system. This increase is attributed to the robust performance of the Restaurants & Café sector, which saw an increase of 33.7% in average weekly value. Additionally, the Gas Stations sector also experienced a notable rise of 114.0%, with an average weekly value of SAR 582 mn. The Miscellaneous Goods and Services sector also showed a positive trend, with an increase of 54.0% in average weekly value, reaching SAR 864 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "24.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "33.7%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "114.0%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "SAR 582 mn",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "54.0%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "SAR 864 mn",
+        "class": "money",
+        "matched": [
+          "drv3_cur"
+        ]
+      }
+    ],
+    "words": 100
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "sheet_id": "sama_pos_2022Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2022 vs Q4 2021",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in Q4 2022 compared to Q4 2021, with an average weekly POS value of SAR 11.01 bn, up by 14.6% year over year. This marked a 32.8% increase in transactions from Q4 2021, which was SAR 115.5 million. The increase in transactions is attributed to a 32.8% increase in the average weekly value, which was SAR 1,679 mn. The other figures show a similar increase in the average weekly POS value and transactions, with the largest movers (by size of change) being Other (up) and Miscellaneous Goods and Services (up).",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 115.5 million' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 960,
+        "completion_tokens": 165,
+        "total_tokens": 1125,
+        "seconds": 7.27
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- 'SAR 115.5 million' does not match any fact\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 115.5 million' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+14.6%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1007,
+        "completion_tokens": 47,
+        "total_tokens": 1054,
+        "seconds": 1.1
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In Q4 2022, Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase compared to the same quarter last year. The average weekly POS value increased by 14.6% to SAR 11.01 bn, marking a 14.6% increase from the 9.60 bn reported in Q4 2021. This growth was primarily driven by a 14.6% increase in the average weekly POS value from Q4 2021 to SAR 9.60 bn, with the other factors contributing to the overall increase. The increase in POS value is attributed to higher average weekly transactions, which increased by 32.8% from SAR 115.5 million to SAR 153.4 million, and the other factors, including a 14.6% increase in the average weekly POS value from SAR 9.60 bn to SAR 11.01 bn, further contributed to the overall increase. The increase in POS value is also reflected in the other factors, with the other factors contributing to the overall increase. The increase in POS value is also reflected in the other factors, with the other factors contributing to the overall increase. The increase in POS value is also reflected in the other factors, with the other factors contributing to the overall increase. The increase in POS value is also reflected in the other factors, with the other factors contributing to the overall increase. The increase in POS value is also reflected in the other factors",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 235 words (allowed 35-180)"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 115.5 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 153.4 million' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1055,
+        "completion_tokens": 320,
+        "total_tokens": 1375,
+        "seconds": 10.75
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 11.01 bn in Q4 2022, up 14.6% from SAR 9.60 bn in Q4 2021. Average weekly transactions were 153.4 million (up 32.8%), and the average ticket was SAR 71.8 (down 13.7%). The largest movements were: Other increased by SAR 336 mn; Miscellaneous Goods and Services increased by SAR 276 mn; Beverage and Food increased by SAR 247 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 11.01 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "14.6%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 9.60 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "153.4 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "32.8%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 71.8",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "13.7%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 336 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg",
+          "drv5_prev"
+        ]
+      },
+      {
+        "text": "SAR 276 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 247 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 74
+  }
+}

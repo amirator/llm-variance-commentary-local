@@ -1,0 +1,457 @@
+{
+  "id": "costco_FY2026",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2026 vs FY2025",
+  "subject": "Costco Wholesale Corporation (SEC 10-K, XBRL companyfacts)",
+  "period": "FY2026",
+  "comparison_period": "FY2025",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "revenue_cur",
+      "label": "Revenue, FY2026",
+      "value": 303154000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$303.2bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "revenue_prev",
+      "label": "Revenue, FY2025",
+      "value": 275235000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$275.2bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "revenue_yoy",
+      "label": "Revenue, change vs prior year",
+      "value": 10.143695387577889,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+10.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "revenue_chg",
+      "label": "Revenue, change",
+      "value": 27919000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$27.9bn",
+      "decimals": 1,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "op_margin_cur",
+      "label": "Operating margin, FY2026",
+      "value": 3.8544766026507977,
+      "unit": "pct",
+      "kind": "level",
+      "display": "3.85%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "op_margin_prev",
+      "label": "Operating margin, FY2025",
+      "value": 3.7724126655403563,
+      "unit": "pct",
+      "kind": "level",
+      "display": "3.77%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "op_margin_chg",
+      "label": "Operating margin, change",
+      "value": 0.08206393711044146,
+      "unit": "pp",
+      "kind": "change",
+      "display": "+0.08 pp",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "sga_pct_cur",
+      "label": "SG&A as % of revenue, FY2026",
+      "value": 8.969038838346187,
+      "unit": "pct",
+      "kind": "level",
+      "display": "8.97%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_pct_prev",
+      "label": "SG&A as % of revenue, FY2025",
+      "value": 9.070794048722002,
+      "unit": "pct",
+      "kind": "level",
+      "display": "9.07%",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_pct_chg",
+      "label": "SG&A as % of revenue, change",
+      "value": -0.10175521037581525,
+      "unit": "pp",
+      "kind": "change",
+      "display": "-0.10 pp",
+      "decimals": 2,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "ebit_cur",
+      "label": "Operating income, FY2026",
+      "value": 11685000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$11.69bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_prev",
+      "label": "Operating income, FY2025",
+      "value": 10383000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$10.38bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_yoy",
+      "label": "Operating income, change vs prior year",
+      "value": 12.539728402195905,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+12.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Operating income"
+    },
+    {
+      "key": "ebit_chg",
+      "label": "Operating income, change",
+      "value": 1302000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$1.30bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating income"
+    },
+    {
+      "key": "net_income_cur",
+      "label": "Net income, FY2026",
+      "value": 9226000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$9.23bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_prev",
+      "label": "Net income, FY2025",
+      "value": 8099000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$8.10bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_yoy",
+      "label": "Net income, change vs prior year",
+      "value": 13.915298184961111,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+13.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Net income"
+    },
+    {
+      "key": "net_income_chg",
+      "label": "Net income, change",
+      "value": 1127000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$1.13bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Net income"
+    },
+    {
+      "key": "sga_cur",
+      "label": "SG&A, FY2026",
+      "value": 27190000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$27.19bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_prev",
+      "label": "SG&A, FY2025",
+      "value": 24966000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$24.97bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_yoy",
+      "label": "SG&A, change vs prior year",
+      "value": 8.908115036449571,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+8.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "SG&A"
+    },
+    {
+      "key": "sga_chg",
+      "label": "SG&A, change",
+      "value": 2224000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$2.22bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "SG&A"
+    },
+    {
+      "key": "cfo_cur",
+      "label": "Operating cash flow, FY2026",
+      "value": 15817000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$15.82bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_prev",
+      "label": "Operating cash flow, FY2025",
+      "value": 13335000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$13.34bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_yoy",
+      "label": "Operating cash flow, change vs prior year",
+      "value": 18.61267341582302,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+18.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "cfo_chg",
+      "label": "Operating cash flow, change",
+      "value": 2482000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$2.48bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Operating cash flow"
+    },
+    {
+      "key": "capex_cur",
+      "label": "Capital expenditure, FY2026",
+      "value": 6435000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$6.43bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_prev",
+      "label": "Capital expenditure, FY2025",
+      "value": 5498000000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$5.50bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_yoy",
+      "label": "Capital expenditure, change vs prior year",
+      "value": 17.04256093124772,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+17.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Capital expenditure"
+    },
+    {
+      "key": "capex_chg",
+      "label": "Capital expenditure, change",
+      "value": 937000000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$0.94bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": "Capital expenditure"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Operating cash flow",
+      "aliases": [
+        "operating cash flow",
+        "cash from operations",
+        "cash flow from operations",
+        "cash generated from operations",
+        "operating cash"
+      ],
+      "change": 2482000000.0,
+      "change_pct": 18.61267341582302,
+      "rank": 1
+    },
+    {
+      "name": "Capital expenditure",
+      "aliases": [
+        "capital expenditure",
+        "capital expenditures",
+        "capex",
+        "capital spending"
+      ],
+      "change": 937000000.0,
+      "change_pct": 17.04256093124772,
+      "rank": 2
+    },
+    {
+      "name": "Net income",
+      "aliases": [
+        "net income",
+        "net profit",
+        "net earnings"
+      ],
+      "change": 1127000000.0,
+      "change_pct": 13.915298184961111,
+      "rank": 3
+    },
+    {
+      "name": "Operating income",
+      "aliases": [
+        "operating income",
+        "operating profit",
+        "ebit"
+      ],
+      "change": 1302000000.0,
+      "change_pct": 12.539728402195905,
+      "rank": 4
+    },
+    {
+      "name": "SG&A",
+      "aliases": [
+        "sg&a",
+        "selling, general and administrative",
+        "selling, general & administrative"
+      ],
+      "change": 2224000000.0,
+      "change_pct": 8.908115036449571,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Operating cash flow",
+    "Capital expenditure"
+  ],
+  "headline_key": "revenue_yoy",
+  "period_tokens": [
+    "FY2026",
+    "FY2025",
+    "2026",
+    "2025",
+    "FY26",
+    "FY25"
+  ],
+  "other_entities": [
+    "Walmart",
+    "Amazon",
+    "Target",
+    "Sam's Club",
+    "BJ's",
+    "Kroger",
+    "Kirkland"
+  ],
+  "notes": [
+    "Fiscal years end on the Sunday closest to 31 August."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "sheet_id": "lacity_bva_FY2025",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund budget vs actual, FY2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The lowest budget utilisation in FY2025 is Non-Departmental - Unappropriated Balance, with an unspent share of $626.6m. The lowest-utilisation departments are Non-Departmental - Unappropriated Balance, Non-Departmental - General City Purposes, and Council. The lowest-utilisation departments are limited to those with a revised budget above $50m.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Utilisation of revised budget (93.9%)"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 697,
+        "completion_tokens": 84,
+        "total_tokens": 781,
+        "seconds": 4.83
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '$50m' does not match any fact\n- headline figure not cited: Utilisation of revised budget (93.9%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- '$50m' does not match any fact\n- headline figure not cited: Utilisation of revised budget (93.9%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- '$50m' does not match any fact\n- headline figure not cited: Utilisation of revised budget (93.9%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- '$50m' does not match any fact\n- headline figure not cited: Utilisation of revised budget (93.9%)",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Unappropriated Balance"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - General City Purposes"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 756,
+        "completion_tokens": 168,
+        "total_tokens": 924,
+        "seconds": 10.15
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '$50m' does not match any fact\n- '$50m' does not match any fact\n- '$50m' does not match any fact\n- required driver not mentioned: Non-Departmental - Unappropriated Balance\n- required driver not mentioned: Non-Departmental - General City Purposes\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Utilisation of revised budget (93.9%)"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 811,
+        "completion_tokens": 102,
+        "total_tokens": 913,
+        "seconds": 3.06
+      }
+    }
+  ],
+  "final_text": "The General Fund revised budget for FY2025 was $10.20bn, against an adopted budget of $9.38bn. Committed spend was $9.57bn, a utilisation of 93.9%, leaving $626.6m unspent. Departments with the lowest utilisation: Non-Departmental - Unappropriated Balance used 0.0% of a $96.8m budget; Non-Departmental - General City Purposes used 55.4% of a $306.4m budget; Council used 76.0% of a $72.3m budget.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$10.20bn",
+        "class": "money",
+        "matched": [
+          "revised"
+        ]
+      },
+      {
+        "text": "$9.38bn",
+        "class": "money",
+        "matched": [
+          "adopted"
+        ]
+      },
+      {
+        "text": "$9.57bn",
+        "class": "money",
+        "matched": [
+          "committed"
+        ]
+      },
+      {
+        "text": "93.9%",
+        "class": "pct",
+        "matched": [
+          "utilisation"
+        ]
+      },
+      {
+        "text": "$626.6m",
+        "class": "money",
+        "matched": [
+          "unspent"
+        ]
+      },
+      {
+        "text": "0.0%",
+        "class": "pct",
+        "matched": [
+          "low1_util"
+        ]
+      },
+      {
+        "text": "$96.8m",
+        "class": "money",
+        "matched": [
+          "low1_revised",
+          "low1_unspent"
+        ]
+      },
+      {
+        "text": "55.4%",
+        "class": "pct",
+        "matched": [
+          "low2_util"
+        ]
+      },
+      {
+        "text": "$306.4m",
+        "class": "money",
+        "matched": [
+          "low2_revised"
+        ]
+      },
+      {
+        "text": "76.0%",
+        "class": "pct",
+        "matched": [
+          "low3_util"
+        ]
+      },
+      {
+        "text": "$72.3m",
+        "class": "money",
+        "matched": [
+          "low3_revised"
+        ]
+      }
+    ],
+    "words": 68
+  }
+}

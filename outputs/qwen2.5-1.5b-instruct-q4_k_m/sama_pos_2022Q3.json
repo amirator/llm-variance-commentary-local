@@ -1,0 +1,155 @@
+{
+  "sheet_id": "sama_pos_2022Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2022 vs Q3 2021",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q3 2022, the Saudi Arabia point-of-sale card spending (SAMA) saw an average weekly value of SAR 10.85 billion, marking a +19.0% increase from Q3 2021, where the value was SAR 9.11 billion. The Other category, which includes miscellaneous goods and services, saw a +31.2% increase to SAR 1,628 million from SAR 1,241 million. The Miscellaneous Goods and Services category also reported a +38.0% increase to SAR 1,193 million from SAR 864 million. The Restaurants & Café category experienced a +23.3% increase to SAR 1,545 million from SAR 1,253 million, while the Electronic & Electric Devices category showed a -5.5% decrease to SAR 255 million from SAR 270 million. The Telecommunication category reported a -6.4% decrease to SAR 92 million from SAR 98 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 961,
+        "completion_tokens": 226,
+        "total_tokens": 1187,
+        "seconds": 21.81
+      }
+    }
+  ],
+  "final_text": "In Q3 2022, the Saudi Arabia point-of-sale card spending (SAMA) saw an average weekly value of SAR 10.85 billion, marking a +19.0% increase from Q3 2021, where the value was SAR 9.11 billion. The Other category, which includes miscellaneous goods and services, saw a +31.2% increase to SAR 1,628 million from SAR 1,241 million. The Miscellaneous Goods and Services category also reported a +38.0% increase to SAR 1,193 million from SAR 864 million. The Restaurants & Café category experienced a +23.3% increase to SAR 1,545 million from SAR 1,253 million, while the Electronic & Electric Devices category showed a -5.5% decrease to SAR 255 million from SAR 270 million. The Telecommunication category reported a -6.4% decrease to SAR 92 million from SAR 98 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 10.85 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "+19.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 9.11 billion",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "+31.2%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,628 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "SAR 1,241 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "+38.0%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,193 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "SAR 864 million",
+        "class": "money",
+        "matched": [
+          "drv2_prev"
+        ]
+      },
+      {
+        "text": "+23.3%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,545 million",
+        "class": "money",
+        "matched": [
+          "drv3_cur"
+        ]
+      },
+      {
+        "text": "SAR 1,253 million",
+        "class": "money",
+        "matched": [
+          "drv3_prev"
+        ]
+      },
+      {
+        "text": "-5.5%",
+        "class": "pct",
+        "matched": [
+          "drv4_yoy"
+        ]
+      },
+      {
+        "text": "SAR 255 million",
+        "class": "money",
+        "matched": [
+          "drv4_cur"
+        ]
+      },
+      {
+        "text": "SAR 270 million",
+        "class": "money",
+        "matched": [
+          "drv4_prev"
+        ]
+      },
+      {
+        "text": "-6.4%",
+        "class": "pct",
+        "matched": [
+          "drv5_yoy"
+        ]
+      },
+      {
+        "text": "SAR 92 million",
+        "class": "money",
+        "matched": [
+          "drv5_cur"
+        ]
+      },
+      {
+        "text": "SAR 98 million",
+        "class": "money",
+        "matched": [
+          "drv5_prev"
+        ]
+      }
+    ],
+    "words": 135
+  }
+}

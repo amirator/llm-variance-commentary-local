@@ -1,0 +1,135 @@
+{
+  "sheet_id": "lacity_bva_FY2026",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund budget vs actual, FY2026",
+  "source": "llm",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The FY2026 General Fund budget adopted by the City of Los Angeles was $9.56 billion, marking a slight increase from the revised budget of $10.19 billion. The budget revision for FY2026 was $628.1 million, which represents an increase of 6.5% over the adopted budget. This increase reflects the need to allocate more funds to various departments and programs. Among the departments, the utilisation of the revised budget stands at 95.4%, indicating that the majority of the budget has been committed and allocated effectively. The unspent share of the revised budget is 4.6%, suggesting that the funds have been utilized efficiently. This efficiency is particularly evident in the departments of General Services and Non-Departmental - General City Purposes, where the utilisation rate is 71.6% and 71.8% respectively. The unspent budget for these departments is $113.0m and $74.3m, respectively, indicating that the funds have not been fully utilized. The Mayor's utilisation rate is 76.6%, which is slightly down from the previous year, reflecting a slight decrease in the utilization of the revised budget. The Mayor's unspent share is 23.4%, which is also slightly lower than the previous year. This reduction in the Mayor's unspent share could be due to the implementation of budgetary measures aimed at improving efficiency and reducing waste.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 220 words (allowed 35-180)"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'6.5%' does not match any fact"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficient'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 307,
+        "total_tokens": 964,
+        "seconds": 20.34
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In FY2026, the City of Los Angeles General Fund adopted a budget of $9.56 billion, which was revised to $10.19 billion. The in-year budget revision resulted in an increase of $628.1 million, bringing the committed spend to $9.72 billion. The actual expenditure was $9.55 billion, with $170.3 million in encumbrances. The utilisation of the revised budget was 95.4%, with 4.6% of the revised budget remaining unspent. The lowest budget utilisation was observed in General Services, Non-Departmental - General City Purposes, and Mayor, with figures of $397.9 million, $263.5 million, and $89.1 million respectively.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 728,
+        "completion_tokens": 172,
+        "total_tokens": 900,
+        "seconds": 9.73
+      }
+    }
+  ],
+  "final_text": "In FY2026, the City of Los Angeles General Fund adopted a budget of $9.56 billion, which was revised to $10.19 billion. The in-year budget revision resulted in an increase of $628.1 million, bringing the committed spend to $9.72 billion. The actual expenditure was $9.55 billion, with $170.3 million in encumbrances. The utilisation of the revised budget was 95.4%, with 4.6% of the revised budget remaining unspent. The lowest budget utilisation was observed in General Services, Non-Departmental - General City Purposes, and Mayor, with figures of $397.9 million, $263.5 million, and $89.1 million respectively.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$9.56 billion",
+        "class": "money",
+        "matched": [
+          "adopted"
+        ]
+      },
+      {
+        "text": "$10.19 billion",
+        "class": "money",
+        "matched": [
+          "revised"
+        ]
+      },
+      {
+        "text": "$628.1 million",
+        "class": "money",
+        "matched": [
+          "revision"
+        ]
+      },
+      {
+        "text": "$9.72 billion",
+        "class": "money",
+        "matched": [
+          "committed"
+        ]
+      },
+      {
+        "text": "$9.55 billion",
+        "class": "money",
+        "matched": [
+          "actual"
+        ]
+      },
+      {
+        "text": "$170.3 million",
+        "class": "money",
+        "matched": [
+          "encumbered"
+        ]
+      },
+      {
+        "text": "95.4%",
+        "class": "pct",
+        "matched": [
+          "utilisation"
+        ]
+      },
+      {
+        "text": "4.6%",
+        "class": "pct",
+        "matched": [
+          "unspent_share"
+        ]
+      },
+      {
+        "text": "$397.9 million",
+        "class": "money",
+        "matched": [
+          "low1_revised"
+        ]
+      },
+      {
+        "text": "$263.5 million",
+        "class": "money",
+        "matched": [
+          "low2_revised"
+        ]
+      },
+      {
+        "text": "$89.1 million",
+        "class": "money",
+        "matched": [
+          "low3_revised"
+        ]
+      }
+    ],
+    "words": 103
+  }
+}

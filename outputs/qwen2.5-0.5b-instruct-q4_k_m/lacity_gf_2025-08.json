@@ -1,0 +1,172 @@
+{
+  "sheet_id": "lacity_gf_2025-08",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, August 2025 vs August 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a decrease of $0.6 million in August 2025 compared to August 2024, reflecting a 6.0% increase in the year-to-date postings. The largest movers in the General Fund were Non-Departmental - Liability Claims, which increased by $23.1 million, and Non-Departmental - General, which increased by $16.6 million.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$0.6 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'6.0%' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'$23.1 million' described as up but the fact is down"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-0.6%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 869,
+        "completion_tokens": 91,
+        "total_tokens": 960,
+        "seconds": 8.23
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '$0.6 million' does not match any fact\n- '6.0%' does not match any fact\n- '$23.1 million' described as up but the fact is down\n- headline figure not cited: General Fund postings, change vs same month last year (-0.6%)\n- Non-Departmental - Liability Claims described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$0.6 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'6.0%' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - General"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 979,
+        "completion_tokens": 110,
+        "total_tokens": 1089,
+        "seconds": 2.31
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '$0.6 million' does not match any fact\n- '6.0%' does not match any fact\n- Non-Departmental - Liability Claims described as up but its change is down\n- required driver not mentioned: Non-Departmental - General\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$0.6 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'6.0%' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-0.6%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 89,
+        "total_tokens": 1047,
+        "seconds": 2.88
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $667.7m in August 2025, down 0.6% from $671.7m in August 2024. Year-to-date postings were $1.30bn, up 0.5%. The largest movements were: Non-Departmental - Liability Claims decreased by $23.1m; Non-Departmental - General increased by $16.6m; Fire increased by $9.6m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$667.7m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "0.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$671.7m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$1.30bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "0.5%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$23.1m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$16.6m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$9.6m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 48
+  }
+}

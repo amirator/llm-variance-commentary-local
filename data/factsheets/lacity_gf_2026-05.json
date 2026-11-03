@@ -1,0 +1,435 @@
+{
+  "id": "lacity_gf_2026-05",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, May 2026 vs May 2025",
+  "subject": "City of Los Angeles General Fund (Controller monthly expenditure postings)",
+  "period": "May 2026",
+  "comparison_period": "May 2025",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "total_cur",
+      "label": "General Fund postings, May 2026",
+      "value": 871058316.2099999,
+      "unit": "money",
+      "kind": "level",
+      "display": "$871.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_prev",
+      "label": "General Fund postings, May 2025",
+      "value": 886070442.19,
+      "unit": "money",
+      "kind": "level",
+      "display": "$886.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_yoy",
+      "label": "General Fund postings, change vs same month last year",
+      "value": -1.694236176403352,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-1.7%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_chg",
+      "label": "General Fund postings, change",
+      "value": -15012125.980000138,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$15.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_cur",
+      "label": "FY2026 year-to-date postings through May 2026",
+      "value": 8949155923.16,
+      "unit": "money",
+      "kind": "level",
+      "display": "$8.95bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_prev",
+      "label": "FY2025 year-to-date postings through May 2025",
+      "value": 8807110343.279999,
+      "unit": "money",
+      "kind": "level",
+      "display": "$8.81bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_yoy",
+      "label": "Year-to-date postings, change vs prior year",
+      "value": 1.612851143489813,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+1.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Fire: change in postings",
+      "value": -30123385.36,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$30.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Fire: postings, May 2026",
+      "value": 37475828.19,
+      "unit": "money",
+      "kind": "level",
+      "display": "$37.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Fire: postings, May 2025",
+      "value": 67599213.55,
+      "unit": "money",
+      "kind": "level",
+      "display": "$67.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Fire: change vs same month last year",
+      "value": -44.56173937248417,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-44.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Fire"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Non-Departmental - Liability Claims: change in postings",
+      "value": -17802412.259999998,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$17.8m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Non-Departmental - Liability Claims: postings, May 2026",
+      "value": 10109001.98,
+      "unit": "money",
+      "kind": "level",
+      "display": "$10.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Non-Departmental - Liability Claims: postings, May 2025",
+      "value": 27911414.24,
+      "unit": "money",
+      "kind": "level",
+      "display": "$27.9m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Non-Departmental - Liability Claims: change vs same month last year",
+      "value": -63.78183529836071,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-63.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Non-Departmental - Human Resources Benefits: change in postings",
+      "value": 8446562.769999996,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$8.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Human Resources Benefits"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Non-Departmental - Human Resources Benefits: postings, May 2026",
+      "value": 83483930.22,
+      "unit": "money",
+      "kind": "level",
+      "display": "$83.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Human Resources Benefits"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Non-Departmental - Human Resources Benefits: postings, May 2025",
+      "value": 75037367.45,
+      "unit": "money",
+      "kind": "level",
+      "display": "$75.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Human Resources Benefits"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Non-Departmental - Human Resources Benefits: change vs same month last year",
+      "value": 11.256475349602635,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+11.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Human Resources Benefits"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Police: change in postings",
+      "value": 7887765.319999993,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$7.9m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Police: postings, May 2026",
+      "value": 157496388.34,
+      "unit": "money",
+      "kind": "level",
+      "display": "$157.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Police: postings, May 2025",
+      "value": 149608623.02,
+      "unit": "money",
+      "kind": "level",
+      "display": "$149.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Police: change vs same month last year",
+      "value": 5.272266504949741,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+5.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Non-Departmental - Petroleum Products: change in postings",
+      "value": 6585647.1,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$6.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Non-Departmental - Petroleum Products: postings, May 2026",
+      "value": 6585647.1,
+      "unit": "money",
+      "kind": "level",
+      "display": "$6.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Non-Departmental - Petroleum Products: postings, May 2025",
+      "value": 0.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$0.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Fire",
+      "aliases": [
+        "fire"
+      ],
+      "change": -30123385.36,
+      "change_pct": -44.56173937248417,
+      "rank": 1
+    },
+    {
+      "name": "Non-Departmental - Liability Claims",
+      "aliases": [
+        "non-departmental - liability claims",
+        "liability claims"
+      ],
+      "change": -17802412.259999998,
+      "change_pct": -63.78183529836071,
+      "rank": 2
+    },
+    {
+      "name": "Non-Departmental - Human Resources Benefits",
+      "aliases": [
+        "non-departmental - human resources benefits",
+        "human resources benefits"
+      ],
+      "change": 8446562.769999996,
+      "change_pct": 11.256475349602635,
+      "rank": 3
+    },
+    {
+      "name": "Police",
+      "aliases": [
+        "police"
+      ],
+      "change": 7887765.319999993,
+      "change_pct": 5.272266504949741,
+      "rank": 4
+    },
+    {
+      "name": "Non-Departmental - Petroleum Products",
+      "aliases": [
+        "non-departmental - petroleum products",
+        "petroleum products"
+      ],
+      "change": 6585647.1,
+      "change_pct": null,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Fire",
+    "Non-Departmental - Liability Claims"
+  ],
+  "headline_key": "total_yoy",
+  "period_tokens": [
+    "2025",
+    "2026",
+    "FY2025",
+    "FY2026",
+    "FY25",
+    "FY26"
+  ],
+  "other_entities": [
+    "Aging",
+    "Animal Services",
+    "Building and Safety",
+    "Cannabis Regulation",
+    "City Administrative Officer",
+    "City Attorney",
+    "City Clerk",
+    "City Ethics Commission",
+    "City Planning",
+    "Civil, Human Rights, and Equity Department",
+    "Community Investment Department",
+    "Controller",
+    "Council",
+    "Cultural Affairs",
+    "Disability",
+    "Economic and Workforce Development Department",
+    "El Pueblo De Los Angeles Historical Monument Authority",
+    "Emergency Management",
+    "Employee Relations Board",
+    "General Services",
+    "Information Technology Agency",
+    "Los Angeles City Tourism Department",
+    "Los Angeles Housing",
+    "Mayor",
+    "Neighborhood Empowerment",
+    "Non-Departmental - Capital Finance Administration",
+    "Non-Departmental - Capital Improvement Expense Program",
+    "Non-Departmental - General",
+    "Non-Departmental - General City Purposes",
+    "Non-Departmental - Leasing",
+    "Non-Departmental - Water and Electricity",
+    "Office of Finance",
+    "Personnel",
+    "Public Accountability",
+    "Public Works - Board of Public Works",
+    "Public Works - Contract Administration",
+    "Public Works - Engineering",
+    "Public Works - Sanitation",
+    "Public Works - Street Lighting",
+    "Public Works - Street Services",
+    "Transportation",
+    "Youth Development Department",
+    "Zoo"
+  ],
+  "notes": [
+    "Monthly postings by transaction month; fiscal year runs July to June."
+  ]
+}

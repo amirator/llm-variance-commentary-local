@@ -1,0 +1,447 @@
+{
+  "id": "lacity_gf_2025-08",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, August 2025 vs August 2024",
+  "subject": "City of Los Angeles General Fund (Controller monthly expenditure postings)",
+  "period": "August 2025",
+  "comparison_period": "August 2024",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "total_cur",
+      "label": "General Fund postings, August 2025",
+      "value": 667731467.3799999,
+      "unit": "money",
+      "kind": "level",
+      "display": "$667.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_prev",
+      "label": "General Fund postings, August 2024",
+      "value": 671715872.3499998,
+      "unit": "money",
+      "kind": "level",
+      "display": "$671.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_yoy",
+      "label": "General Fund postings, change vs same month last year",
+      "value": -0.5931682031065422,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-0.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_chg",
+      "label": "General Fund postings, change",
+      "value": -3984404.9699999094,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$4.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_cur",
+      "label": "FY2026 year-to-date postings through August 2025",
+      "value": 1301171522.21,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1.30bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_prev",
+      "label": "FY2025 year-to-date postings through August 2024",
+      "value": 1294372188.85,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1.29bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_yoy",
+      "label": "Year-to-date postings, change vs prior year",
+      "value": 0.5252997104365331,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+0.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Non-Departmental - Liability Claims: change in postings",
+      "value": -23147229.68,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$23.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Non-Departmental - Liability Claims: postings, August 2025",
+      "value": 7702578.8,
+      "unit": "money",
+      "kind": "level",
+      "display": "$7.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Non-Departmental - Liability Claims: postings, August 2024",
+      "value": 30849808.48,
+      "unit": "money",
+      "kind": "level",
+      "display": "$30.8m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Non-Departmental - Liability Claims: change vs same month last year",
+      "value": -75.03200447745535,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-75.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Non-Departmental - General: change in postings",
+      "value": 16554249.099999994,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$16.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - General"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Non-Departmental - General: postings, August 2025",
+      "value": 121098993.35,
+      "unit": "money",
+      "kind": "level",
+      "display": "$121.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - General"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Non-Departmental - General: postings, August 2024",
+      "value": 104544744.25,
+      "unit": "money",
+      "kind": "level",
+      "display": "$104.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - General"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Non-Departmental - General: change vs same month last year",
+      "value": 15.83460672151389,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+15.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - General"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Fire: change in postings",
+      "value": 9610345.099999994,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$9.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Fire: postings, August 2025",
+      "value": 75353990.71,
+      "unit": "money",
+      "kind": "level",
+      "display": "$75.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Fire: postings, August 2024",
+      "value": 65743645.61,
+      "unit": "money",
+      "kind": "level",
+      "display": "$65.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Fire: change vs same month last year",
+      "value": 14.617907192141178,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+14.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Fire"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Public Works - Street Services: change in postings",
+      "value": -4777447.050000001,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$4.8m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Public Works - Street Services"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Public Works - Street Services: postings, August 2025",
+      "value": 15691539.54,
+      "unit": "money",
+      "kind": "level",
+      "display": "$15.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Public Works - Street Services"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Public Works - Street Services: postings, August 2024",
+      "value": 20468986.59,
+      "unit": "money",
+      "kind": "level",
+      "display": "$20.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Public Works - Street Services"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Public Works - Street Services: change vs same month last year",
+      "value": -23.339929551441465,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-23.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Public Works - Street Services"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Police: change in postings",
+      "value": 3578874.3400000036,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$3.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Police: postings, August 2025",
+      "value": 155170716.84,
+      "unit": "money",
+      "kind": "level",
+      "display": "$155.2m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Police: postings, August 2024",
+      "value": 151591842.5,
+      "unit": "money",
+      "kind": "level",
+      "display": "$151.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Police: change vs same month last year",
+      "value": 2.3608620892644705,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+2.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Police"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Non-Departmental - Liability Claims",
+      "aliases": [
+        "non-departmental - liability claims",
+        "liability claims"
+      ],
+      "change": -23147229.68,
+      "change_pct": -75.03200447745535,
+      "rank": 1
+    },
+    {
+      "name": "Non-Departmental - General",
+      "aliases": [
+        "non-departmental - general"
+      ],
+      "change": 16554249.099999994,
+      "change_pct": 15.83460672151389,
+      "rank": 2
+    },
+    {
+      "name": "Fire",
+      "aliases": [
+        "fire"
+      ],
+      "change": 9610345.099999994,
+      "change_pct": 14.617907192141178,
+      "rank": 3
+    },
+    {
+      "name": "Public Works - Street Services",
+      "aliases": [
+        "public works - street services",
+        "street services"
+      ],
+      "change": -4777447.050000001,
+      "change_pct": -23.339929551441465,
+      "rank": 4
+    },
+    {
+      "name": "Police",
+      "aliases": [
+        "police"
+      ],
+      "change": 3578874.3400000036,
+      "change_pct": 2.3608620892644705,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Non-Departmental - Liability Claims",
+    "Non-Departmental - General"
+  ],
+  "headline_key": "total_yoy",
+  "period_tokens": [
+    "2024",
+    "2025",
+    "2026",
+    "FY2025",
+    "FY2026",
+    "FY25",
+    "FY26"
+  ],
+  "other_entities": [
+    "Aging",
+    "Animal Services",
+    "Building and Safety",
+    "Cannabis Regulation",
+    "City Administrative Officer",
+    "City Attorney",
+    "City Clerk",
+    "City Ethics Commission",
+    "City Planning",
+    "Civil, Human Rights, and Equity Department",
+    "Community Investment Department",
+    "Controller",
+    "Council",
+    "Cultural Affairs",
+    "Disability",
+    "Economic and Workforce Development Department",
+    "El Pueblo De Los Angeles Historical Monument Authority",
+    "Emergency Management",
+    "Employee Relations Board",
+    "General Services",
+    "Information Technology Agency",
+    "Los Angeles City Tourism Department",
+    "Los Angeles Housing",
+    "Mayor",
+    "Neighborhood Empowerment",
+    "Non-Departmental - Capital Finance Administration",
+    "Non-Departmental - Capital Improvement Expense Program",
+    "Non-Departmental - General City Purposes",
+    "Non-Departmental - Human Resources Benefits",
+    "Non-Departmental - Leasing",
+    "Non-Departmental - Petroleum Products",
+    "Non-Departmental - Water and Electricity",
+    "Office of Finance",
+    "Personnel",
+    "Public Accountability",
+    "Public Works - Board of Public Works",
+    "Public Works - Contract Administration",
+    "Public Works - Engineering",
+    "Public Works - Sanitation",
+    "Public Works - Street Lighting",
+    "Transportation",
+    "Youth Development Department",
+    "Zoo"
+  ],
+  "notes": [
+    "Monthly postings by transaction month; fiscal year runs July to June."
+  ]
+}

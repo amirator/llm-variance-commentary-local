@@ -1,0 +1,105 @@
+{
+  "sheet_id": "lacity_gf_2025-08",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, August 2025 vs August 2024",
+  "source": "llm",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In August 2025, the General Fund postings decreased by 0.6% compared to August 2024, marking a reduction of $4.0 million. The Non-Departmental - Liability Claims posted $7.7 million in August 2025, down from $30.8 million in August 2024, indicating a decrease of $23.1 million. The Non-Departmental - General posted $121.1 million in August 2025, up from $104.5 million in August 2024, showing an increase of $16.6 million. The Fire activity saw an increase of $9.6 million in August 2025, up from $65.7 million in August 2024, indicating a rise of $23.3 million. The Public Works - Street Services activity experienced a decrease of $4.8 million in August 2025, down from $20.5 million in August 2024, showing a decrease of $4.8 million. Lastly, the Police activity showed an increase of $3.6 million in August 2025, up from $151.6 million in August 2024, indicating an increase of $3.6 million.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$23.3 million' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 869,
+        "completion_tokens": 284,
+        "total_tokens": 1153,
+        "seconds": 31.37
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In August 2025, the City of Los Angeles General Fund experienced a year-over-year decrease of 0.6%, with a total expenditure of $667.7 million. This decrease is primarily attributed to the Non-Departmental - Liability Claims, which saw a decrease of $23.1 million from $7.7 million in August 2024 to $5.6 million in August 2025. Conversely, the Non-Departmental - General category increased by $16.6 million, marking a 15.8% increase from $104.5 million in August 2024 to $121.1 million in August 2025. Additionally, the Fire department saw a 14.6% increase in expenditures from $65.7 million to $75.4 million in August 2025, while the Public Works - Street Services category experienced a 23.3% decrease from $20.5 million to $15.7 million in August 2025. Lastly, the Police department reported a 2.4% increase in expenditures from $151.6 million to $155.2 million in August 2025.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$5.6 million' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 912,
+        "completion_tokens": 268,
+        "total_tokens": 1180,
+        "seconds": 27.65
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In August 2025, the General Fund postings decreased by 0.6% compared to the same month in 2024, reflecting a reduction of $4.0 million. The largest movers in the General Fund were Non-Departmental - Liability Claims, which decreased by $23.1 million, and Non-Departmental - General, which increased by $16.6 million. Additionally, the Fire department saw an increase of $9.6 million, and the Police department reported a rise of $3.6 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 911,
+        "completion_tokens": 114,
+        "total_tokens": 1025,
+        "seconds": 13.92
+      }
+    }
+  ],
+  "final_text": "In August 2025, the General Fund postings decreased by 0.6% compared to the same month in 2024, reflecting a reduction of $4.0 million. The largest movers in the General Fund were Non-Departmental - Liability Claims, which decreased by $23.1 million, and Non-Departmental - General, which increased by $16.6 million. Additionally, the Fire department saw an increase of $9.6 million, and the Police department reported a rise of $3.6 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "0.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$4.0 million",
+        "class": "money",
+        "matched": [
+          "total_chg"
+        ]
+      },
+      {
+        "text": "$23.1 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$16.6 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$9.6 million",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      },
+      {
+        "text": "$3.6 million",
+        "class": "money",
+        "matched": [
+          "drv5_chg"
+        ]
+      }
+    ],
+    "words": 73
+  }
+}

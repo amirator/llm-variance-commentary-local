@@ -1,0 +1,64 @@
+{
+  "sheet_id": "costco_FY2024",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2024 vs FY2023",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a 5.0% increase in revenue from $242.3 billion in FY2023 to $254.5 billion in FY2024. The company's net income increased by $1.17 billion, while its operating income increased by $1.07 billion. The largest movers for the fiscal year were net income (up), operating income (up), capital expenditure (up), and SG&A (up).",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 790,
+        "completion_tokens": 99,
+        "total_tokens": 889,
+        "seconds": 8.94
+      }
+    }
+  ],
+  "final_text": "Costco Wholesale Corporation reported a 5.0% increase in revenue from $242.3 billion in FY2023 to $254.5 billion in FY2024. The company's net income increased by $1.17 billion, while its operating income increased by $1.07 billion. The largest movers for the fiscal year were net income (up), operating income (up), capital expenditure (up), and SG&A (up).",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "5.0%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$242.3 billion",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "$254.5 billion",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "$1.17 billion",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      },
+      {
+        "text": "$1.07 billion",
+        "class": "money",
+        "matched": [
+          "net_income_chg"
+        ]
+      }
+    ],
+    "words": 60
+  }
+}

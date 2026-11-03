@@ -1,0 +1,99 @@
+{
+  "sheet_id": "lacity_bva_FY2025",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund budget vs actual, FY2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles's General Fund adopted budget for FY2025 was $9.38 billion, which was revised to $10.20 billion. During the fiscal year, there was a budget revision of $812.2 million, resulting in a utilisation rate of 93.9% for the revised budget. The lowest budget utilisation was observed in the Non-Departmental - Unappropriated Balance, at 100.0%, and in the Non-Departmental - General City Purposes, at 44.6%. The utilisation rate for the Council was 76.0%, and for the unspent budget, it was 24.0%. The unspent share of the revised budget was 6.1%, and the unspent budget was $626.6 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 697,
+        "completion_tokens": 177,
+        "total_tokens": 874,
+        "seconds": 9.37
+      }
+    }
+  ],
+  "final_text": "The City of Los Angeles's General Fund adopted budget for FY2025 was $9.38 billion, which was revised to $10.20 billion. During the fiscal year, there was a budget revision of $812.2 million, resulting in a utilisation rate of 93.9% for the revised budget. The lowest budget utilisation was observed in the Non-Departmental - Unappropriated Balance, at 100.0%, and in the Non-Departmental - General City Purposes, at 44.6%. The utilisation rate for the Council was 76.0%, and for the unspent budget, it was 24.0%. The unspent share of the revised budget was 6.1%, and the unspent budget was $626.6 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$9.38 billion",
+        "class": "money",
+        "matched": [
+          "adopted"
+        ]
+      },
+      {
+        "text": "$10.20 billion",
+        "class": "money",
+        "matched": [
+          "revised"
+        ]
+      },
+      {
+        "text": "$812.2 million",
+        "class": "money",
+        "matched": [
+          "revision"
+        ]
+      },
+      {
+        "text": "93.9%",
+        "class": "pct",
+        "matched": [
+          "utilisation"
+        ]
+      },
+      {
+        "text": "100.0%",
+        "class": "pct",
+        "matched": [
+          "low1_unspent_share"
+        ]
+      },
+      {
+        "text": "44.6%",
+        "class": "pct",
+        "matched": [
+          "low2_unspent_share"
+        ]
+      },
+      {
+        "text": "76.0%",
+        "class": "pct",
+        "matched": [
+          "low3_util"
+        ]
+      },
+      {
+        "text": "24.0%",
+        "class": "pct",
+        "matched": [
+          "low3_unspent_share"
+        ]
+      },
+      {
+        "text": "6.1%",
+        "class": "pct",
+        "matched": [
+          "unspent_share"
+        ]
+      },
+      {
+        "text": "$626.6 million",
+        "class": "money",
+        "matched": [
+          "unspent"
+        ]
+      }
+    ],
+    "words": 107
+  }
+}

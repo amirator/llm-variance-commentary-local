@@ -1,0 +1,435 @@
+{
+  "id": "lacity_gf_2026-03",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, March 2026 vs March 2025",
+  "subject": "City of Los Angeles General Fund (Controller monthly expenditure postings)",
+  "period": "March 2026",
+  "comparison_period": "March 2025",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "total_cur",
+      "label": "General Fund postings, March 2026",
+      "value": 1058669498.34,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1,058.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_prev",
+      "label": "General Fund postings, March 2025",
+      "value": 1068602577.65,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1,068.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_yoy",
+      "label": "General Fund postings, change vs same month last year",
+      "value": -0.9295391493294058,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-0.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_chg",
+      "label": "General Fund postings, change",
+      "value": -9933079.309999943,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$9.9m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_cur",
+      "label": "FY2026 year-to-date postings through March 2026",
+      "value": 7140592766.440001,
+      "unit": "money",
+      "kind": "level",
+      "display": "$7.14bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_prev",
+      "label": "FY2025 year-to-date postings through March 2025",
+      "value": 6970738737.199999,
+      "unit": "money",
+      "kind": "level",
+      "display": "$6.97bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_yoy",
+      "label": "Year-to-date postings, change vs prior year",
+      "value": 2.4366718599502235,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+2.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "General Services: change in postings",
+      "value": -4373580.689999998,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$4.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "General Services"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "General Services: postings, March 2026",
+      "value": 26816378.46,
+      "unit": "money",
+      "kind": "level",
+      "display": "$26.8m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "General Services"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "General Services: postings, March 2025",
+      "value": 31189959.15,
+      "unit": "money",
+      "kind": "level",
+      "display": "$31.2m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "General Services"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "General Services: change vs same month last year",
+      "value": -14.022399545207476,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-14.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "General Services"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Non-Departmental - Water and Electricity: change in postings",
+      "value": -4157061.420000001,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$4.2m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Water and Electricity"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Non-Departmental - Water and Electricity: postings, March 2026",
+      "value": 4369926.56,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Water and Electricity"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Non-Departmental - Water and Electricity: postings, March 2025",
+      "value": 8526987.98,
+      "unit": "money",
+      "kind": "level",
+      "display": "$8.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Water and Electricity"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Non-Departmental - Water and Electricity: change vs same month last year",
+      "value": -48.75181517495233,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-48.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Water and Electricity"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Non-Departmental - Petroleum Products: change in postings",
+      "value": 4112755.03,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$4.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Non-Departmental - Petroleum Products: postings, March 2026",
+      "value": 4112755.03,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Non-Departmental - Petroleum Products: postings, March 2025",
+      "value": 0.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "$0.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Petroleum Products"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "City Attorney: change in postings",
+      "value": 2878785.0700000003,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$2.9m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Attorney"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "City Attorney: postings, March 2026",
+      "value": 24526210.22,
+      "unit": "money",
+      "kind": "level",
+      "display": "$24.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Attorney"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "City Attorney: postings, March 2025",
+      "value": 21647425.15,
+      "unit": "money",
+      "kind": "level",
+      "display": "$21.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Attorney"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "City Attorney: change vs same month last year",
+      "value": 13.298510331146707,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+13.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "City Attorney"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Non-Departmental - Capital Improvement Expense Program: change in postings",
+      "value": 2660769.4799999995,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$2.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Improvement Expense Program"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Non-Departmental - Capital Improvement Expense Program: postings, March 2026",
+      "value": 4060462.55,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Improvement Expense Program"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Non-Departmental - Capital Improvement Expense Program: postings, March 2025",
+      "value": 1399693.07,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Improvement Expense Program"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Non-Departmental - Capital Improvement Expense Program: change vs same month last year",
+      "value": 190.09663882953993,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+190.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Capital Improvement Expense Program"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "General Services",
+      "aliases": [
+        "general services"
+      ],
+      "change": -4373580.689999998,
+      "change_pct": -14.022399545207476,
+      "rank": 1
+    },
+    {
+      "name": "Non-Departmental - Water and Electricity",
+      "aliases": [
+        "non-departmental - water and electricity",
+        "water and electricity"
+      ],
+      "change": -4157061.420000001,
+      "change_pct": -48.75181517495233,
+      "rank": 2
+    },
+    {
+      "name": "Non-Departmental - Petroleum Products",
+      "aliases": [
+        "non-departmental - petroleum products",
+        "petroleum products"
+      ],
+      "change": 4112755.03,
+      "change_pct": null,
+      "rank": 3
+    },
+    {
+      "name": "City Attorney",
+      "aliases": [
+        "city attorney"
+      ],
+      "change": 2878785.0700000003,
+      "change_pct": 13.298510331146707,
+      "rank": 4
+    },
+    {
+      "name": "Non-Departmental - Capital Improvement Expense Program",
+      "aliases": [
+        "non-departmental - capital improvement expense program",
+        "capital improvement expense program"
+      ],
+      "change": 2660769.4799999995,
+      "change_pct": 190.09663882953993,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "General Services",
+    "Non-Departmental - Water and Electricity"
+  ],
+  "headline_key": "total_yoy",
+  "period_tokens": [
+    "2025",
+    "2026",
+    "FY2025",
+    "FY2026",
+    "FY25",
+    "FY26"
+  ],
+  "other_entities": [
+    "Aging",
+    "Animal Services",
+    "Building and Safety",
+    "Cannabis Regulation",
+    "City Administrative Officer",
+    "City Clerk",
+    "City Ethics Commission",
+    "City Planning",
+    "Civil, Human Rights, and Equity Department",
+    "Community Investment Department",
+    "Controller",
+    "Council",
+    "Cultural Affairs",
+    "Disability",
+    "Economic and Workforce Development Department",
+    "El Pueblo De Los Angeles Historical Monument Authority",
+    "Emergency Management",
+    "Employee Relations Board",
+    "Fire",
+    "Information Technology Agency",
+    "Los Angeles City Tourism Department",
+    "Los Angeles Housing",
+    "Mayor",
+    "Neighborhood Empowerment",
+    "Non-Departmental - Capital Finance Administration",
+    "Non-Departmental - General",
+    "Non-Departmental - General City Purposes",
+    "Non-Departmental - Human Resources Benefits",
+    "Non-Departmental - Leasing",
+    "Non-Departmental - Liability Claims",
+    "Office of Finance",
+    "Personnel",
+    "Police",
+    "Public Accountability",
+    "Public Works - Board of Public Works",
+    "Public Works - Contract Administration",
+    "Public Works - Engineering",
+    "Public Works - Sanitation",
+    "Public Works - Street Lighting",
+    "Public Works - Street Services",
+    "Transportation",
+    "Youth Development Department",
+    "Zoo"
+  ],
+  "notes": [
+    "Monthly postings by transaction month; fiscal year runs July to June."
+  ]
+}

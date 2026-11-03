@@ -1,0 +1,73 @@
+{
+  "sheet_id": "lacity_gf_2025-07",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, July 2025 vs July 2024",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The General Fund postings in July 2025 increased by 1.7% compared to July 2024, totaling $633.4 million. Non-Departmental - Liability Claims experienced a decrease of $30.9 million, while Police saw an increase of $16.5 million. Fire also showed an increase of $15.6 million. Non-Departmental - General City Purposes increased by $4.5 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 870,
+        "completion_tokens": 97,
+        "total_tokens": 967,
+        "seconds": 13.48
+      }
+    }
+  ],
+  "final_text": "The General Fund postings in July 2025 increased by 1.7% compared to July 2024, totaling $633.4 million. Non-Departmental - Liability Claims experienced a decrease of $30.9 million, while Police saw an increase of $16.5 million. Fire also showed an increase of $15.6 million. Non-Departmental - General City Purposes increased by $4.5 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "1.7%",
+        "class": "pct",
+        "matched": [
+          "total_yoy",
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$633.4 million",
+        "class": "money",
+        "matched": [
+          "total_cur",
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "$30.9 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$16.5 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$15.6 million",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      },
+      {
+        "text": "$4.5 million",
+        "class": "money",
+        "matched": [
+          "drv4_chg"
+        ]
+      }
+    ],
+    "words": 56
+  }
+}

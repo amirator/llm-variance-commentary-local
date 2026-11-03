@@ -1,0 +1,162 @@
+{
+  "sheet_id": "sama_pos_2023Q1",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q1 2023 vs Q1 2022",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2023 compared to the same quarter in the previous year. The average weekly POS value increased by 10.0% from SAR 10.41 bn in Q1 2022 to SAR 11.45 bn in Q1 2023. This increase was driven by a 10.0% increase in average weekly transactions, which rose from 127.4 million to 157.2 million. The change in average weekly value was positive, with the beverage and food category increasing by 11.1% and restaurants and café increasing by 10.6%. The construction and building materials category decreased by 10.2%, while the furniture category decreased by 7.0%. The largest movers (by size of change) were Beverage and Food and Restaurants & Café, with Beverage and Food increasing by 10.0% and Restaurants & Café increasing by 10.6%. The other category, Other, showed a decrease in average weekly value by 20.9%, with the construction and building materials category decreasing by 10.2% and the furniture category decreasing by 7.0%.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'20.9%' described as down but the fact is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 957,
+        "completion_tokens": 269,
+        "total_tokens": 1226,
+        "seconds": 10.79
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '20.9%' described as down but the fact is up\n- Other described as down but its change is up\n- Other described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+10.0%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Beverage and Food"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1024,
+        "completion_tokens": 67,
+        "total_tokens": 1091,
+        "seconds": 1.21
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In Q1 2023, Saudi Arabia's point-of-sale card spending increased by 10.0% compared to the same quarter last year, with the largest movers (by size of change) being Other (up) and Beverage and Food (up). The change in average weekly value for Beverage and Food was up by 11.1%, while the change for Other was up by 20.9%. The figures for restaurants & café and construction & building materials were down by 10.2% and 10.6%, respectively. The change in average weekly value for furniture was down by 7.0%. The largest movers (by size of change) were Other (up), Beverage and Food (up), Restaurants & Café (up), and Construction & Building Materials (down). The commentary for Q1 2023 is as follows: In Q1 2023, Saudi Arabia's point-of-sale card spending increased by 10.0% compared to the same quarter last year, with the largest movers (by size of change) being Other (up) and Beverage and Food (up). The change in average weekly value for Beverage and Food was up by 11.1%, while the change for Other was up by 20.9%. The figures for restaurants & café and construction & building materials were down by 10.2% and 10.6%, respectively. The change in average weekly value for furniture was down by 7.0%. The largest movers (by size",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 217 words (allowed 35-180)"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1047,
+        "completion_tokens": 320,
+        "total_tokens": 1367,
+        "seconds": 7.81
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 11.45 bn in Q1 2023, up 10.0% from SAR 10.41 bn in Q1 2022. Average weekly transactions were 157.2 million (up 23.4%), and the average ticket was SAR 72.8 (down 10.9%). The largest movements were: Other increased by SAR 317 mn; Beverage and Food increased by SAR 182 mn; Restaurants & Café increased by SAR 155 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 11.45 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "10.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 10.41 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "157.2 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "23.4%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 72.8",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "10.9%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 317 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 182 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 155 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 72
+  }
+}

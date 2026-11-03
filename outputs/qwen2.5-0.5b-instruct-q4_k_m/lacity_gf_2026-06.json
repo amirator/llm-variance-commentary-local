@@ -1,0 +1,169 @@
+{
+  "sheet_id": "lacity_gf_2026-06",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, June 2026 vs June 2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The June 2026 General Fund postings, compared with the June 2025 figures, show a decrease of 5.3% in the year-over-year comparison. The Fire department's posting decreased by $39.3 million, while the Non-Departmental - Capital Finance Administration's posting decreased by $25.3 million. The largest movers (by size of change) are Fire and Non-Departmental - Capital Finance Administration, with Fire's posting decreasing by $46.8 million, and Non-Departmental - Capital Finance Administration's posting decreasing by $25.3 million.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$46.8 million' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 873,
+        "completion_tokens": 127,
+        "total_tokens": 1000,
+        "seconds": 12.71
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '$46.8 million' does not match any fact\n- Fire described as down but its change is up\n- Fire described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$46.8 million' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-5.3%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Capital Finance Administration"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 938,
+        "completion_tokens": 65,
+        "total_tokens": 1003,
+        "seconds": 5.34
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '$46.8 million' does not match any fact\n- Fire described as down but its change is up\n- Fire described as down but its change is up\n- required driver not mentioned: Non-Departmental - Capital Finance Administration\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$46.8 million' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-5.3%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 980,
+        "completion_tokens": 85,
+        "total_tokens": 1065,
+        "seconds": 5.95
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $706.8m in June 2026, down 5.3% from $746.1m in June 2025. Year-to-date postings were $9.66bn, up 1.1%. The largest movements were: Fire increased by $36.1m; Non-Departmental - Capital Finance Administration decreased by $25.3m; Police decreased by $20.5m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$706.8m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "5.3%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$746.1m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$9.66bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "1.1%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$36.1m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$25.3m",
+        "class": "money",
+        "matched": [
+          "drv2_chg",
+          "drv2_prev"
+        ]
+      },
+      {
+        "text": "$20.5m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 48
+  }
+}

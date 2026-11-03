@@ -1,0 +1,106 @@
+{
+  "sheet_id": "lacity_gf_2025-11",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, November 2025 vs November 2024",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In November 2025, the City of Los Angeles General Fund experienced a year-over-year increase of 2.2%, marking a total increase of $12.9 million from the November 2024 amount of $578.6 million. Notably, the largest changes were observed in the Fire department, with postings increasing by $13.6 million, and the Police department, with postings increasing by $6.4 million. Additionally, the Non-Departmental - Liability Claims category saw a decrease of $6.0 million, reflecting a reduction of 34.9% from the November 2024 figure. The Public Works - Street Services category also experienced a decrease of $5.1 million, marking a 26.7% decrease from the November 2024 figure. Lastly, the Non-Departmental - General City Purposes category saw an increase of $4.6 million, indicating a 45.1% increase from the November 2024 figure.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 873,
+        "completion_tokens": 215,
+        "total_tokens": 1088,
+        "seconds": 27.55
+      }
+    }
+  ],
+  "final_text": "In November 2025, the City of Los Angeles General Fund experienced a year-over-year increase of 2.2%, marking a total increase of $12.9 million from the November 2024 amount of $578.6 million. Notably, the largest changes were observed in the Fire department, with postings increasing by $13.6 million, and the Police department, with postings increasing by $6.4 million. Additionally, the Non-Departmental - Liability Claims category saw a decrease of $6.0 million, reflecting a reduction of 34.9% from the November 2024 figure. The Public Works - Street Services category also experienced a decrease of $5.1 million, marking a 26.7% decrease from the November 2024 figure. Lastly, the Non-Departmental - General City Purposes category saw an increase of $4.6 million, indicating a 45.1% increase from the November 2024 figure.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "2.2%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$12.9 million",
+        "class": "money",
+        "matched": [
+          "total_chg"
+        ]
+      },
+      {
+        "text": "$578.6 million",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$13.6 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$6.4 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$6.0 million",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      },
+      {
+        "text": "34.9%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "$5.1 million",
+        "class": "money",
+        "matched": [
+          "drv4_chg"
+        ]
+      },
+      {
+        "text": "26.7%",
+        "class": "pct",
+        "matched": [
+          "drv4_yoy"
+        ]
+      },
+      {
+        "text": "$4.6 million",
+        "class": "money",
+        "matched": [
+          "drv5_chg"
+        ]
+      },
+      {
+        "text": "45.1%",
+        "class": "pct",
+        "matched": [
+          "drv5_yoy"
+        ]
+      }
+    ],
+    "words": 134
+  }
+}

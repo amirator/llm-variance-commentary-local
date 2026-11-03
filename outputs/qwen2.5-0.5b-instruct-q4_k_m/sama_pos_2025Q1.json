@@ -1,0 +1,178 @@
+{
+  "sheet_id": "sama_pos_2025Q1",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q1 2025 vs Q1 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending experienced a significant increase in Q1 2025 compared to Q1 2024, with a 7.3% increase in average weekly POS value. This growth was driven by a 7.3% increase in the average weekly POS value, which was a 7.3% increase from the same quarter last year. The increase in POS value was primarily attributed to an increase in other activities, with a 7.3% increase in other activities compared to the same quarter last year. The increase in other activities was a 7.3% increase from the same quarter last year. The increase in other activities was also a 7.3% increase from the Q1 2024 average weekly POS value. The increase in other activities was a 7.3% increase from the Q1 2024 average weekly POS value, which was a 7.3% increase from the same quarter last year. The increase in other activities was a 7.3% increase from the Q1 2024 average weekly POS value, which was a 7.3% increase from the same quarter last year. The increase in other activities was a 7.3% increase from the Q1 2024 average weekly POS value, which was a 7.3% increase from the same quarter last year. The increase in other activities was a 7.3% increase from the Q1 2024 average weekly POS value, which was a",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 228 words (allowed 35-180)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 968,
+        "completion_tokens": 320,
+        "total_tokens": 1288,
+        "seconds": 9.88
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 228 words (allowed 35-180)\n- required driver not mentioned: Miscellaneous Goods and Services\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'228' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+7.3%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1025,
+        "completion_tokens": 57,
+        "total_tokens": 1082,
+        "seconds": 1.21
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '228' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+7.3%)\n- required driver not mentioned: Other\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'228' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1068,
+        "completion_tokens": 100,
+        "total_tokens": 1168,
+        "seconds": 2.09
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 13.95 bn in Q1 2025, up 7.3% from SAR 13.00 bn in Q1 2024. Average weekly transactions were 209.7 million (up 11.8%), and the average ticket was SAR 66.5 (down 4.0%). The largest movements were: Other increased by SAR 424 mn; Miscellaneous Goods and Services increased by SAR 151 mn; Clothing and Footwear increased by SAR 133 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 13.95 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "7.3%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 13.00 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "209.7 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "11.8%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 66.5",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "4.0%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 424 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 151 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 133 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 74
+  }
+}

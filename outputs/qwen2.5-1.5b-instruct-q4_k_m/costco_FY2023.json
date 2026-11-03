@@ -1,0 +1,139 @@
+{
+  "sheet_id": "costco_FY2023",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2023 vs FY2022",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a year-over-year increase in revenue of 6.8%, marking a significant boost of $15.3 billion from the previous year. Operating cash flow also saw a substantial increase of $3.68 billion, reflecting a notable improvement in the company's liquidity and financial health. Capital expenditure, which increased by 11.1%, further solidifies Costco's commitment to expanding its physical retail footprint and enhancing its operational capabilities. These financial metrics indicate a robust performance and a solid foundation for future growth.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'liquidity'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'commitment to'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 790,
+        "completion_tokens": 108,
+        "total_tokens": 898,
+        "seconds": 20.83
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In FY2023, Costco Wholesale Corporation experienced a significant increase in revenue of 6.8% compared to the prior year, reaching $242.3 billion. This substantial growth is attributed to an increase in operating income of 4.1% and a rise in net income of 7.7%, totaling $8.11 billion and $6.29 billion, respectively. Operating cash flow increased by 49.7%, reaching $11.07 billion, while capital expenditure increased by 11.1%, totaling $4.32 billion. These financial metrics indicate a robust performance in FY2023, with a focus on improving liquidity and committing to significant investments in operations and capital expenditures.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'liquidity'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 841,
+        "completion_tokens": 153,
+        "total_tokens": 994,
+        "seconds": 13.77
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In FY2023, Costco Wholesale Corporation experienced a revenue increase of 6.8% compared to the prior year, marking a significant growth in its operations. This year-over-year growth was driven by an increase in operating income of 4.1%, which was partially offset by a 0.08 percentage point decrease in operating margin. The company's largest revenue contributors were operating cash flow and capital expenditure, which both increased by 49.7% and 11.1% respectively. These figures highlight the company's financial health and its ability to invest in its operations and growth.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 826,
+        "completion_tokens": 123,
+        "total_tokens": 949,
+        "seconds": 9.07
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $242.3bn in FY2023, up 6.8% from $227.0bn in FY2022. Operating margin was 3.35% (down 0.08 pp), with SG&A at 8.91% of revenue. The largest movements were: Operating cash flow increased by $3.68bn; Capital expenditure increased by $0.43bn; SG&A increased by $1.81bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$242.3bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "6.8%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$227.0bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.35%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.08 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "8.91%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$3.68bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.43bn",
+        "class": "money",
+        "matched": [
+          "capex_chg"
+        ]
+      },
+      {
+        "text": "$1.81bn",
+        "class": "money",
+        "matched": [
+          "sga_chg"
+        ]
+      }
+    ],
+    "words": 53
+  }
+}

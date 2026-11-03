@@ -1,0 +1,461 @@
+{
+  "id": "sama_pos_2024Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2024 vs Q3 2023",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q3 2024",
+  "comparison_period": "Q3 2023",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q3 2024",
+      "value": 12762129230.76923,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 12.76 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q3 2023",
+      "value": 11770167076.923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 11.77 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 8.427766125690962,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+8.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 991962153.8461533,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 0.99 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q3 2024",
+      "value": 202368076.92307693,
+      "unit": "count",
+      "kind": "level",
+      "display": "202.4 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q3 2023",
+      "value": 176530461.53846154,
+      "unit": "count",
+      "kind": "level",
+      "display": "176.5 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 14.636349533922232,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+14.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q3 2024",
+      "value": 63.063944792143786,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 63.1",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q3 2023",
+      "value": 66.67499180790763,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 66.7",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -5.415894202383054,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-5.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Miscellaneous Goods and Services: change in average weekly value",
+      "value": 241547923.0769229,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 242 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Miscellaneous Goods and Services: change vs same quarter last year",
+      "value": 18.639190568464127,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+18.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q3 2024",
+      "value": 1537462153.8461537,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,537 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q3 2023",
+      "value": 1295914230.7692308,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,296 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Other: change in average weekly value",
+      "value": 220518769.23076892,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 221 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Other: change vs same quarter last year",
+      "value": 11.503122030293333,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+11.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Other: average weekly value, Q3 2024",
+      "value": 2137552846.153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 2,138 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Other: average weekly value, Q3 2023",
+      "value": 1917034076.923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,917 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Restaurants & Café: change in average weekly value",
+      "value": 144988846.15384626,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 145 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Restaurants & Café: change vs same quarter last year",
+      "value": 8.468356730260162,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+8.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Restaurants & Café: average weekly value, Q3 2024",
+      "value": 1857113769.2307692,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,857 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Restaurants & Café: average weekly value, Q3 2023",
+      "value": 1712124923.076923,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,712 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Public Utilities: change in average weekly value",
+      "value": -46180615.38461538,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 46 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Public Utilities: change vs same quarter last year",
+      "value": -41.3614639533658,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-41.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Public Utilities: average weekly value, Q3 2024",
+      "value": 65470692.307692304,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 65 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Public Utilities: average weekly value, Q3 2023",
+      "value": 111651307.69230768,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 112 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Electronic & Electric Devices: change in average weekly value",
+      "value": -24587461.538461506,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 25 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Electronic & Electric Devices: change vs same quarter last year",
+      "value": -10.347229798126111,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-10.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Electronic & Electric Devices: average weekly value, Q3 2024",
+      "value": 213036153.84615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 213 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Electronic & Electric Devices: average weekly value, Q3 2023",
+      "value": 237623615.38461536,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 238 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Miscellaneous Goods and Services",
+      "aliases": [
+        "miscellaneous goods and services",
+        "miscellaneous goods",
+        "miscellaneous"
+      ],
+      "change": 241547923.0769229,
+      "change_pct": 18.639190568464127,
+      "rank": 1
+    },
+    {
+      "name": "Other",
+      "aliases": [
+        "other sector",
+        "\"other\"",
+        "'other'",
+        "other category",
+        "other (unclassified)"
+      ],
+      "change": 220518769.23076892,
+      "change_pct": 11.503122030293333,
+      "rank": 2
+    },
+    {
+      "name": "Restaurants & Café",
+      "aliases": [
+        "restaurants & café",
+        "restaurants & cafe",
+        "restaurants and cafés",
+        "restaurants and cafes",
+        "restaurants",
+        "café",
+        "cafe"
+      ],
+      "change": 144988846.15384626,
+      "change_pct": 8.468356730260162,
+      "rank": 3
+    },
+    {
+      "name": "Public Utilities",
+      "aliases": [
+        "public utilities",
+        "utilities"
+      ],
+      "change": -46180615.38461538,
+      "change_pct": -41.3614639533658,
+      "rank": 4
+    },
+    {
+      "name": "Electronic & Electric Devices",
+      "aliases": [
+        "electronic & electric devices",
+        "electronic and electric devices",
+        "electronics"
+      ],
+      "change": -24587461.538461506,
+      "change_pct": -10.347229798126111,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Miscellaneous Goods and Services",
+    "Other"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2023",
+    "2024",
+    "Q3"
+  ],
+  "other_entities": [
+    "Beverage and Food",
+    "Clothing and Footwear",
+    "Construction & Building Materials",
+    "Education",
+    "Furniture",
+    "Gas Stations",
+    "Health",
+    "Hotels",
+    "Jewelry",
+    "Recreation and Culture",
+    "Telecommunication",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 13 weeks), so averages per week are compared."
+  ]
+}

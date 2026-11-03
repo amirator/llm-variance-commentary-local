@@ -1,0 +1,5 @@
+# Saudi point-of-sale spending, Q1 2022 vs Q1 2021
+
+Source: **llm** (1 model attempt(s), first attempt passed)
+
+Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2022 compared to the same quarter of the previous year. The average weekly POS value for the first quarter of 2022 was SAR 10.41 bn, while the same quarter last year was SAR 8.56 bn. The increase in the first quarter was attributed to a 21.6% increase in average weekly POS value. Restaurants & Café saw an increase of SAR 394 mn, while Other and Miscellaneous Goods and Services experienced an increase of SAR 357 mn. The increase in the first quarter was driven by a 36.8% increase in the average weekly POS value for Restaurants & Café, a 44.0% increase for Other, and a 30.9% increase for Miscellaneous Goods and Services. The increase in the first quarter was further supported by a decrease in the average weekly POS value for Jewelry, a decrease of 23.0%, and a decrease in the average weekly POS value for Electronic & Electric Devices, a decrease of 12.2%.

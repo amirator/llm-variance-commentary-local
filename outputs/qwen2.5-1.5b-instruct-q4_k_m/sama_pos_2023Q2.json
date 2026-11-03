@@ -1,0 +1,163 @@
+{
+  "sheet_id": "sama_pos_2023Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2023 vs Q2 2022",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q2 2023, the average weekly POS value increased by 10.9% compared to Q2 2022, marking a significant rise in the value of transactions across the point-of-sale (POS) system in Saudi Arabia. This increase is attributed to a rise in the average weekly transactions, which saw a 27.2% increase from 131.6 million to 167.4 million transactions. The average weekly transactions, which is a key metric for assessing the volume of sales, also increased by 27.2% year over year, indicating a robust growth in the number of transactions processed during the quarter. This growth is further supported by an average ticket, which increased by 12.8% from SAR 80.6 to SAR 90.3, reflecting a higher average spending per transaction.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'12.8%' described as up but the fact is down"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 90.3' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Restaurants & Café"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 972,
+        "completion_tokens": 181,
+        "total_tokens": 1153,
+        "seconds": 13.22
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In the second quarter of 2023, the average weekly POS value in Saudi Arabia increased by 10.9% compared to the same period in 2022, reaching SAR 11.76 billion. This significant growth is attributed to an increase of SAR 1.16 billion in weekly value, marking a substantial rise of 10.9% over the previous year. The average weekly transactions also saw a notable increase of 27.2% to 167.4 million, reflecting a robust performance in the market. The average ticket, which was SAR 70.3 in the second quarter of 2022, increased by 12.8% to SAR 78.1 in the second quarter of 2023, indicating a steady increase in average spending per transaction. The other category, which had an average weekly value of SAR 1,903 million in the second quarter of 2022, saw a significant increase of 20.1% to SAR 2,236 million in the second quarter of 2023. This indicates a substantial rise in the value of other categories, with an average weekly value of SAR 1,730 million in the second quarter of 2022. The restaurants & café category, which had an average weekly value of SAR 1,421 million in the second quarter of 2022, experienced a notable increase of 21.7% to SAR",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 212 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'12.8%' described as up but the fact is down"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 78.1' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 2,236 million' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1051,
+        "completion_tokens": 320,
+        "total_tokens": 1371,
+        "seconds": 15.13
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In Q2 2023, the average weekly POS value increased by 10.9% compared to Q2 2022, marking a significant rise of SAR 1.16 billion in the value of transactions. This substantial increase is attributed to the Other category, which saw a notable rise of SAR 318 million, indicating a 20.1% increase from the previous quarter. The Restaurants & Café category also experienced a notable growth, with an increase of 27.2% in average weekly transactions, totaling 167.4 million transactions. This category's average weekly value rose to SAR 1,730 million, marking a 21.7% increase from SAR 1,421 million in Q2 2022. The Beverage and Food category also showed a notable increase, with an increase of 16.2% in average weekly value, totaling SAR 1,784 million, marking a 16.2% increase from SAR 1,535 million in Q2 2022.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "wrong_comparison_basis: 'previous quarter'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1068,
+        "completion_tokens": 230,
+        "total_tokens": 1298,
+        "seconds": 15.21
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 11.76 bn in Q2 2023, up 10.9% from SAR 10.60 bn in Q2 2022. Average weekly transactions were 167.4 million (up 27.2%), and the average ticket was SAR 70.3 (down 12.8%). The largest movements were: Other increased by SAR 318 mn; Restaurants & Café increased by SAR 309 mn; Beverage and Food increased by SAR 249 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 11.76 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "10.9%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy",
+          "drv4_yoy"
+        ]
+      },
+      {
+        "text": "SAR 10.60 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "167.4 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "27.2%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 70.3",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "12.8%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 318 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 309 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 249 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 72
+  }
+}

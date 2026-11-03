@@ -1,0 +1,57 @@
+{
+  "sheet_id": "lacity_gf_2025-10",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, October 2025 vs October 2024",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In October 2025, the General Fund postings increased by 7.6% compared to the same month in 2024, totaling $780.9 million. This increase is attributed to the Non-Departmental - Capital Finance Administration, which saw an increase of $64.3 million, and the Fire department, which experienced a decrease of $21.4 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 893,
+        "completion_tokens": 84,
+        "total_tokens": 977,
+        "seconds": 16.43
+      }
+    }
+  ],
+  "final_text": "In October 2025, the General Fund postings increased by 7.6% compared to the same month in 2024, totaling $780.9 million. This increase is attributed to the Non-Departmental - Capital Finance Administration, which saw an increase of $64.3 million, and the Fire department, which experienced a decrease of $21.4 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "7.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$780.9 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$64.3 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$21.4 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      }
+    ],
+    "words": 52
+  }
+}

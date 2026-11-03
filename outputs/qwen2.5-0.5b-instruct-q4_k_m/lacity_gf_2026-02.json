@@ -1,0 +1,140 @@
+{
+  "sheet_id": "lacity_gf_2026-02",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, February 2026 vs February 2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a decrease of $12.5m in February 2026 compared to February 2025. This is a 1.3% decrease from the same month last year. Non-Departmental - Human Resources Benefits posted a $13.6m increase in February 2026, while Non-Departmental - General posted a $88.1m increase.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - General described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 963,
+        "completion_tokens": 91,
+        "total_tokens": 1054,
+        "seconds": 9.04
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- Non-Departmental - General described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-1.3%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Human Resources Benefits"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - General described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1008,
+        "completion_tokens": 45,
+        "total_tokens": 1053,
+        "seconds": 1.11
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (-1.3%)\n- required driver not mentioned: Non-Departmental - Human Resources Benefits\n- Non-Departmental - General described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - General described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 87,
+        "total_tokens": 1137,
+        "seconds": 2.09
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $920.1m in February 2026, down 1.3% from $932.6m in February 2025. Year-to-date postings were $6.08bn, up 3.0%. The largest movements were: Non-Departmental - Human Resources Benefits increased by $13.6m; Non-Departmental - General decreased by $11.3m; Non-Departmental - Liability Claims increased by $9.3m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$920.1m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "1.3%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$932.6m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$6.08bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "3.0%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$13.6m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$11.3m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$9.3m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 51
+  }
+}

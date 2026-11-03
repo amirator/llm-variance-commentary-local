@@ -1,0 +1,85 @@
+{
+  "sheet_id": "lacity_gf_2026-02",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, February 2026 vs February 2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In February 2026, the General Fund postings decreased by 1.3% compared to the same month in 2025, totaling $920.1 million. This decrease is attributed to Non-Departmental - Human Resources Benefits, which increased by $13.6 million to $88.1 million, and Non-Departmental - General, which decreased by $11.3 million to $332.0 million, both from $74.6 million and $343.3 million, respectively.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 963,
+        "completion_tokens": 116,
+        "total_tokens": 1079,
+        "seconds": 22.65
+      }
+    }
+  ],
+  "final_text": "In February 2026, the General Fund postings decreased by 1.3% compared to the same month in 2025, totaling $920.1 million. This decrease is attributed to Non-Departmental - Human Resources Benefits, which increased by $13.6 million to $88.1 million, and Non-Departmental - General, which decreased by $11.3 million to $332.0 million, both from $74.6 million and $343.3 million, respectively.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "1.3%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$920.1 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$13.6 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$88.1 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "$11.3 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$332.0 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "$74.6 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "$343.3 million",
+        "class": "money",
+        "matched": [
+          "drv2_prev"
+        ]
+      }
+    ],
+    "words": 64
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sheet_id": "sama_pos_2023Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2023 vs Q4 2022",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q4 2023, the average weekly POS value increased by 9.7% compared to the same quarter in 2022, reaching SAR 12.08 billion. This significant increase in value is primarily driven by the Beverage and Food category, which saw an average weekly value of SAR 1,908 million, up by 14.1% from SAR 1,672 million in Q4 2022. The Restaurants & Café category also experienced a notable increase, with an average weekly value of SAR 1,793 million, up by 12.3% from SAR 1,596 million in Q4 2022.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 970,
+        "completion_tokens": 152,
+        "total_tokens": 1122,
+        "seconds": 12.6
+      }
+    }
+  ],
+  "final_text": "In Q4 2023, the average weekly POS value increased by 9.7% compared to the same quarter in 2022, reaching SAR 12.08 billion. This significant increase in value is primarily driven by the Beverage and Food category, which saw an average weekly value of SAR 1,908 million, up by 14.1% from SAR 1,672 million in Q4 2022. The Restaurants & Café category also experienced a notable increase, with an average weekly value of SAR 1,793 million, up by 12.3% from SAR 1,596 million in Q4 2022.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "9.7%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 12.08 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "SAR 1,908 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "14.1%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,672 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "SAR 1,793 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "12.3%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,596 million",
+        "class": "money",
+        "matched": [
+          "drv2_prev"
+        ]
+      }
+    ],
+    "words": 92
+  }
+}

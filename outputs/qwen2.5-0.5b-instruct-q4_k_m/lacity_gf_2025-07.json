@@ -1,0 +1,161 @@
+{
+  "sheet_id": "lacity_gf_2025-07",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, July 2025 vs July 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "City of Los Angeles General Fund (Controller monthly expenditure postings) for July 2025 compared with July 2024 (year over year) shows a significant increase in postings, with a 1.7% increase from $622.7m to $633.4m. This is a notable increase from the previous year's $622.7m, indicating a significant increase in expenditures. The increase is attributed to a 1.7% increase in non-departmental liability claims, which includes police and fire, and a 10.8% increase in police postings. The increase in police is a positive factor, as it is a significant increase from the previous year's $8.7m. The increase in fire is also positive, as it is a significant increase from the previous year's $70.4m. The increase in non-departmental general city purposes is also positive, as it is a significant increase from the previous year's $7.4m. The decrease in information technology agency postings is a negative factor, as it is a significant decrease from the previous year's $18.0m.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'10.8%' does not match any fact"
+        },
+        {
+          "type": "unsupported_entity",
+          "detail": "mentions 'Controller', which is not in this fact sheet"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 870,
+        "completion_tokens": 241,
+        "total_tokens": 1111,
+        "seconds": 12.82
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '10.8%' does not match any fact\n- mentions 'Controller', which is not in this fact sheet\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'10.8%' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (+1.7%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Liability Claims"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Police"
+        },
+        {
+          "type": "unsupported_entity",
+          "detail": "mentions 'Controller', which is not in this fact sheet"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 925,
+        "completion_tokens": 55,
+        "total_tokens": 980,
+        "seconds": 2.65
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '10.8%' does not match any fact\n- headline figure not cited: General Fund postings, change vs same month last year (+1.7%)\n- required driver not mentioned: Non-Departmental - Liability Claims\n- required driver not mentioned: Police\n- mentions 'Controller', which is not in this fact sheet\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'10.8%' does not match any fact"
+        },
+        {
+          "type": "unsupported_entity",
+          "detail": "mentions 'Controller', which is not in this fact sheet"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 974,
+        "completion_tokens": 104,
+        "total_tokens": 1078,
+        "seconds": 5.45
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $633.4m in July 2025, up 1.7% from $622.7m in July 2024. Year-to-date postings were $0.63bn, up 1.7%. The largest movements were: Non-Departmental - Liability Claims decreased by $30.9m; Police increased by $16.5m; Fire increased by $15.6m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$633.4m",
+        "class": "money",
+        "matched": [
+          "total_cur",
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "1.7%",
+        "class": "pct",
+        "matched": [
+          "total_yoy",
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$622.7m",
+        "class": "money",
+        "matched": [
+          "total_prev",
+          "ytd_prev"
+        ]
+      },
+      {
+        "text": "$0.63bn",
+        "class": "money",
+        "matched": [
+          "total_cur",
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "1.7%",
+        "class": "pct",
+        "matched": [
+          "total_yoy",
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$30.9m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$16.5m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$15.6m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 47
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sheet_id": "sama_pos_2022Q1",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q1 2022 vs Q1 2021",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2022 compared to the same quarter of the previous year. The average weekly POS value for the first quarter of 2022 was SAR 10.41 bn, while the same quarter last year was SAR 8.56 bn. The increase in the first quarter was attributed to a 21.6% increase in average weekly POS value. Restaurants & Café saw an increase of SAR 394 mn, while Other and Miscellaneous Goods and Services experienced an increase of SAR 357 mn. The increase in the first quarter was driven by a 36.8% increase in the average weekly POS value for Restaurants & Café, a 44.0% increase for Other, and a 30.9% increase for Miscellaneous Goods and Services. The increase in the first quarter was further supported by a decrease in the average weekly POS value for Jewelry, a decrease of 23.0%, and a decrease in the average weekly POS value for Electronic & Electric Devices, a decrease of 12.2%.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 960,
+        "completion_tokens": 239,
+        "total_tokens": 1199,
+        "seconds": 9.83
+      }
+    }
+  ],
+  "final_text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2022 compared to the same quarter of the previous year. The average weekly POS value for the first quarter of 2022 was SAR 10.41 bn, while the same quarter last year was SAR 8.56 bn. The increase in the first quarter was attributed to a 21.6% increase in average weekly POS value. Restaurants & Café saw an increase of SAR 394 mn, while Other and Miscellaneous Goods and Services experienced an increase of SAR 357 mn. The increase in the first quarter was driven by a 36.8% increase in the average weekly POS value for Restaurants & Café, a 44.0% increase for Other, and a 30.9% increase for Miscellaneous Goods and Services. The increase in the first quarter was further supported by a decrease in the average weekly POS value for Jewelry, a decrease of 23.0%, and a decrease in the average weekly POS value for Electronic & Electric Devices, a decrease of 12.2%.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 10.41 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "SAR 8.56 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "21.6%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 394 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 357 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "36.8%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "44.0%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "30.9%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "23.0%",
+        "class": "pct",
+        "matched": [
+          "drv4_yoy"
+        ]
+      },
+      {
+        "text": "12.2%",
+        "class": "pct",
+        "matched": [
+          "drv5_yoy"
+        ]
+      }
+    ],
+    "words": 174
+  }
+}

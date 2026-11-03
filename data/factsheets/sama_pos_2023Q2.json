@@ -1,0 +1,464 @@
+{
+  "id": "sama_pos_2023Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2023 vs Q2 2022",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q2 2023",
+  "comparison_period": "Q2 2022",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q2 2023",
+      "value": 11758042923.076923,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 11.76 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q2 2022",
+      "value": 10602096307.692308,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 10.60 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 10.903000518359018,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+10.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 1155946615.384615,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 1.16 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q2 2023",
+      "value": 167357692.30769232,
+      "unit": "count",
+      "kind": "level",
+      "display": "167.4 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q2 2022",
+      "value": 131609307.6923077,
+      "unit": "count",
+      "kind": "level",
+      "display": "131.6 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 27.162504873106364,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+27.2%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q2 2023",
+      "value": 70.25696136786708,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 70.3",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q2 2022",
+      "value": 80.55734426078118,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 80.6",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -12.78639829482161,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-12.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Other: change in average weekly value",
+      "value": 317832384.6153846,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 318 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Other: change vs same quarter last year",
+      "value": 20.053024395958975,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+20.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Other: average weekly value, Q2 2023",
+      "value": 1902792230.7692308,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,903 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Other: average weekly value, Q2 2022",
+      "value": 1584959846.1538463,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,585 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Restaurants & Café: change in average weekly value",
+      "value": 308736000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 309 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Restaurants & Café: change vs same quarter last year",
+      "value": 21.728347474430308,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+21.7%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Restaurants & Café: average weekly value, Q2 2023",
+      "value": 1729626384.6153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,730 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Restaurants & Café: average weekly value, Q2 2022",
+      "value": 1420890384.6153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,421 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Beverage and Food: change in average weekly value",
+      "value": 249160384.61538482,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 249 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Beverage and Food"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Beverage and Food: change vs same quarter last year",
+      "value": 16.228794647554313,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+16.2%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Beverage and Food"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Beverage and Food: average weekly value, Q2 2023",
+      "value": 1784458538.4615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,784 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Beverage and Food"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Beverage and Food: average weekly value, Q2 2022",
+      "value": 1535298153.8461537,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,535 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Beverage and Food"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Construction & Building Materials: change in average weekly value",
+      "value": -36636846.153846145,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 37 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Construction & Building Materials"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Construction & Building Materials: change vs same quarter last year",
+      "value": -10.879802012223927,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-10.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Construction & Building Materials"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Construction & Building Materials: average weekly value, Q2 2023",
+      "value": 300105000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 300 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Construction & Building Materials"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Construction & Building Materials: average weekly value, Q2 2022",
+      "value": 336741846.15384614,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 337 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Construction & Building Materials"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Electronic & Electric Devices: change in average weekly value",
+      "value": -24337461.538461506,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 24 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Electronic & Electric Devices: change vs same quarter last year",
+      "value": -9.1457902920558,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-9.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Electronic & Electric Devices: average weekly value, Q2 2023",
+      "value": 241768153.84615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 242 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Electronic & Electric Devices: average weekly value, Q2 2022",
+      "value": 266105615.38461536,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 266 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Other",
+      "aliases": [
+        "other sector",
+        "\"other\"",
+        "'other'",
+        "other category",
+        "other (unclassified)"
+      ],
+      "change": 317832384.6153846,
+      "change_pct": 20.053024395958975,
+      "rank": 1
+    },
+    {
+      "name": "Restaurants & Café",
+      "aliases": [
+        "restaurants & café",
+        "restaurants & cafe",
+        "restaurants and cafés",
+        "restaurants and cafes",
+        "restaurants",
+        "café",
+        "cafe"
+      ],
+      "change": 308736000.0,
+      "change_pct": 21.728347474430308,
+      "rank": 2
+    },
+    {
+      "name": "Beverage and Food",
+      "aliases": [
+        "beverage and food",
+        "food and beverage",
+        "beverages and food",
+        "food & beverage"
+      ],
+      "change": 249160384.61538482,
+      "change_pct": 16.228794647554313,
+      "rank": 3
+    },
+    {
+      "name": "Construction & Building Materials",
+      "aliases": [
+        "construction & building materials",
+        "construction and building materials",
+        "building materials",
+        "construction"
+      ],
+      "change": -36636846.153846145,
+      "change_pct": -10.879802012223927,
+      "rank": 4
+    },
+    {
+      "name": "Electronic & Electric Devices",
+      "aliases": [
+        "electronic & electric devices",
+        "electronic and electric devices",
+        "electronics"
+      ],
+      "change": -24337461.538461506,
+      "change_pct": -9.1457902920558,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Other",
+    "Restaurants & Café"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2022",
+    "2023",
+    "Q2"
+  ],
+  "other_entities": [
+    "Clothing and Footwear",
+    "Education",
+    "Furniture",
+    "Gas Stations",
+    "Health",
+    "Hotels",
+    "Jewelry",
+    "Miscellaneous Goods and Services",
+    "Public Utilities",
+    "Recreation and Culture",
+    "Telecommunication",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 13 weeks), so averages per week are compared."
+  ]
+}

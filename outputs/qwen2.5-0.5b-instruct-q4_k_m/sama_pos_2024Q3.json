@@ -1,0 +1,214 @@
+{
+  "sheet_id": "sama_pos_2024Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2024 vs Q3 2023",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2024 compared to the same quarter in the previous year. The average weekly POS value increased by 8.4% from SAR 11.77 bn in Q3 2023 to SAR 12.76 bn in Q3 2024. This increase is attributed to an increase in the average weekly transactions, which rose by 14.6% from 176.5 million to 202.4 million in Q3 2024. The rise in transactions is a result of an increase in the average weekly value of Miscellaneous Goods and Services, which increased by 18.6% from SAR 1,537 mn to SAR 1,857 mn in Q3 2024. Additionally, the increase in Public Utilities was 11.5%, from SAR 65 mn to SAR 112 mn. The increase in Electronic & Electric Devices was 10.3%, from SAR 213 mn to SAR 238 mn. The largest movers (by size of change) in the first quarter of 2024 were Miscellaneous Goods and Services, Other, Restaurants & Café, and Public Utilities, with the increase in Public Utilities being the largest, increasing by 18.6%.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 187 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'10.3%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 964,
+        "completion_tokens": 297,
+        "total_tokens": 1261,
+        "seconds": 7.82
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 187 words (allowed 35-180)\n- '10.3%' described as up but the fact is down\n- Public Utilities described as up but its change is down\n- Public Utilities described as up but its change is down\n- Public Utilities described as up but its change is down\n- Electronic & Electric Devices described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'187' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+8.4%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 112,
+        "total_tokens": 1188,
+        "seconds": 4.47
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '187' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+8.4%)\n- required driver not mentioned: Miscellaneous Goods and Services\n- required driver not mentioned: Other\n- Public Utilities described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'187' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1087,
+        "completion_tokens": 123,
+        "total_tokens": 1210,
+        "seconds": 4.17
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 12.76 bn in Q3 2024, up 8.4% from SAR 11.77 bn in Q3 2023. Average weekly transactions were 202.4 million (up 14.6%), and the average ticket was SAR 63.1 (down 5.4%). The largest movements were: Miscellaneous Goods and Services increased by SAR 242 mn; Other increased by SAR 221 mn; Restaurants & Café increased by SAR 145 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 12.76 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "8.4%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 11.77 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "202.4 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "14.6%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 63.1",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "5.4%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 242 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 221 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 145 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 73
+  }
+}

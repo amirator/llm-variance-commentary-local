@@ -1,0 +1,222 @@
+{
+  "sheet_id": "sama_pos_2022Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2022 vs Q3 2021",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2022 compared to the same quarter of the previous year. The average weekly POS value for the quarter was SAR 10.85 bn, up 19.0% from SAR 9.11 bn in the same quarter of the previous year. This marked a 37.0% increase in the average weekly transactions, which were 144.4 million, up 37.0% from 105.4 million in the same quarter of the previous year. The increase in the average weekly POS value is attributed to higher average weekly transactions, which were 144.4 million, up 37.0% from 105.4 million in the same quarter of the previous year. The increase in the average weekly POS value is further supported by an increase in the average weekly value of other items, which were SAR 1,628 mn, up 387 mn from SAR 1,193 mn in the same quarter of the previous year. The increase in the average weekly POS value is also reflected in the increase in the average weekly value of other items, which were SAR 1,193 mn, up 387 mn from SAR 864 mn in the same quarter of the previous year. The increase in the average weekly POS value is further supported by an increase in the average weekly value of electronic & electric devices, which were SAR",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 233 words (allowed 35-180)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 961,
+        "completion_tokens": 320,
+        "total_tokens": 1281,
+        "seconds": 9.51
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 233 words (allowed 35-180)\n- required driver not mentioned: Miscellaneous Goods and Services\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'233' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+19.0%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1018,
+        "completion_tokens": 57,
+        "total_tokens": 1075,
+        "seconds": 2.37
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '233' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+19.0%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '233' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+19.0%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '233' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+19.0%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '233' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+19.0%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- markdown/list",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 210 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'233' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'233' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'233' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'233' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1062,
+        "completion_tokens": 320,
+        "total_tokens": 1382,
+        "seconds": 9.19
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 10.85 bn in Q3 2022, up 19.0% from SAR 9.11 bn in Q3 2021. Average weekly transactions were 144.4 million (up 37.0%), and the average ticket was SAR 75.1 (down 13.1%). The largest movements were: Other increased by SAR 387 mn; Miscellaneous Goods and Services increased by SAR 329 mn; Restaurants & Café increased by SAR 292 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 10.85 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "19.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 9.11 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "144.4 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "37.0%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 75.1",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "13.1%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 387 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 329 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 292 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 73
+  }
+}

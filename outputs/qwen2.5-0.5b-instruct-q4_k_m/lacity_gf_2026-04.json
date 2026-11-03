@@ -1,0 +1,229 @@
+{
+  "sheet_id": "lacity_gf_2026-04",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, April 2026 vs April 2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a decrease of 1.3% in April 2026 compared to April 2025, with a decrease of $12.8 million in its year-to-date postings through April 2026. This decline is primarily attributed to a decrease in Non-Departmental - General postings, which decreased by $27.1 million from $339.0 million in April 2025 to $339.0 million in April 2026.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Liability Claims"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 870,
+        "completion_tokens": 113,
+        "total_tokens": 983,
+        "seconds": 4.22
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- required driver not mentioned: Non-Departmental - Liability Claims\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 33 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-1.3%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - General"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 913,
+        "completion_tokens": 43,
+        "total_tokens": 956,
+        "seconds": 0.94
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (-1.3%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: Non-Departmental - General\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: Non-Departmental - General\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: Non-Departmental - General\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: Non-Departmental - General\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n- markdown/list formatting\n- headline figure not cited: Non-Departmental - General\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- length 33 words (allowed 35-180)\n-",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 182 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'33' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Liability Claims"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 955,
+        "completion_tokens": 320,
+        "total_tokens": 1275,
+        "seconds": 18.49
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $937.5m in April 2026, down 1.3% from $950.3m in April 2025. Year-to-date postings were $8.08bn, up 2.0%. The largest movements were: Non-Departmental - General decreased by $27.1m; Non-Departmental - Liability Claims decreased by $12.8m; Fire increased by $11.1m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$937.5m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "1.3%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$950.3m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$8.08bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "2.0%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$27.1m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$12.8m",
+        "class": "money",
+        "matched": [
+          "total_chg",
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$11.1m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 48
+  }
+}

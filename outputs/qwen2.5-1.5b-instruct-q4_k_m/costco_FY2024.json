@@ -1,0 +1,120 @@
+{
+  "sheet_id": "costco_FY2024",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2024 vs FY2023",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a year-over-year increase in revenue of 5.0% to $254.5 billion in FY2024 compared to $242.3 billion in FY2023. Operating income also saw an increase of 14.4% to $9.29 billion, marking a $1.17 billion increase from $8.11 billion in FY2023. The company's largest revenue and income contributors were net income (+17.1%) and operating income (+14.4%). Operating cash flow also increased by 2.4% to $11.34 billion, marking a $0.27 billion increase from $11.07 billion in FY2023.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 790,
+        "completion_tokens": 162,
+        "total_tokens": 952,
+        "seconds": 20.9
+      }
+    }
+  ],
+  "final_text": "Costco Wholesale Corporation reported a year-over-year increase in revenue of 5.0% to $254.5 billion in FY2024 compared to $242.3 billion in FY2023. Operating income also saw an increase of 14.4% to $9.29 billion, marking a $1.17 billion increase from $8.11 billion in FY2023. The company's largest revenue and income contributors were net income (+17.1%) and operating income (+14.4%). Operating cash flow also increased by 2.4% to $11.34 billion, marking a $0.27 billion increase from $11.07 billion in FY2023.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "5.0%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$254.5 billion",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "$242.3 billion",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "14.4%",
+        "class": "pct",
+        "matched": [
+          "ebit_yoy"
+        ]
+      },
+      {
+        "text": "$9.29 billion",
+        "class": "money",
+        "matched": [
+          "ebit_cur"
+        ]
+      },
+      {
+        "text": "$1.17 billion",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      },
+      {
+        "text": "$8.11 billion",
+        "class": "money",
+        "matched": [
+          "ebit_prev"
+        ]
+      },
+      {
+        "text": "+17.1%",
+        "class": "pct",
+        "matched": [
+          "net_income_yoy"
+        ]
+      },
+      {
+        "text": "+14.4%",
+        "class": "pct",
+        "matched": [
+          "ebit_yoy"
+        ]
+      },
+      {
+        "text": "2.4%",
+        "class": "pct",
+        "matched": [
+          "cfo_yoy"
+        ]
+      },
+      {
+        "text": "$11.34 billion",
+        "class": "money",
+        "matched": [
+          "cfo_cur"
+        ]
+      },
+      {
+        "text": "$0.27 billion",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$11.07 billion",
+        "class": "money",
+        "matched": [
+          "cfo_prev"
+        ]
+      }
+    ],
+    "words": 91
+  }
+}

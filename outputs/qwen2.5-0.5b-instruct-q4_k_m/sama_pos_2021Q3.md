@@ -1,0 +1,5 @@
+# Saudi point-of-sale spending, Q3 2021 vs Q3 2020
+
+Source: **llm** (3 model attempt(s), first attempt failed)
+
+In Q3 2021, Saudi Arabia's point-of-sale card spending increased by 24.0% compared to the same quarter last year. Restaurants & Café saw a significant increase in their average weekly POS value, increasing by 316 million SAR. This growth is attributed to the rise in restaurant and café activities, which have been growing steadily over the past year. Gas Stations also experienced a positive increase in their average weekly POS value, increasing by 310 million SAR. The overall trend of positive changes in average weekly POS values is evident in the increase in restaurants & café and gas stations. However, the decrease in electronic & electric devices' average weekly value is noteworthy, with a decrease of 1.4%. The increase in miscellaneous goods and services' average weekly value is modest, with a decrease of 4 million SAR. The largest movers in Q3 2021 are Restaurants & Café, followed by Gas Stations, and Miscellaneous Goods and Services.

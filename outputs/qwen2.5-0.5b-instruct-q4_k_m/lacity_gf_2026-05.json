@@ -1,0 +1,164 @@
+{
+  "sheet_id": "lacity_gf_2026-05",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, May 2026 vs May 2025",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The May 2026 General Fund postings, compared with the May 2025 figures, show a significant decrease of 1.7% from $886.1m to $871.1m. This decline is attributed to a decrease in Fire postings by $30.1m, which is a notable decrease from the $67.6m posted in May 2025. Additionally, Non-Departmental - Liability Claims postings decreased by $17.8m, marking a significant decrease from $10.1m in May 2025. The decrease in Non-Departmental - Human Resources Benefits is also substantial, with postings decreasing by $8.4m, reflecting a decrease from $83.5m in May 2025. The decrease in Police postings is also notable, with postings decreasing by $7.9m, which is a significant decrease from $149.6m in May 2025.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'$8.4m' described as down but the fact is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'$7.9m' described as down but the fact is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Human Resources Benefits described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Police described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 860,
+        "completion_tokens": 210,
+        "total_tokens": 1070,
+        "seconds": 8.67
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '$8.4m' described as down but the fact is up\n- '$7.9m' described as down but the fact is up\n- Non-Departmental - Human Resources Benefits described as down but its change is up\n- Police described as down but its change is up\n\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-1.7%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Fire"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - Liability Claims"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Human Resources Benefits described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Police described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 950,
+        "completion_tokens": 90,
+        "total_tokens": 1040,
+        "seconds": 2.81
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (-1.7%)\n- required driver not mentioned: Fire\n- required driver not mentioned: Non-Departmental - Liability Claims\n- Non-Departmental - Human Resources Benefits described as down but its change is up\n- Police described as down but its change is up\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Human Resources Benefits described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Police described as down but its change is up"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 967,
+        "completion_tokens": 107,
+        "total_tokens": 1074,
+        "seconds": 4.51
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $871.1m in May 2026, down 1.7% from $886.1m in May 2025. Year-to-date postings were $8.95bn, up 1.6%. The largest movements were: Fire decreased by $30.1m; Non-Departmental - Liability Claims decreased by $17.8m; Non-Departmental - Human Resources Benefits increased by $8.4m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$871.1m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "1.7%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$886.1m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$8.95bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "1.6%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$30.1m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$17.8m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$8.4m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 50
+  }
+}

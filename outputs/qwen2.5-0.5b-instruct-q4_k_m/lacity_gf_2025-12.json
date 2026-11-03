@@ -1,0 +1,156 @@
+{
+  "sheet_id": "lacity_gf_2025-12",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, December 2025 vs December 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The City of Los Angeles General Fund posted a $104.6 million increase from December 2024 to December 2025, marking a significant increase in expenditures compared to the previous year. This increase is attributed to the increase in non-Departmental - General spending, which was $177.9 million in December 2025, up from $62.3 million in December 2024. The increase in Fire spending, which was $79.0 million in December 2025, is also notable, marking a decrease from $88.9 million in December 2024. The increase in non-Departmental - Liability Claims spending, which was $12.6 million in December 2025, is also significant, up from $19.8 million in December 2024. The increase in non-Departmental - Petroleum Products spending, which was $3.4 million in December 2025, is also notable, up from $0.0 million in December 2024. The increase in non-Departmental - General City Purposes spending, which was $14.5 million in December 2025, is also significant, up from $11.6 million in December 2024.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (+16.5%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 894,
+        "completion_tokens": 281,
+        "total_tokens": 1175,
+        "seconds": 17.03
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- headline figure not cited: General Fund postings, change vs same month last year (+16.5%)\n- Fire described as up but its change is down\n- Non-Departmental - Liability Claims described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - General"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 974,
+        "completion_tokens": 80,
+        "total_tokens": 1054,
+        "seconds": 1.88
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- required driver not mentioned: Non-Departmental - General\n- Fire described as up but its change is down\n- Non-Departmental - Liability Claims described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (+16.5%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Fire described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Liability Claims described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 969,
+        "completion_tokens": 75,
+        "total_tokens": 1044,
+        "seconds": 2.33
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $737.8m in December 2025, up 16.5% from $633.2m in December 2024. Year-to-date postings were $4.23bn, up 4.4%. The largest movements were: Non-Departmental - General increased by $115.6m; Fire decreased by $9.9m; Non-Departmental - Liability Claims decreased by $7.2m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$737.8m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "16.5%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$633.2m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$4.23bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur"
+        ]
+      },
+      {
+        "text": "4.4%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$115.6m",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$9.9m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$7.2m",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 48
+  }
+}

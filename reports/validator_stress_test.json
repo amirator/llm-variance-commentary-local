@@ -1,0 +1,41 @@
+{
+  "hallucinated_number": {
+    "cases": 37,
+    "caught": 37,
+    "rate": 1.0,
+    "missed_examples": []
+  },
+  "flipped_direction": {
+    "cases": 36,
+    "caught": 34,
+    "rate": 0.9444,
+    "missed_examples": [
+      {
+        "sheet": "sama_pos_2022Q1",
+        "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant decrease in the first quarter of 2022 compared to the same quarter of the previous year. The average weekly POS value for the first quarter of 2022 was SAR 10.41 bn, while the same quarter last year was SAR 8.56 bn. The increase in the first quarter was attributed to a 21.6% increase in average weekly POS value. Restaurants & Café saw an increase of SAR 394 mn, while Other and Miscellaneous Goods and Services experienced an increase of SAR 357 mn. The increase in the first quarter was driven by a 36.8% increase in the average weekly POS value for Restaurants & Café, a 44.0% increase for Other, and a 30.9% increase for Miscellaneous Goods and Services. The increase in the first quarter was further supported by a decrease in the average weekly POS value for Jewelry, a decrease of 23.0%, and a decrease in the average weekly POS value for Electronic & Electric Devices, a decrease of 12.2%."
+      },
+      {
+        "sheet": "sama_pos_2023Q4",
+        "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant decrease in Q4 2023 compared to Q4 2022, with a 9.7% increase in the average weekly POS value. Beverage and Food and Restaurants & Café saw their values increase by 1.07 billion SAR, while Miscellaneous Goods and Services experienced a 14.1% increase. The increase in Beverage and Food was driven by a 14.1% increase in average weekly value, while Restaurants & Café increased by 12.3%. The increase in Miscellaneous Goods and Services was driven by a 15.3% increase in average weekly value. The largest movers (by size of change) were Beverage and Food, Restaurants & Café, and Miscellaneous Goods and Services."
+      }
+    ]
+  },
+  "unsupported_entity": {
+    "cases": 37,
+    "caught": 37,
+    "rate": 1.0,
+    "missed_examples": []
+  },
+  "unsupported_claim": {
+    "cases": 37,
+    "caught": 37,
+    "rate": 1.0,
+    "missed_examples": []
+  },
+  "dropped_required_driver": {
+    "cases": 37,
+    "caught": 37,
+    "rate": 1.0,
+    "missed_examples": []
+  }
+}

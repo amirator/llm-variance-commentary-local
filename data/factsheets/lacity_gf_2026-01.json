@@ -1,0 +1,446 @@
+{
+  "id": "lacity_gf_2026-01",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, January 2026 vs January 2025",
+  "subject": "City of Los Angeles General Fund (Controller monthly expenditure postings)",
+  "period": "January 2026",
+  "comparison_period": "January 2025",
+  "comparison": "year over year",
+  "currency": "USD",
+  "facts": [
+    {
+      "key": "total_cur",
+      "label": "General Fund postings, January 2026",
+      "value": 928075565.5899999,
+      "unit": "money",
+      "kind": "level",
+      "display": "$928.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_prev",
+      "label": "General Fund postings, January 2025",
+      "value": 913600465.98,
+      "unit": "money",
+      "kind": "level",
+      "display": "$913.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "total_yoy",
+      "label": "General Fund postings, change vs same month last year",
+      "value": 1.58440151346384,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+1.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_chg",
+      "label": "General Fund postings, change",
+      "value": 14475099.609999895,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$14.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_cur",
+      "label": "FY2026 year-to-date postings through January 2026",
+      "value": 5161840534.62,
+      "unit": "money",
+      "kind": "level",
+      "display": "$5.16bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_prev",
+      "label": "FY2025 year-to-date postings through January 2025",
+      "value": 4969516639.0199995,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.97bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "USD",
+      "entity": null
+    },
+    {
+      "key": "ytd_yoy",
+      "label": "Year-to-date postings, change vs prior year",
+      "value": 3.870072475256414,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+3.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Non-Departmental - Liability Claims: change in postings",
+      "value": 23101840.240000002,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$23.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Non-Departmental - Liability Claims: postings, January 2026",
+      "value": 28312652.07,
+      "unit": "money",
+      "kind": "level",
+      "display": "$28.3m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Non-Departmental - Liability Claims: postings, January 2025",
+      "value": 5210811.83,
+      "unit": "money",
+      "kind": "level",
+      "display": "$5.2m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Non-Departmental - Liability Claims: change vs same month last year",
+      "value": 443.3443577255408,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+443.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Liability Claims"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Non-Departmental - Capital Finance Administration: change in postings",
+      "value": 14399980.43,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$14.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Finance Administration"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Non-Departmental - Capital Finance Administration: postings, January 2026",
+      "value": 19015843.25,
+      "unit": "money",
+      "kind": "level",
+      "display": "$19.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Finance Administration"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Non-Departmental - Capital Finance Administration: postings, January 2025",
+      "value": 4615862.82,
+      "unit": "money",
+      "kind": "level",
+      "display": "$4.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Non-Departmental - Capital Finance Administration"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Non-Departmental - Capital Finance Administration: change vs same month last year",
+      "value": 311.96725274430923,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+312.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Non-Departmental - Capital Finance Administration"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "City Clerk: change in postings",
+      "value": -12372792.36,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$12.4m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Clerk"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "City Clerk: postings, January 2026",
+      "value": 1105298.04,
+      "unit": "money",
+      "kind": "level",
+      "display": "$1.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Clerk"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "City Clerk: postings, January 2025",
+      "value": 13478090.4,
+      "unit": "money",
+      "kind": "level",
+      "display": "$13.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "City Clerk"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "City Clerk: change vs same month last year",
+      "value": -91.79929791834606,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-91.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "City Clerk"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Fire: change in postings",
+      "value": 10139546.690000013,
+      "unit": "money",
+      "kind": "change",
+      "display": "+$10.1m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Fire: postings, January 2026",
+      "value": 84601432.68,
+      "unit": "money",
+      "kind": "level",
+      "display": "$84.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Fire: postings, January 2025",
+      "value": 74461885.99,
+      "unit": "money",
+      "kind": "level",
+      "display": "$74.5m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Fire"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Fire: change vs same month last year",
+      "value": 13.6170962569518,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+13.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Fire"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Police: change in postings",
+      "value": -8043339.110000014,
+      "unit": "money",
+      "kind": "change",
+      "display": "-$8.0m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Police: postings, January 2026",
+      "value": 150611834.69,
+      "unit": "money",
+      "kind": "level",
+      "display": "$150.6m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Police: postings, January 2025",
+      "value": 158655173.8,
+      "unit": "money",
+      "kind": "level",
+      "display": "$158.7m",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": "USD",
+      "entity": "Police"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Police: change vs same month last year",
+      "value": -5.069698590566862,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-5.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Police"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Non-Departmental - Liability Claims",
+      "aliases": [
+        "non-departmental - liability claims",
+        "liability claims"
+      ],
+      "change": 23101840.240000002,
+      "change_pct": 443.3443577255408,
+      "rank": 1
+    },
+    {
+      "name": "Non-Departmental - Capital Finance Administration",
+      "aliases": [
+        "non-departmental - capital finance administration",
+        "capital finance administration"
+      ],
+      "change": 14399980.43,
+      "change_pct": 311.96725274430923,
+      "rank": 2
+    },
+    {
+      "name": "City Clerk",
+      "aliases": [
+        "city clerk"
+      ],
+      "change": -12372792.36,
+      "change_pct": -91.79929791834606,
+      "rank": 3
+    },
+    {
+      "name": "Fire",
+      "aliases": [
+        "fire"
+      ],
+      "change": 10139546.690000013,
+      "change_pct": 13.6170962569518,
+      "rank": 4
+    },
+    {
+      "name": "Police",
+      "aliases": [
+        "police"
+      ],
+      "change": -8043339.110000014,
+      "change_pct": -5.069698590566862,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Non-Departmental - Liability Claims",
+    "Non-Departmental - Capital Finance Administration"
+  ],
+  "headline_key": "total_yoy",
+  "period_tokens": [
+    "2025",
+    "2026",
+    "FY2025",
+    "FY2026",
+    "FY25",
+    "FY26"
+  ],
+  "other_entities": [
+    "Aging",
+    "Animal Services",
+    "Building and Safety",
+    "Cannabis Regulation",
+    "City Administrative Officer",
+    "City Attorney",
+    "City Ethics Commission",
+    "City Planning",
+    "Civil, Human Rights, and Equity Department",
+    "Community Investment Department",
+    "Controller",
+    "Council",
+    "Cultural Affairs",
+    "Disability",
+    "Economic and Workforce Development Department",
+    "El Pueblo De Los Angeles Historical Monument Authority",
+    "Emergency Management",
+    "Employee Relations Board",
+    "General Services",
+    "Information Technology Agency",
+    "Los Angeles City Tourism Department",
+    "Los Angeles Housing",
+    "Mayor",
+    "Neighborhood Empowerment",
+    "Non-Departmental - Capital Improvement Expense Program",
+    "Non-Departmental - General",
+    "Non-Departmental - General City Purposes",
+    "Non-Departmental - Human Resources Benefits",
+    "Non-Departmental - Leasing",
+    "Non-Departmental - Petroleum Products",
+    "Non-Departmental - Water and Electricity",
+    "Office of Finance",
+    "Personnel",
+    "Public Accountability",
+    "Public Works - Board of Public Works",
+    "Public Works - Contract Administration",
+    "Public Works - Engineering",
+    "Public Works - Sanitation",
+    "Public Works - Street Lighting",
+    "Public Works - Street Services",
+    "Transportation",
+    "Youth Development Department",
+    "Zoo"
+  ],
+  "notes": [
+    "Monthly postings by transaction month; fiscal year runs July to June."
+  ]
+}

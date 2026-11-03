@@ -1,0 +1,147 @@
+{
+  "sheet_id": "lacity_gf_2025-09",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, September 2025 vs September 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The General Fund postings for September 2025 were $822.4 million, which was $0.2% lower than the $823.7 million posted in September 2024. The decrease in postings is attributed to a 0.2% increase in Non-Departmental - Capital Finance Administration and a 100.0% increase in Fire. The year-to-date postings through September 2025 were $2.12 billion, which was $0.3% higher than the $2.12 billion posted in September 2024.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'100.0%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Capital Finance Administration described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 875,
+        "completion_tokens": 127,
+        "total_tokens": 1002,
+        "seconds": 5.14
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '100.0%' described as up but the fact is down\n- Non-Departmental - Capital Finance Administration described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: General Fund postings, change vs same month last year (-0.2%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Capital Finance Administration described as up but its change is down"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Fire"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 939,
+        "completion_tokens": 64,
+        "total_tokens": 1003,
+        "seconds": 1.68
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- headline figure not cited: General Fund postings, change vs same month last year (-0.2%)\n- Non-Departmental - Capital Finance Administration described as up but its change is down\n- required driver not mentioned: Fire\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Non-Departmental - Capital Finance Administration described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 957,
+        "completion_tokens": 82,
+        "total_tokens": 1039,
+        "seconds": 2.11
+      }
+    }
+  ],
+  "final_text": "General Fund postings were $822.4m in September 2025, down 0.2% from $823.7m in September 2024. Year-to-date postings were $2.12bn, up 0.3%. The largest movements were: Non-Departmental - Capital Finance Administration decreased by $65.4m; Fire increased by $37.0m; Non-Departmental - Water and Electricity increased by $7.4m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$822.4m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "0.2%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$823.7m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$2.12bn",
+        "class": "money",
+        "matched": [
+          "ytd_cur",
+          "ytd_prev"
+        ]
+      },
+      {
+        "text": "0.3%",
+        "class": "pct",
+        "matched": [
+          "ytd_yoy"
+        ]
+      },
+      {
+        "text": "$65.4m",
+        "class": "money",
+        "matched": [
+          "drv1_chg",
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "$37.0m",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$7.4m",
+        "class": "money",
+        "matched": [
+          "drv3_chg",
+          "drv3_cur"
+        ]
+      }
+    ],
+    "words": 51
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sheet_id": "sama_pos_2022Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2022 vs Q2 2021",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q2 2022, the Saudi Arabia point-of-sale card spending (SAMA) weekly statistics showed a significant increase of 17.0% compared to the same quarter in 2021. The average weekly POS value rose to SAR 10.60 billion, marking a notable increase of SAR 1.54 billion from the previous year. This uptick is primarily attributed to the Other category, which saw an increase of SAR 331 million, representing a 26.4% increase from the previous year. The Miscellaneous Goods and Services category also experienced a notable increase, with an increase of SAR 325 million, or 40.4% compared to the same quarter in 2021. The Restaurants & Café category also saw an increase of SAR 296 million, or 26.3% compared to the previous year, while the Furniture category experienced a decrease of SAR 26 million, or 7.9% compared to the same quarter in 2021. The Jewelry category also showed a decrease of SAR 20 million, or 6.4% compared to the previous year.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 943,
+        "completion_tokens": 246,
+        "total_tokens": 1189,
+        "seconds": 25.49
+      }
+    }
+  ],
+  "final_text": "In Q2 2022, the Saudi Arabia point-of-sale card spending (SAMA) weekly statistics showed a significant increase of 17.0% compared to the same quarter in 2021. The average weekly POS value rose to SAR 10.60 billion, marking a notable increase of SAR 1.54 billion from the previous year. This uptick is primarily attributed to the Other category, which saw an increase of SAR 331 million, representing a 26.4% increase from the previous year. The Miscellaneous Goods and Services category also experienced a notable increase, with an increase of SAR 325 million, or 40.4% compared to the same quarter in 2021. The Restaurants & Café category also saw an increase of SAR 296 million, or 26.3% compared to the previous year, while the Furniture category experienced a decrease of SAR 26 million, or 7.9% compared to the same quarter in 2021. The Jewelry category also showed a decrease of SAR 20 million, or 6.4% compared to the previous year.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "17.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 10.60 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "SAR 1.54 billion",
+        "class": "money",
+        "matched": [
+          "total_value_chg"
+        ]
+      },
+      {
+        "text": "SAR 331 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "26.4%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "SAR 325 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "40.4%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "SAR 296 million",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      },
+      {
+        "text": "26.3%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "SAR 26 million",
+        "class": "money",
+        "matched": [
+          "drv4_chg"
+        ]
+      },
+      {
+        "text": "7.9%",
+        "class": "pct",
+        "matched": [
+          "drv4_yoy"
+        ]
+      },
+      {
+        "text": "SAR 20 million",
+        "class": "money",
+        "matched": [
+          "drv5_chg"
+        ]
+      },
+      {
+        "text": "6.4%",
+        "class": "pct",
+        "matched": [
+          "drv5_yoy"
+        ]
+      }
+    ],
+    "words": 164
+  }
+}

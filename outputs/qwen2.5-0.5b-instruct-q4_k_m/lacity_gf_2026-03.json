@@ -1,0 +1,67 @@
+{
+  "sheet_id": "lacity_gf_2026-03",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, March 2026 vs March 2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The March 2026 General Fund postings, compared with the March 2025 figures, show a significant decrease of -0.9% from $1,068.6m to $1,058.7m. This decline is attributed to a decrease in General Services and a decrease in Non-Departmental - Water and Electricity. The largest movers in terms of size of change are General Services, which decreased by $4.4m, and Non-Departmental - Water and Electricity, which decreased by $4.1m.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 879,
+        "completion_tokens": 117,
+        "total_tokens": 996,
+        "seconds": 4.99
+      }
+    }
+  ],
+  "final_text": "The March 2026 General Fund postings, compared with the March 2025 figures, show a significant decrease of -0.9% from $1,068.6m to $1,058.7m. This decline is attributed to a decrease in General Services and a decrease in Non-Departmental - Water and Electricity. The largest movers in terms of size of change are General Services, which decreased by $4.4m, and Non-Departmental - Water and Electricity, which decreased by $4.1m.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "-0.9%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$1,068.6m",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$1,058.7m",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$4.4m",
+        "class": "money",
+        "matched": [
+          "drv1_chg",
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "$4.1m",
+        "class": "money",
+        "matched": [
+          "drv3_chg",
+          "drv3_cur",
+          "drv5_cur"
+        ]
+      }
+    ],
+    "words": 72
+  }
+}

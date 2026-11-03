@@ -1,0 +1,36 @@
+{
+  "sheet_id": "sama_pos_2024Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2024 vs Q4 2023",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q4 2024, Saudi Arabia's point-of-sale card spending (SAMA) increased by 8.4% compared to the same quarter last year. Other (up) and Miscellaneous Goods and Services (up) saw increases, while Gas Stations (up) and Public Utilities (down) experienced decreases. The largest movers (by size of change) were Other (up), while Gas Stations (up) and Public Utilities (down) remained unchanged.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 956,
+        "completion_tokens": 95,
+        "total_tokens": 1051,
+        "seconds": 5.25
+      }
+    }
+  ],
+  "final_text": "In Q4 2024, Saudi Arabia's point-of-sale card spending (SAMA) increased by 8.4% compared to the same quarter last year. Other (up) and Miscellaneous Goods and Services (up) saw increases, while Gas Stations (up) and Public Utilities (down) experienced decreases. The largest movers (by size of change) were Other (up), while Gas Stations (up) and Public Utilities (down) remained unchanged.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "8.4%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      }
+    ],
+    "words": 60
+  }
+}

@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install (no model, no llama-cpp)
+        run: pip install -r requirements.txt
+      - name: Unit tests (validator, pipeline, facts)
+        run: python -m pytest -q tests
+      - name: Fact sheets are reproducible from committed inputs
+        run: |
+          python run.py facts
+          git diff --exit-code data/factsheets
+      - name: End-to-end pipeline with the stub generator
+        run: python run.py stub

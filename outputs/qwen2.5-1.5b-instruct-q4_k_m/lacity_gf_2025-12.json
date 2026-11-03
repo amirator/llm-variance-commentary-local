@@ -1,0 +1,71 @@
+{
+  "sheet_id": "lacity_gf_2025-12",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, December 2025 vs December 2024",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In December 2025, the General Fund postings increased by 16.5% compared to the same month in 2024, reaching $737.8 million. This increase was driven by Non-Departmental - General, which saw an increase of $115.6 million to $177.9 million, and Fire, which decreased by $9.9 million to $79.0 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 894,
+        "completion_tokens": 93,
+        "total_tokens": 987,
+        "seconds": 16.18
+      }
+    }
+  ],
+  "final_text": "In December 2025, the General Fund postings increased by 16.5% compared to the same month in 2024, reaching $737.8 million. This increase was driven by Non-Departmental - General, which saw an increase of $115.6 million to $177.9 million, and Fire, which decreased by $9.9 million to $79.0 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "16.5%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$737.8 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$115.6 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$177.9 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "$9.9 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$79.0 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      }
+    ],
+    "words": 53
+  }
+}

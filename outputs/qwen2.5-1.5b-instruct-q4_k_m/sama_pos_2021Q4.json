@@ -1,0 +1,71 @@
+{
+  "sheet_id": "sama_pos_2021Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2021 vs Q4 2020",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q4 2021, the Saudi Arabia point-of-sale card spending (SAMA) saw an average weekly POS value of SAR 9.60 billion, marking a +19.5% increase from the same quarter in 2020. This growth is primarily attributed to the Restaurants & Café sector, which experienced a +28.9% increase in average weekly value, reaching SAR 1,356 million. Additionally, the Gas Stations sector also reported a +94.4% increase, totaling SAR 615 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 118,
+        "total_tokens": 1076,
+        "seconds": 8.66
+      }
+    }
+  ],
+  "final_text": "In Q4 2021, the Saudi Arabia point-of-sale card spending (SAMA) saw an average weekly POS value of SAR 9.60 billion, marking a +19.5% increase from the same quarter in 2020. This growth is primarily attributed to the Restaurants & Café sector, which experienced a +28.9% increase in average weekly value, reaching SAR 1,356 million. Additionally, the Gas Stations sector also reported a +94.4% increase, totaling SAR 615 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 9.60 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "+19.5%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "+28.9%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,356 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "+94.4%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "SAR 615 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      }
+    ],
+    "words": 72
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "id": "sama_pos_2022Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2022 vs Q2 2021",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q2 2022",
+  "comparison_period": "Q2 2021",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q2 2022",
+      "value": 10602096307.692308,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 10.60 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q2 2021",
+      "value": 9060062769.23077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 9.06 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 17.02011981306022,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+17.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 1542033538.4615383,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 1.54 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q2 2022",
+      "value": 131609307.6923077,
+      "unit": "count",
+      "kind": "level",
+      "display": "131.6 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q2 2021",
+      "value": 92976692.3076923,
+      "unit": "count",
+      "kind": "level",
+      "display": "93.0 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 41.55086014112719,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+41.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q2 2022",
+      "value": 80.55734426078118,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 80.6",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q2 2021",
+      "value": 97.44445133892118,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 97.4",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -17.32998323260605,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-17.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Other: change in average weekly value",
+      "value": 330943846.15384626,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 331 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Other: change vs same quarter last year",
+      "value": 26.390719588414036,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+26.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Other: average weekly value, Q2 2022",
+      "value": 1584959846.1538463,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,585 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Other: average weekly value, Q2 2021",
+      "value": 1254016000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,254 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Miscellaneous Goods and Services: change in average weekly value",
+      "value": 325236769.23076916,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 325 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Miscellaneous Goods and Services: change vs same quarter last year",
+      "value": 40.44143866329162,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+40.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q2 2022",
+      "value": 1129453384.6153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,129 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q2 2021",
+      "value": 804216615.3846154,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 804 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Restaurants & Café: change in average weekly value",
+      "value": 295868230.76923084,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 296 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Restaurants & Café: change vs same quarter last year",
+      "value": 26.298880404953408,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+26.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Restaurants & Café: average weekly value, Q2 2022",
+      "value": 1420890384.6153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,421 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Restaurants & Café: average weekly value, Q2 2021",
+      "value": 1125022153.8461537,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,125 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Furniture: change in average weekly value",
+      "value": -25982230.769230783,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 26 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Furniture"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Furniture: change vs same quarter last year",
+      "value": -7.939702555864514,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-7.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Furniture"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Furniture: average weekly value, Q2 2022",
+      "value": 301262153.84615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 301 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Furniture"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Furniture: average weekly value, Q2 2021",
+      "value": 327244384.61538464,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 327 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Furniture"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Jewelry: change in average weekly value",
+      "value": -19501307.69230771,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 20 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Jewelry: change vs same quarter last year",
+      "value": -6.430487038047417,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-6.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Jewelry: average weekly value, Q2 2022",
+      "value": 283762000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 284 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Jewelry: average weekly value, Q2 2021",
+      "value": 303263307.6923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 303 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Other",
+      "aliases": [
+        "other sector",
+        "\"other\"",
+        "'other'",
+        "other category",
+        "other (unclassified)"
+      ],
+      "change": 330943846.15384626,
+      "change_pct": 26.390719588414036,
+      "rank": 1
+    },
+    {
+      "name": "Miscellaneous Goods and Services",
+      "aliases": [
+        "miscellaneous goods and services",
+        "miscellaneous goods",
+        "miscellaneous"
+      ],
+      "change": 325236769.23076916,
+      "change_pct": 40.44143866329162,
+      "rank": 2
+    },
+    {
+      "name": "Restaurants & Café",
+      "aliases": [
+        "restaurants & café",
+        "restaurants & cafe",
+        "restaurants and cafés",
+        "restaurants and cafes",
+        "restaurants",
+        "café",
+        "cafe"
+      ],
+      "change": 295868230.76923084,
+      "change_pct": 26.298880404953408,
+      "rank": 3
+    },
+    {
+      "name": "Furniture",
+      "aliases": [
+        "furniture"
+      ],
+      "change": -25982230.769230783,
+      "change_pct": -7.939702555864514,
+      "rank": 4
+    },
+    {
+      "name": "Jewelry",
+      "aliases": [
+        "jewelry"
+      ],
+      "change": -19501307.69230771,
+      "change_pct": -6.430487038047417,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Other",
+    "Miscellaneous Goods and Services"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2021",
+    "2022",
+    "Q2"
+  ],
+  "other_entities": [
+    "Beverage and Food",
+    "Clothing and Footwear",
+    "Construction & Building Materials",
+    "Education",
+    "Electronic & Electric Devices",
+    "Gas Stations",
+    "Health",
+    "Hotels",
+    "Public Utilities",
+    "Recreation and Culture",
+    "Telecommunication",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 13 weeks), so averages per week are compared."
+  ]
+}

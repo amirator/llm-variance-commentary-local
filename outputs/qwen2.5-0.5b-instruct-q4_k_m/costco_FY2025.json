@@ -1,0 +1,175 @@
+{
+  "sheet_id": "costco_FY2025",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2025 vs FY2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation (CY) reported a significant increase in revenue, up by 8.2% compared to the previous year. This growth is attributed to an increase in operating cash flow and capital expenditure, which have also increased by up to 17.6% and 16.7%, respectively. The largest movers in FY2025 were operating cash flow, capital expenditure, and operating income, with operating cash flow increasing by up to 17.6% and capital expenditure increasing by up to 16.7%. These positive changes indicate a strong financial performance and a favorable outlook for the company.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "forward_looking: 'outlook'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 793,
+        "completion_tokens": 128,
+        "total_tokens": 921,
+        "seconds": 7.27
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- forward_looking: 'outlook'\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 28 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "leaked fact-sheet key: forward_looking"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Revenue, change vs prior year (+8.2%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Operating cash flow"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Capital expenditure"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "forward_looking: 'outlook'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 831,
+        "completion_tokens": 38,
+        "total_tokens": 869,
+        "seconds": 0.99
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 28 words (allowed 35-180)\n- leaked fact-sheet key: forward_looking\n- markdown/list formatting\n- headline figure not cited: Revenue, change vs prior year (+8.2%)\n- required driver not mentioned: Operating cash flow\n- required driver not mentioned: Capital expenditure\n- forward_looking: 'outlook'\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "leaked fact-sheet key: forward_looking"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'28' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "forward_looking: 'outlook'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 899,
+        "completion_tokens": 106,
+        "total_tokens": 1005,
+        "seconds": 3.67
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $275.2bn in FY2025, up 8.2% from $254.5bn in FY2024. Operating margin was 3.77% (up 0.12 pp), with SG&A at 9.07% of revenue. The largest movements were: Operating cash flow increased by $2.00bn; Capital expenditure increased by $0.79bn; Operating income increased by $1.10bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$275.2bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "8.2%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$254.5bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.77%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.12 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "9.07%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$2.00bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.79bn",
+        "class": "money",
+        "matched": [
+          "capex_chg"
+        ]
+      },
+      {
+        "text": "$1.10bn",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      }
+    ],
+    "words": 54
+  }
+}

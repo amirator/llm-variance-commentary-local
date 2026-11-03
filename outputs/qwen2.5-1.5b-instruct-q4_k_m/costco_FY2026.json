@@ -1,0 +1,78 @@
+{
+  "sheet_id": "costco_FY2026",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2026 vs FY2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a year-over-year increase of 10.1% in revenue, reaching $303.2 billion in FY2026 compared to $275.2 billion in FY2025. Operating cash flow increased by 18.6% to $15.82 billion, while capital expenditure rose by 17.0% to $6.43 billion. These figures highlight the company's strong financial performance, with increased cash flow and investment in growth.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 797,
+        "completion_tokens": 108,
+        "total_tokens": 905,
+        "seconds": 10.22
+      }
+    }
+  ],
+  "final_text": "Costco Wholesale Corporation reported a year-over-year increase of 10.1% in revenue, reaching $303.2 billion in FY2026 compared to $275.2 billion in FY2025. Operating cash flow increased by 18.6% to $15.82 billion, while capital expenditure rose by 17.0% to $6.43 billion. These figures highlight the company's strong financial performance, with increased cash flow and investment in growth.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "10.1%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$303.2 billion",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "$275.2 billion",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "18.6%",
+        "class": "pct",
+        "matched": [
+          "cfo_yoy"
+        ]
+      },
+      {
+        "text": "$15.82 billion",
+        "class": "money",
+        "matched": [
+          "cfo_cur"
+        ]
+      },
+      {
+        "text": "17.0%",
+        "class": "pct",
+        "matched": [
+          "capex_yoy"
+        ]
+      },
+      {
+        "text": "$6.43 billion",
+        "class": "money",
+        "matched": [
+          "capex_cur"
+        ]
+      }
+    ],
+    "words": 63
+  }
+}

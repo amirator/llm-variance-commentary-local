@@ -1,0 +1,198 @@
+{
+  "sheet_id": "sama_pos_2022Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2022 vs Q2 2021",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the second quarter of 2022 compared to the same quarter in the previous year. The average weekly POS value increased by 17.0% from SAR 9.06 bn in Q2 2021 to SAR 10.60 bn in Q2 2022. This marked a 17.0% increase from the same quarter last year, reflecting a 17.0% increase in overall spending. The increase in POS value is attributed to a 17.0% increase in average weekly transactions, which in turn increased by 17.3% from SAR 97.4 million in Q2 2021 to SAR 131.6 million in Q2 2022. The increase in POS value is also driven by a 17.3% increase in average weekly value, which increased by 26.4% from SAR 1,254 mn in Q2 2021 to SAR 1,585 mn in Q2 2022. The increase in POS value is further supported by a 17.0% increase in average weekly value, which increased by 40.4% from SAR 1,129 mn in Q2 2021 to SAR 1,421 mn in Q2 2022. The increase in POS value is also supported by",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 194 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'17.3%' described as up but the fact is down"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 97.4 million' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'SAR 131.6 million' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'17.3%' described as up but the fact is down"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 943,
+        "completion_tokens": 320,
+        "total_tokens": 1263,
+        "seconds": 13.12
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In Q2 2022, Saudi Arabia's point-of-sale card spending increased by 17.0% compared to the same quarter last year. This was primarily driven by an increase in Other (up), with a 17.3% increase in the Other category. The increase in Other was due to a 17.3% increase in the average weekly value, which was SAR 1,585 million. The increase in Other was further supported by a 26.4% increase in the Other category, which was SAR 1,254 million. The increase in Other was also offset by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was further supported by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was also offset by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was also offset by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was also offset by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was also offset by a 40.4% decrease in the Other category, which was SAR 1,129 million. The increase in Other was",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 219 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'17.3%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'17.3%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Other described as down but its change is up"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1075,
+        "completion_tokens": 320,
+        "total_tokens": 1395,
+        "seconds": 8.67
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In Q2 2022, Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase compared to the previous quarter, with the average weekly POS value increasing by SAR 1.54 billion. This marked a 17.0% increase from the 9.06 billion SAR spent in Q2 2021. The increase in POS value is attributed to a rise in average weekly transactions, which increased by 41.6% from 93.0 million to 131.6 million. The increase in transactions is attributed to an increase in average weekly value, which increased by SAR 1,585 million. Other factors such as the increase in average weekly value, the increase in other, and the increase in miscellaneous goods and services also contributed to the overall increase in POS spending. The increase in POS spending is a positive indicator of the growth in the retail sector in Saudi Arabia.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "wrong_comparison_basis: 'previous quarter'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 196,
+        "total_tokens": 1272,
+        "seconds": 5.32
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 10.60 bn in Q2 2022, up 17.0% from SAR 9.06 bn in Q2 2021. Average weekly transactions were 131.6 million (up 41.6%), and the average ticket was SAR 80.6 (down 17.3%). The largest movements were: Other increased by SAR 331 mn; Miscellaneous Goods and Services increased by SAR 325 mn; Restaurants & Café increased by SAR 296 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 10.60 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "17.0%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 9.06 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "131.6 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "41.6%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 80.6",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "17.3%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 331 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 325 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 296 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 73
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sheet_id": "lacity_gf_2026-05",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, May 2026 vs May 2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In May 2026, the General Fund postings decreased by 1.7% compared to the same month in 2025, totaling $871.1 million. This decrease is primarily attributed to the Fire department, which saw a decrease of $30.1 million from $67.6 million in May 2025, marking a 44.6% decrease. Additionally, the Non-Departmental - Liability Claims category experienced a decrease of $17.8 million from $27.9 million in May 2025, indicating a 63.8% decrease.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 860,
+        "completion_tokens": 132,
+        "total_tokens": 992,
+        "seconds": 17.33
+      }
+    }
+  ],
+  "final_text": "In May 2026, the General Fund postings decreased by 1.7% compared to the same month in 2025, totaling $871.1 million. This decrease is primarily attributed to the Fire department, which saw a decrease of $30.1 million from $67.6 million in May 2025, marking a 44.6% decrease. Additionally, the Non-Departmental - Liability Claims category experienced a decrease of $17.8 million from $27.9 million in May 2025, indicating a 63.8% decrease.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "1.7%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$871.1 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$30.1 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$67.6 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "44.6%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "$17.8 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$27.9 million",
+        "class": "money",
+        "matched": [
+          "drv2_prev"
+        ]
+      },
+      {
+        "text": "63.8%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      }
+    ],
+    "words": 76
+  }
+}

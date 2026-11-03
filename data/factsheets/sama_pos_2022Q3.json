@@ -1,0 +1,462 @@
+{
+  "id": "sama_pos_2022Q3",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q3 2022 vs Q3 2021",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q3 2022",
+  "comparison_period": "Q3 2021",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q3 2022",
+      "value": 10847249692.307692,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 10.85 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q3 2021",
+      "value": 9112662538.461538,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 9.11 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 19.034910450431287,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+19.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 1734587153.8461533,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 1.73 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q3 2022",
+      "value": 144373538.46153846,
+      "unit": "count",
+      "kind": "level",
+      "display": "144.4 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q3 2021",
+      "value": 105396615.38461539,
+      "unit": "count",
+      "kind": "level",
+      "display": "105.4 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 36.98119046298376,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+37.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q3 2022",
+      "value": 75.13322599069933,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 75.1",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q3 2021",
+      "value": 86.46067528077094,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 86.5",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -13.101273212691256,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-13.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Other: change in average weekly value",
+      "value": 386597461.53846145,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 387 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Other: change vs same quarter last year",
+      "value": 31.15435136621201,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+31.2%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Other: average weekly value, Q3 2022",
+      "value": 1627507461.5384614,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,628 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Other: average weekly value, Q3 2021",
+      "value": 1240910000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,241 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Miscellaneous Goods and Services: change in average weekly value",
+      "value": 328604615.3846154,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 329 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Miscellaneous Goods and Services: change vs same quarter last year",
+      "value": 38.019401922392326,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+38.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q3 2022",
+      "value": 1192912307.6923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,193 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q3 2021",
+      "value": 864307692.3076923,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 864 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Restaurants & Café: change in average weekly value",
+      "value": 291737076.92307687,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 292 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Restaurants & Café: change vs same quarter last year",
+      "value": 23.284177409746665,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+23.3%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Restaurants & Café: average weekly value, Q3 2022",
+      "value": 1544678384.6153846,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,545 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Restaurants & Café: average weekly value, Q3 2021",
+      "value": 1252941307.6923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,253 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Electronic & Electric Devices: change in average weekly value",
+      "value": -14887461.538461506,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 15 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Electronic & Electric Devices: change vs same quarter last year",
+      "value": -5.523354041237716,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-5.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Electronic & Electric Devices: average weekly value, Q3 2022",
+      "value": 254649153.84615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 255 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Electronic & Electric Devices: average weekly value, Q3 2021",
+      "value": 269536615.38461536,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 270 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Telecommunication: change in average weekly value",
+      "value": -6308538.461538464,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 6 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Telecommunication"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Telecommunication: change vs same quarter last year",
+      "value": -6.448617310957017,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-6.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Telecommunication"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Telecommunication: average weekly value, Q3 2022",
+      "value": 91519230.76923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 92 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Telecommunication"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Telecommunication: average weekly value, Q3 2021",
+      "value": 97827769.23076923,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 98 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Telecommunication"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Other",
+      "aliases": [
+        "other sector",
+        "\"other\"",
+        "'other'",
+        "other category",
+        "other (unclassified)"
+      ],
+      "change": 386597461.53846145,
+      "change_pct": 31.15435136621201,
+      "rank": 1
+    },
+    {
+      "name": "Miscellaneous Goods and Services",
+      "aliases": [
+        "miscellaneous goods and services",
+        "miscellaneous goods",
+        "miscellaneous"
+      ],
+      "change": 328604615.3846154,
+      "change_pct": 38.019401922392326,
+      "rank": 2
+    },
+    {
+      "name": "Restaurants & Café",
+      "aliases": [
+        "restaurants & café",
+        "restaurants & cafe",
+        "restaurants and cafés",
+        "restaurants and cafes",
+        "restaurants",
+        "café",
+        "cafe"
+      ],
+      "change": 291737076.92307687,
+      "change_pct": 23.284177409746665,
+      "rank": 3
+    },
+    {
+      "name": "Electronic & Electric Devices",
+      "aliases": [
+        "electronic & electric devices",
+        "electronic and electric devices",
+        "electronics"
+      ],
+      "change": -14887461.538461506,
+      "change_pct": -5.523354041237716,
+      "rank": 4
+    },
+    {
+      "name": "Telecommunication",
+      "aliases": [
+        "telecommunication",
+        "telecommunications",
+        "telecom"
+      ],
+      "change": -6308538.461538464,
+      "change_pct": -6.448617310957017,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Other",
+    "Miscellaneous Goods and Services"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2021",
+    "2022",
+    "Q3"
+  ],
+  "other_entities": [
+    "Beverage and Food",
+    "Clothing and Footwear",
+    "Construction & Building Materials",
+    "Education",
+    "Furniture",
+    "Gas Stations",
+    "Health",
+    "Hotels",
+    "Jewelry",
+    "Public Utilities",
+    "Recreation and Culture",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 13 weeks), so averages per week are compared."
+  ]
+}

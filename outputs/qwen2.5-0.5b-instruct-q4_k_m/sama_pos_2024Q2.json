@@ -1,0 +1,182 @@
+{
+  "sheet_id": "sama_pos_2024Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2024 vs Q2 2023",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in Q2 2024 compared to Q2 2023, with a 4.2% increase in the average weekly POS value. This increase is attributed to a 4.2% increase in the average weekly transactions, which were up 15.8% from Q2 2023. The increase in transactions is primarily driven by an increase in the average weekly value of Miscellaneous Goods and Services, which increased by SAR 301 million. This increase in value is primarily due to an increase in the average weekly value of Clothing and Footwear, which increased by SAR 191 million. The increase in value of Restaurants & Café is also significant, with an increase of SAR 122 million. The increase in value of Gas Stations is also notable, with an increase of SAR 108 million. The increase in value of Public Utilities is also significant, with an increase of SAR 27 million. The largest movers (by size of change) in Q2 2024 are Miscellaneous Goods and Services, Clothing and Footwear, Restaurants & Café, Gas Stations, and Public Utilities.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'SAR 191 million' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'SAR 27 million' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Clothing and Footwear described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 970,
+        "completion_tokens": 252,
+        "total_tokens": 1222,
+        "seconds": 6.57
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "Saudi Arabia's point-of-sale card spending experienced a significant increase in Q2 2024 compared to Q2 2023, with a 4.2% increase in average weekly POS value. The increase was primarily driven by an increase in Miscellaneous Goods and Services, which saw a 15.8% increase in average weekly value. Clothing and Footwear, on the other hand, experienced a 19.3% decrease in average weekly value. The increase in Miscellaneous Goods and Services was driven by a 14.4% increase in average weekly value, while Clothing and Footwear experienced a 19.0% decrease. The increase in Public Utilities was driven by a 24.4% increase in average weekly value. These figures highlight the significant growth in the retail sector in Saudi Arabia during Q2 2024, with a notable increase in Miscellaneous Goods and Services and a decrease in Public Utilities.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'14.4%' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'19.0%' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1062,
+        "completion_tokens": 194,
+        "total_tokens": 1256,
+        "seconds": 5.03
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '14.4%' does not match any fact\n- '19.0%' does not match any fact\n- Public Utilities described as up but its change is down\n\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'14.4%' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'19.0%' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+4.2%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Clothing and Footwear"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Public Utilities described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1037,
+        "completion_tokens": 67,
+        "total_tokens": 1104,
+        "seconds": 2.64
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 12.25 bn in Q2 2024, up 4.2% from SAR 11.76 bn in Q2 2023. Average weekly transactions were 193.8 million (up 15.8%), and the average ticket was SAR 63.2 (down 10.0%). The largest movements were: Miscellaneous Goods and Services increased by SAR 301 mn; Clothing and Footwear decreased by SAR 191 mn; Restaurants & Café increased by SAR 122 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 12.25 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "4.2%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 11.76 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "193.8 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "15.8%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 63.2",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "10.0%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 301 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 191 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 122 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 75
+  }
+}

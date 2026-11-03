@@ -1,0 +1,159 @@
+{
+  "sheet_id": "costco_FY2025",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2025 vs FY2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In FY2025, Costco Wholesale Corporation reported a revenue increase of +8.2% compared to FY2024, marking a significant growth of $20.8bn. This substantial increase is attributed to robust sales and market expansion efforts. Operating cash flow also saw a notable increase of +17.6%, indicating improved liquidity and operational efficiency. Capital expenditure, which increased by +16.7%, reflects the company's commitment to expanding its physical retail network and enhancing its e-commerce capabilities. These financial metrics underscore Costco's ability to sustain and enhance its market position in the retail sector.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "macro/causal: 'e-commerce'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'liquidity'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'commitment to'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 793,
+        "completion_tokens": 124,
+        "total_tokens": 917,
+        "seconds": 16.55
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In FY2025, Costco Wholesale Corporation experienced a significant revenue growth of +8.2%, marking a substantial increase from the $254.5 billion reported in FY2024 to $275.2 billion. This growth was driven by increased operating income, which saw a +11.8% increase from $9.29 billion to $10.38 billion. Operating cash flow also showed a notable +17.6% increase, from $11.34 billion to $13.34 billion, reflecting the company's financial health and operational efficiency. Capital expenditure also increased by +16.7%, from $4.71 billion to $5.50 billion, indicating the company's commitment to growth and expansion. These figures highlight Costco's robust financial performance and its ability to generate substantial cash flow, which supports both its operational activities and future investments.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'commitment to'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 853,
+        "completion_tokens": 190,
+        "total_tokens": 1043,
+        "seconds": 17.85
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In FY2025, Costco Wholesale Corporation experienced a revenue increase of 8.2% compared to the previous year, marking a significant growth in its operations. This increase was driven by a substantial increase in operating cash flow of $2.00bn, indicating improved financial health and operational efficiency. Additionally, the company saw a 9.5% increase in its capital expenditure, reflecting a commitment to expanding its infrastructure and capabilities. The operating income also saw a notable increase of 11.8%, which is crucial for the company's profitability and growth. Net income also increased by 9.9%, further solidifying the company's financial performance and market position. The company's focus on efficiency and commitment to growth are evident through the increased percentages in operating cash flow, capital expenditure, operating income, and net income. These figures highlight the company's ability to manage its resources effectively and drive sustainable growth.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'commitment to'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 844,
+        "completion_tokens": 185,
+        "total_tokens": 1029,
+        "seconds": 19.01
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $275.2bn in FY2025, up 8.2% from $254.5bn in FY2024. Operating margin was 3.77% (up 0.12 pp), with SG&A at 9.07% of revenue. The largest movements were: Operating cash flow increased by $2.00bn; Capital expenditure increased by $0.79bn; Operating income increased by $1.10bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$275.2bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "8.2%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$254.5bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.77%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.12 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "9.07%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$2.00bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.79bn",
+        "class": "money",
+        "matched": [
+          "capex_chg"
+        ]
+      },
+      {
+        "text": "$1.10bn",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      }
+    ],
+    "words": 54
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sheet_id": "sama_pos_2025Q1",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q1 2025 vs Q1 2024",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q1 2025, the Saudi Arabia point-of-sale card spending (SAMA) reported an average weekly POS value of SAR 13.95 billion, marking a +7.3% increase from Q1 2024. This significant rise is attributed to the increase in other and miscellaneous goods and services, which saw a +20.6% increase in average weekly value from SAR 2,056 million to SAR 2,480 million. Additionally, the clothing and footwear category also experienced an increase of +12.6% in average weekly value from SAR 1,050 million to SAR 1,183 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 968,
+        "completion_tokens": 144,
+        "total_tokens": 1112,
+        "seconds": 10.32
+      }
+    }
+  ],
+  "final_text": "In Q1 2025, the Saudi Arabia point-of-sale card spending (SAMA) reported an average weekly POS value of SAR 13.95 billion, marking a +7.3% increase from Q1 2024. This significant rise is attributed to the increase in other and miscellaneous goods and services, which saw a +20.6% increase in average weekly value from SAR 2,056 million to SAR 2,480 million. Additionally, the clothing and footwear category also experienced an increase of +12.6% in average weekly value from SAR 1,050 million to SAR 1,183 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 13.95 billion",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "+7.3%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "+20.6%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "SAR 2,056 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "SAR 2,480 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "+12.6%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      },
+      {
+        "text": "SAR 1,050 million",
+        "class": "money",
+        "matched": [
+          "drv3_prev"
+        ]
+      },
+      {
+        "text": "SAR 1,183 million",
+        "class": "money",
+        "matched": [
+          "drv3_cur"
+        ]
+      }
+    ],
+    "words": 91
+  }
+}

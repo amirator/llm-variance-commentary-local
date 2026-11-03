@@ -1,0 +1,163 @@
+{
+  "sheet_id": "costco_FY2022",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2022 vs FY2021",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a year-over-year increase of 15.8% in revenue from $195.9 billion in FY2021 to $227.0 billion in FY2022. Operating cash flow increased by 17.5% from $8.96 billion to $7.39 billion, and net income increased by 16.7% from $5.01 billion to $5.84 billion. These positive changes in financial metrics indicate improved operational efficiency and financial performance.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'17.5%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 791,
+        "completion_tokens": 114,
+        "total_tokens": 905,
+        "seconds": 17.91
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In FY2022, Costco Wholesale Corporation reported a revenue increase of 15.8% compared to the prior year. This represents a significant growth in revenue of $31.0 billion. Operating cash flow also saw a notable increase of 17.5% from the previous year, indicating improved liquidity and operational efficiency. Net income, which increased by 16.7% from the prior year, reflects a substantial boost in profitability. Operating income, which increased by 16.2% from the prior year, is a key indicator of the company's financial health and operational performance. These positive figures suggest that Costco is effectively managing its costs and generating higher revenues and profits.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "'17.5%' described as up but the fact is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'liquidity'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 856,
+        "completion_tokens": 142,
+        "total_tokens": 998,
+        "seconds": 13.17
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "In FY2022, Costco Wholesale Corporation experienced a significant revenue growth of +15.8%, marking a substantial increase from the $195.9 billion reported in FY2021 to $227.0 billion. This growth is attributed to an operating income increase of +16.2%, which translates to an operating income of $7.79 billion, up from $6.71 billion in FY2021. The company also reported a net income increase of +16.7%, with $5.84 billion in FY2022 compared to $5.01 billion in FY2021, indicating a robust financial performance. Additionally, the company saw an increase in operating cash flow of +1.24 billion, reflecting improved liquidity and operational efficiency. Despite these positive developments, the largest decreases in FY2022 were in capital expenditure, which increased by +8.4% to $3.89 billion, and SG&A, which rose by +6.7% to $19.78 billion. These figures suggest that while the company is expanding its operations, it may be facing increased costs and potential liquidity pressures.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'efficiency'"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'liquidity'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 870,
+        "completion_tokens": 250,
+        "total_tokens": 1120,
+        "seconds": 13.8
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $227.0bn in FY2022, up 15.8% from $195.9bn in FY2021. Operating margin was 3.43% (up 0.01 pp), with SG&A at 8.71% of revenue. The largest movements were: Operating cash flow decreased by $1.57bn; Net income increased by $0.84bn; Operating income increased by $1.08bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$227.0bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "15.8%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$195.9bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.43%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.01 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "8.71%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$1.57bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.84bn",
+        "class": "money",
+        "matched": [
+          "net_income_chg"
+        ]
+      },
+      {
+        "text": "$1.08bn",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      }
+    ],
+    "words": 54
+  }
+}

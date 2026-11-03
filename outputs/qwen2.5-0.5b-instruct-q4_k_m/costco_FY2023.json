@@ -1,0 +1,163 @@
+{
+  "sheet_id": "costco_FY2023",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2023 vs FY2022",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a 6.8% increase in revenue from $227.0bn in FY2022 to $242.3bn in FY2023. The company's operating cash flow increased by 49.7% to $11.07bn, while its capital expenditure increased by $43bn to $4.32bn. The largest movers in FY2023 were operating cash flow and capital expenditure, with operating cash flow increasing by 49.7% and capital expenditure increasing by $43bn.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 790,
+        "completion_tokens": 123,
+        "total_tokens": 913,
+        "seconds": 6.35
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '$43bn' does not match any fact\n- '$43bn' does not match any fact\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Revenue, change vs prior year (+6.8%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Operating cash flow"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Capital expenditure"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 843,
+        "completion_tokens": 53,
+        "total_tokens": 896,
+        "seconds": 2.32
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '$43bn' does not match any fact\n- '$43bn' does not match any fact\n- headline figure not cited: Revenue, change vs prior year (+6.8%)\n- required driver not mentioned: Operating cash flow\n- required driver not mentioned: Capital expenditure\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$43bn' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 885,
+        "completion_tokens": 95,
+        "total_tokens": 980,
+        "seconds": 3.43
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $242.3bn in FY2023, up 6.8% from $227.0bn in FY2022. Operating margin was 3.35% (down 0.08 pp), with SG&A at 8.91% of revenue. The largest movements were: Operating cash flow increased by $3.68bn; Capital expenditure increased by $0.43bn; SG&A increased by $1.81bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$242.3bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "6.8%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$227.0bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.35%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.08 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "8.91%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$3.68bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.43bn",
+        "class": "money",
+        "matched": [
+          "capex_chg"
+        ]
+      },
+      {
+        "text": "$1.81bn",
+        "class": "money",
+        "matched": [
+          "sga_chg"
+        ]
+      }
+    ],
+    "words": 53
+  }
+}

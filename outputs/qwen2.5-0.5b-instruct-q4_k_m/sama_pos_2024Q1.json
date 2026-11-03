@@ -1,0 +1,202 @@
+{
+  "sheet_id": "sama_pos_2024Q1",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q1 2024 vs Q1 2023",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in the first quarter of 2024 compared to the same quarter of the previous year. The average weekly POS value increased by 13.5% from SAR 11.45 bn in Q1 2023 to SAR 13.00 bn in Q1 2024. This increase was driven by an increase in Miscellaneous Goods and Services, which saw a 13.5% increase in average weekly value from SAR 1,563 mn to SAR 2,064 mn. The beverage and food category also saw a 13.5% increase in average weekly value, from SAR 2,056 mn to SAR 2,064 mn. The other category, Electronic & Electric Devices, experienced a 13.1% increase in average weekly value, from SAR 2,056 mn to SAR 2,064 mn. The education sector saw a 11% increase in average weekly value, from SAR 138 mn to SAR 149 mn. The largest movers in the first quarter were Miscellaneous Goods and Services, Beverage and Food, and Education, with up movements of 13.5%, 13.5%, and 11%, respectively.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Education described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Education described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 963,
+        "completion_tokens": 284,
+        "total_tokens": 1247,
+        "seconds": 7.95
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- '11%' does not match any fact\n- '11%' does not match any fact\n- Electronic & Electric Devices described as up but its change is down\n- Education described as up but its change is down\n- Education described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+13.5%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Miscellaneous Goods and Services"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Beverage and Food"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Education described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Education described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 87,
+        "total_tokens": 1137,
+        "seconds": 1.95
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '11%' does not match any fact\n- '11%' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+13.5%)\n- required driver not mentioned: Miscellaneous Goods and Services\n- required driver not mentioned: Beverage and Food\n- Electronic & Electric Devices described as up but its change is down\n- Education described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'11%' does not match any fact"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Electronic & Electric Devices described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Education described as up but its change is down"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1089,
+        "completion_tokens": 126,
+        "total_tokens": 1215,
+        "seconds": 4.89
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 13.00 bn in Q1 2024, up 13.5% from SAR 11.45 bn in Q1 2023. Average weekly transactions were 187.6 million (up 19.3%), and the average ticket was SAR 69.3 (down 4.8%). The largest movements were: Miscellaneous Goods and Services increased by SAR 365 mn; Beverage and Food increased by SAR 239 mn; Other increased by SAR 225 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 13.00 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "13.5%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 11.45 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "187.6 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "19.3%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 69.3",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "4.8%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 365 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 239 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 225 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 74
+  }
+}

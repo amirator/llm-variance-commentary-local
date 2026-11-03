@@ -1,0 +1,47 @@
+{
+  "model": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "sheets": 35,
+  "attempts": 93,
+  "first_attempt_pass": 6,
+  "llm_final": 7,
+  "template_fallback": 28,
+  "attempt_pass_rate": 0.0753,
+  "attempts_with_issue_type": {
+    "format": 63,
+    "missing_driver": 44,
+    "wrong_direction": 44,
+    "unsupported_number": 43,
+    "missing_headline": 33,
+    "unsupported_claim": 9,
+    "unsupported_entity": 5
+  },
+  "issues_total_by_type": {
+    "unsupported_number": 139,
+    "wrong_direction": 101,
+    "format": 73,
+    "missing_driver": 64,
+    "missing_headline": 33,
+    "unsupported_claim": 10,
+    "unsupported_entity": 5
+  },
+  "by_domain": {
+    "costco_sec": {
+      "sheets": 5,
+      "first_pass": 2,
+      "llm_final": 2
+    },
+    "lacity_gl": {
+      "sheets": 14,
+      "first_pass": 1,
+      "llm_final": 1
+    },
+    "sama_pos": {
+      "sheets": 16,
+      "first_pass": 3,
+      "llm_final": 4
+    }
+  },
+  "mean_seconds_per_attempt": 6.3,
+  "mean_completion_tokens": 158.1,
+  "wall_seconds": 589.9
+}

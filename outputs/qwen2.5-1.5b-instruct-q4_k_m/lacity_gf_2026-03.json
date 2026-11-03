@@ -1,0 +1,105 @@
+{
+  "sheet_id": "lacity_gf_2026-03",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, March 2026 vs March 2025",
+  "source": "llm",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In March 2026, the General Fund postings decreased by 0.9% compared to March 2025, marking a reduction of $9.9 million. This decrease is primarily attributed to the General Services category, which saw a decrease of $4.4 million, and the Non-Departmental - Water and Electricity category, which also decreased by $4.2 million. These changes reflect a reduction in expenditures, likely due to budget adjustments or decreased demand for services.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'demand'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 879,
+        "completion_tokens": 101,
+        "total_tokens": 980,
+        "seconds": 17.59
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "In March 2026, the General Fund postings decreased by 0.9% compared to the same month in 2025, totaling $1,058.7 million. This represents a decrease of $9.9 million from the year-over-year comparison. The largest movers in the General Services category saw a decrease of $4.4 million, while the Non-Departmental - Water and Electricity category experienced a decrease of $4.2 million. The Non-Departmental - Petroleum Products category showed an increase of $4.1 million, and the City Attorney's postings increased by $2.9 million. The Non-Departmental - Capital Improvement Expense Program category also saw an increase of $2.7 million.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 914,
+        "completion_tokens": 153,
+        "total_tokens": 1067,
+        "seconds": 12.46
+      }
+    }
+  ],
+  "final_text": "In March 2026, the General Fund postings decreased by 0.9% compared to the same month in 2025, totaling $1,058.7 million. This represents a decrease of $9.9 million from the year-over-year comparison. The largest movers in the General Services category saw a decrease of $4.4 million, while the Non-Departmental - Water and Electricity category experienced a decrease of $4.2 million. The Non-Departmental - Petroleum Products category showed an increase of $4.1 million, and the City Attorney's postings increased by $2.9 million. The Non-Departmental - Capital Improvement Expense Program category also saw an increase of $2.7 million.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "0.9%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$1,058.7 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$9.9 million",
+        "class": "money",
+        "matched": [
+          "total_chg"
+        ]
+      },
+      {
+        "text": "$4.4 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg",
+          "drv2_cur"
+        ]
+      },
+      {
+        "text": "$4.2 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "$4.1 million",
+        "class": "money",
+        "matched": [
+          "drv3_chg",
+          "drv3_cur",
+          "drv5_cur"
+        ]
+      },
+      {
+        "text": "$2.9 million",
+        "class": "money",
+        "matched": [
+          "drv4_chg"
+        ]
+      },
+      {
+        "text": "$2.7 million",
+        "class": "money",
+        "matched": [
+          "drv5_chg"
+        ]
+      }
+    ],
+    "words": 101
+  }
+}

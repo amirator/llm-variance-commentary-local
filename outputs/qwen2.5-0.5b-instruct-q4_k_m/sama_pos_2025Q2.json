@@ -1,0 +1,182 @@
+{
+  "sheet_id": "sama_pos_2025Q2",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q2 2025 vs Q2 2024",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In Q2 2025, Saudi Arabia's point-of-sale card spending experienced a significant increase, with the average weekly POS value increasing by 5.1% compared to the same quarter last year. This marked a significant increase in the value of transactions, with the average weekly transactions increasing by 11.9% and the average ticket increasing by 6.1%. The increase in POS value and transactions is attributed to the rise in the average weekly value, which increased by 472 million SAR. The increase in the average weekly value is mainly driven by other factors such as other, which increased by 9.5% and other, which increased by 24.6%. The increase in the average weekly ticket is mainly driven by other, which increased by 23.5%. The increase in the average weekly POS value is mainly driven by other, which increased by 23.5% and other, which increased by 11.9%. The increase in the average weekly transactions is mainly driven by other, which increased by 11.9% and other, which increased by 11.9%. The increase in the average ticket is mainly driven by other, which increased by 11.9% and other, which increased by 11.9%. The increase in the average weekly POS value is mainly driven by other, which increased by 11.9% and other, which increased by 11.9%. The increase in the average weekly transactions is mainly driven by other, which increased by 1",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 237 words (allowed 35-180)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "'6.1%' described as up but the fact is down"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Gas Stations"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 931,
+        "completion_tokens": 320,
+        "total_tokens": 1251,
+        "seconds": 10.89
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 237 words (allowed 35-180)\n- '6.1%' described as up but the fact is down\n- required driver not mentioned: Gas Stations\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'237' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Average weekly POS value, change vs same quarter last year (+5.1%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Other"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 70,
+        "total_tokens": 1071,
+        "seconds": 2.45
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- markdown/list formatting\n- '237' does not match any fact\n- '35' does not match any fact\n- '-180' does not match any fact\n- headline figure not cited: Average weekly POS value, change vs same quarter last year (+5.1%)\n- required driver not mentioned: Other\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'237' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Gas Stations"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1031,
+        "completion_tokens": 100,
+        "total_tokens": 1131,
+        "seconds": 2.85
+      }
+    }
+  ],
+  "final_text": "Average weekly point-of-sale spending in Saudi Arabia was SAR 12.88 bn in Q2 2025, up 5.1% from SAR 12.25 bn in Q2 2024. Average weekly transactions were 216.9 million (up 11.9%), and the average ticket was SAR 59.4 (down 6.1%). The largest movements were: Other increased by SAR 472 mn; Gas Stations increased by SAR 80 mn; Jewelry increased by SAR 63 mn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "SAR 12.88 bn",
+        "class": "money",
+        "matched": [
+          "total_value_cur"
+        ]
+      },
+      {
+        "text": "5.1%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "SAR 12.25 bn",
+        "class": "money",
+        "matched": [
+          "total_value_prev"
+        ]
+      },
+      {
+        "text": "216.9 million",
+        "class": "scaled",
+        "matched": [
+          "txn_cur"
+        ]
+      },
+      {
+        "text": "11.9%",
+        "class": "pct",
+        "matched": [
+          "txn_yoy"
+        ]
+      },
+      {
+        "text": "SAR 59.4",
+        "class": "money",
+        "matched": [
+          "ticket_cur"
+        ]
+      },
+      {
+        "text": "6.1%",
+        "class": "pct",
+        "matched": [
+          "ticket_yoy"
+        ]
+      },
+      {
+        "text": "SAR 472 mn",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "SAR 80 mn",
+        "class": "money",
+        "matched": [
+          "drv2_chg"
+        ]
+      },
+      {
+        "text": "SAR 63 mn",
+        "class": "money",
+        "matched": [
+          "drv3_chg"
+        ]
+      }
+    ],
+    "words": 70
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sheet_id": "lacity_gf_2026-06",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, June 2026 vs June 2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In June 2026, the City of Los Angeles General Fund saw a decrease of 5.3% compared to June 2025, with total postings amounting to $706.8 million, down from $746.1 million in the previous year. The largest movers in June 2026 were Fire, which increased by $36.1 million to $113.2 million, and Non-Departmental - Capital Finance Administration, which decreased by $25.3 million to $0.0 million from $25.3 million in June 2025.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 873,
+        "completion_tokens": 132,
+        "total_tokens": 1005,
+        "seconds": 15.34
+      }
+    }
+  ],
+  "final_text": "In June 2026, the City of Los Angeles General Fund saw a decrease of 5.3% compared to June 2025, with total postings amounting to $706.8 million, down from $746.1 million in the previous year. The largest movers in June 2026 were Fire, which increased by $36.1 million to $113.2 million, and Non-Departmental - Capital Finance Administration, which decreased by $25.3 million to $0.0 million from $25.3 million in June 2025.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "5.3%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "$706.8 million",
+        "class": "money",
+        "matched": [
+          "total_cur"
+        ]
+      },
+      {
+        "text": "$746.1 million",
+        "class": "money",
+        "matched": [
+          "total_prev"
+        ]
+      },
+      {
+        "text": "$36.1 million",
+        "class": "money",
+        "matched": [
+          "drv1_chg"
+        ]
+      },
+      {
+        "text": "$113.2 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "$25.3 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg",
+          "drv2_prev"
+        ]
+      },
+      {
+        "text": "$0.0 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur",
+          "drv5_prev"
+        ]
+      },
+      {
+        "text": "$25.3 million",
+        "class": "money",
+        "matched": [
+          "drv2_chg",
+          "drv2_prev"
+        ]
+      }
+    ],
+    "words": 77
+  }
+}

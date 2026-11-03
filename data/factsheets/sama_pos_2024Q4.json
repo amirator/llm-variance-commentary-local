@@ -1,0 +1,457 @@
+{
+  "id": "sama_pos_2024Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2024 vs Q4 2023",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q4 2024",
+  "comparison_period": "Q4 2023",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q4 2024",
+      "value": 13093179692.307692,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 13.09 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q4 2023",
+      "value": 12079488285.714285,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 12.08 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 8.391840636099147,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+8.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 1013691406.5934067,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 1.01 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q4 2024",
+      "value": 210298000.0,
+      "unit": "count",
+      "kind": "level",
+      "display": "210.3 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q4 2023",
+      "value": 186277500.0,
+      "unit": "count",
+      "kind": "level",
+      "display": "186.3 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 12.895008790648355,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+12.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q4 2024",
+      "value": 62.26012464363756,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 62.3",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q4 2023",
+      "value": 64.84673825724677,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 64.8",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -3.9888106682376523,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-4.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Other: change in average weekly value",
+      "value": 311486324.17582417,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 311 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Other: change vs same quarter last year",
+      "value": 17.002851459560773,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+17.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Other: average weekly value, Q4 2024",
+      "value": 2143451538.4615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 2,143 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Other: average weekly value, Q4 2023",
+      "value": 1831965214.2857144,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,832 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Other"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Miscellaneous Goods and Services: change in average weekly value",
+      "value": 184112972.5274725,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 184 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Miscellaneous Goods and Services: change vs same quarter last year",
+      "value": 13.102889144551089,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+13.1%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q4 2024",
+      "value": 1589245615.3846154,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,589 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q4 2023",
+      "value": 1405132642.857143,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,405 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Gas Stations: change in average weekly value",
+      "value": 127135379.12087917,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 127 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Gas Stations: change vs same quarter last year",
+      "value": 16.191548439659776,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+16.2%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Gas Stations: average weekly value, Q4 2024",
+      "value": 912331307.6923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 912 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Gas Stations: average weekly value, Q4 2023",
+      "value": 785195928.5714285,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 785 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Public Utilities: change in average weekly value",
+      "value": -67304934.06593406,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 67 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Public Utilities: change vs same quarter last year",
+      "value": -55.596409622812146,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-55.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Public Utilities: average weekly value, Q4 2024",
+      "value": 53754923.07692308,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 54 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Public Utilities: average weekly value, Q4 2023",
+      "value": 121059857.14285715,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 121 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Public Utilities"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Electronic & Electric Devices: change in average weekly value",
+      "value": -30952692.30769232,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 31 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Electronic & Electric Devices: change vs same quarter last year",
+      "value": -13.634165836806101,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-13.6%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Electronic & Electric Devices: average weekly value, Q4 2024",
+      "value": 196070307.69230768,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 196 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Electronic & Electric Devices: average weekly value, Q4 2023",
+      "value": 227023000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 227 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Other",
+      "aliases": [
+        "other sector",
+        "\"other\"",
+        "'other'",
+        "other category",
+        "other (unclassified)"
+      ],
+      "change": 311486324.17582417,
+      "change_pct": 17.002851459560773,
+      "rank": 1
+    },
+    {
+      "name": "Miscellaneous Goods and Services",
+      "aliases": [
+        "miscellaneous goods and services",
+        "miscellaneous goods",
+        "miscellaneous"
+      ],
+      "change": 184112972.5274725,
+      "change_pct": 13.102889144551089,
+      "rank": 2
+    },
+    {
+      "name": "Gas Stations",
+      "aliases": [
+        "gas stations",
+        "fuel stations",
+        "petrol stations"
+      ],
+      "change": 127135379.12087917,
+      "change_pct": 16.191548439659776,
+      "rank": 3
+    },
+    {
+      "name": "Public Utilities",
+      "aliases": [
+        "public utilities",
+        "utilities"
+      ],
+      "change": -67304934.06593406,
+      "change_pct": -55.596409622812146,
+      "rank": 4
+    },
+    {
+      "name": "Electronic & Electric Devices",
+      "aliases": [
+        "electronic & electric devices",
+        "electronic and electric devices",
+        "electronics"
+      ],
+      "change": -30952692.30769232,
+      "change_pct": -13.634165836806101,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Other",
+    "Miscellaneous Goods and Services"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2023",
+    "2024",
+    "Q4"
+  ],
+  "other_entities": [
+    "Beverage and Food",
+    "Clothing and Footwear",
+    "Construction & Building Materials",
+    "Education",
+    "Furniture",
+    "Health",
+    "Hotels",
+    "Jewelry",
+    "Recreation and Culture",
+    "Restaurants & Café",
+    "Telecommunication",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 14 weeks), so averages per week are compared."
+  ]
+}

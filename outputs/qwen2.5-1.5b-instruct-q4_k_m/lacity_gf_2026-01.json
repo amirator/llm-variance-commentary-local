@@ -1,0 +1,78 @@
+{
+  "sheet_id": "lacity_gf_2026-01",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund postings, January 2026 vs January 2025",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "In January 2026, the City of Los Angeles General Fund experienced a 1.6% increase in postings compared to the same month in 2025. This increase was driven by the Non-Departmental - Liability Claims, which saw a 443.3% increase in postings from $5.2 million to $28.3 million. Additionally, the Non-Departmental - Capital Finance Administration saw a 312.0% increase, with postings from $4.6 million to $19.0 million. These figures highlight significant growth in the city's financial operations.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 868,
+        "completion_tokens": 128,
+        "total_tokens": 996,
+        "seconds": 17.29
+      }
+    }
+  ],
+  "final_text": "In January 2026, the City of Los Angeles General Fund experienced a 1.6% increase in postings compared to the same month in 2025. This increase was driven by the Non-Departmental - Liability Claims, which saw a 443.3% increase in postings from $5.2 million to $28.3 million. Additionally, the Non-Departmental - Capital Finance Administration saw a 312.0% increase, with postings from $4.6 million to $19.0 million. These figures highlight significant growth in the city's financial operations.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "1.6%",
+        "class": "pct",
+        "matched": [
+          "total_yoy"
+        ]
+      },
+      {
+        "text": "443.3%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "$5.2 million",
+        "class": "money",
+        "matched": [
+          "drv1_prev"
+        ]
+      },
+      {
+        "text": "$28.3 million",
+        "class": "money",
+        "matched": [
+          "drv1_cur"
+        ]
+      },
+      {
+        "text": "312.0%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "$4.6 million",
+        "class": "money",
+        "matched": [
+          "drv2_prev"
+        ]
+      },
+      {
+        "text": "$19.0 million",
+        "class": "money",
+        "matched": [
+          "drv2_cur"
+        ]
+      }
+    ],
+    "words": 80
+  }
+}

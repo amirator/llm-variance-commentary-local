@@ -1,0 +1,211 @@
+{
+  "sheet_id": "costco_FY2022",
+  "domain": "costco_sec",
+  "title": "Costco Wholesale, FY2022 vs FY2021",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Costco Wholesale Corporation reported a 15.8% increase in revenue from $195.9bn in the fiscal year 2021 to $227.0bn in the fiscal year 2022. This represents a 15.8% increase in revenue compared to the prior year, which is a significant increase from the $195.9bn reported in the fiscal year 2021. The increase in revenue is attributed to the company's expansion into new markets and the growth in its consumer base. The increase in revenue is also reflected in the operating cash flow, net income, and capital expenditure figures, indicating that the company is able to generate cash flow from operations and maintain its financial health.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 791,
+        "completion_tokens": 154,
+        "total_tokens": 945,
+        "seconds": 6.23
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- interpretation: 'financial health'\nRevenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should state revenue, change vs prior year (+15.8%). Operating cash flow, up. Net income, up. Capital expenditure, up. Operating income, up. SG&A, up. The revised commentary should",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 203 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "unsupported_claim",
+          "detail": "interpretation: 'financial health'"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 827,
+        "completion_tokens": 320,
+        "total_tokens": 1147,
+        "seconds": 7.1
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 203 words (allowed 35-180)\n- markdown/list formatting\n- Operating cash flow described as up but its change is down\n- Operating cash flow described as up but its change is down\n- Operating cash flow described as up but its change is down\n- Operating cash flow described as up but its change is down\n- Operating cash flow described as up but its change is down\n- Operating cash flow described as up but its change is down\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'203' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Revenue, change vs prior year (+15.8%)"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "wrong_direction",
+          "detail": "Operating cash flow described as up but its change is down"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Net income"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 920,
+        "completion_tokens": 129,
+        "total_tokens": 1049,
+        "seconds": 2.56
+      }
+    }
+  ],
+  "final_text": "Costco revenue was $227.0bn in FY2022, up 15.8% from $195.9bn in FY2021. Operating margin was 3.43% (up 0.01 pp), with SG&A at 8.71% of revenue. The largest movements were: Operating cash flow decreased by $1.57bn; Net income increased by $0.84bn; Operating income increased by $1.08bn.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$227.0bn",
+        "class": "money",
+        "matched": [
+          "revenue_cur"
+        ]
+      },
+      {
+        "text": "15.8%",
+        "class": "pct",
+        "matched": [
+          "revenue_yoy"
+        ]
+      },
+      {
+        "text": "$195.9bn",
+        "class": "money",
+        "matched": [
+          "revenue_prev"
+        ]
+      },
+      {
+        "text": "3.43%",
+        "class": "pct",
+        "matched": [
+          "op_margin_cur"
+        ]
+      },
+      {
+        "text": "0.01 pp",
+        "class": "pp",
+        "matched": [
+          "op_margin_chg"
+        ]
+      },
+      {
+        "text": "8.71%",
+        "class": "pct",
+        "matched": [
+          "sga_pct_cur"
+        ]
+      },
+      {
+        "text": "$1.57bn",
+        "class": "money",
+        "matched": [
+          "cfo_chg"
+        ]
+      },
+      {
+        "text": "$0.84bn",
+        "class": "money",
+        "matched": [
+          "net_income_chg"
+        ]
+      },
+      {
+        "text": "$1.08bn",
+        "class": "money",
+        "matched": [
+          "ebit_chg"
+        ]
+      }
+    ],
+    "words": 54
+  }
+}

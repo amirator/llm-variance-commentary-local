@@ -1,0 +1,43 @@
+{
+  "model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "sheets": 35,
+  "attempts": 52,
+  "first_attempt_pass": 24,
+  "llm_final": 30,
+  "template_fallback": 5,
+  "attempt_pass_rate": 0.5769,
+  "attempts_with_issue_type": {
+    "unsupported_claim": 14,
+    "wrong_direction": 7,
+    "unsupported_number": 7,
+    "missing_driver": 2,
+    "format": 2
+  },
+  "issues_total_by_type": {
+    "unsupported_claim": 27,
+    "wrong_direction": 10,
+    "unsupported_number": 9,
+    "missing_driver": 3,
+    "format": 2
+  },
+  "by_domain": {
+    "costco_sec": {
+      "sheets": 5,
+      "first_pass": 2,
+      "llm_final": 2
+    },
+    "lacity_gl": {
+      "sheets": 14,
+      "first_pass": 11,
+      "llm_final": 14
+    },
+    "sama_pos": {
+      "sheets": 16,
+      "first_pass": 11,
+      "llm_final": 14
+    }
+  },
+  "mean_seconds_per_attempt": 15.4,
+  "mean_completion_tokens": 160.7,
+  "wall_seconds": 803.1
+}

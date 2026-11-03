@@ -1,0 +1,181 @@
+{
+  "sheet_id": "lacity_bva_FY2026",
+  "domain": "lacity_gl",
+  "title": "LA City General Fund budget vs actual, FY2026",
+  "source": "template",
+  "passed_first": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "The lowest budget utilisation in FY2026 is General Services with an utilisation of 71.6%, followed by Non-Departmental - General City Purposes with an utilisation of 71.8%. The revised budget for General Services is $397.9m, and the revised budget for Non-Departmental - General City Purposes is $263.5m.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Utilisation of revised budget (95.4%)"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 657,
+        "completion_tokens": 85,
+        "total_tokens": 742,
+        "seconds": 5.63
+      }
+    },
+    {
+      "attempt": 2,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- headline figure not cited: Utilisation of revised budget (95.4%)\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- lowest budget utilisation: General Services; Non-Departmental - General City Purposes; Mayor\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- lowest-utilisation departments are limited to those with a revised budget above $50m\n\nWrite the commentary for FY2026. The first sentence must state utilisation of revised budget (95.4%). You must name General Services and Non-Departmental - General City Purposes and give their figures. Use 'up'/'increased' for positive changes and 'down'/'decreased' for negative changes. Do not start with a title.\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- lowest budget utilisation: General Services; Non-Departmental - General City Purposes; Mayor\n\nWrite the commentary for FY2026. The first sentence must state utilisation of revised budget (95.4%). You must name General Services and Non-Departmental - General City Purposes and give their figures. Use 'up'/'increased' for positive changes and 'down'/'decreased' for negative changes. Do not start with a title.\n\nAn earlier draft was rejected by a fact checker for these reasons:\n- lowest budget utilisation: General Services; Non-Departmental - General City Purposes; Mayor\n\nWrite the",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "length 210 words (allowed 35-180)"
+        },
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 704,
+        "completion_tokens": 320,
+        "total_tokens": 1024,
+        "seconds": 15.98
+      }
+    },
+    {
+      "attempt": 3,
+      "text": "An earlier draft was rejected by a fact checker for these reasons:\n- length 210 words (allowed 35-180)\n- markdown/list formatting\n- '$50m' does not match any fact\nAvoid all of these mistakes. Every number must appear in the facts list above.",
+      "passed": false,
+      "issues": [
+        {
+          "type": "format",
+          "detail": "markdown/list formatting"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'210' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'35' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'-180' does not match any fact"
+        },
+        {
+          "type": "unsupported_number",
+          "detail": "'$50m' does not match any fact"
+        },
+        {
+          "type": "missing_headline",
+          "detail": "headline figure not cited: Utilisation of revised budget (95.4%)"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: General Services"
+        },
+        {
+          "type": "missing_driver",
+          "detail": "required driver not mentioned: Non-Departmental - General City Purposes"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 720,
+        "completion_tokens": 63,
+        "total_tokens": 783,
+        "seconds": 4.92
+      }
+    }
+  ],
+  "final_text": "The General Fund revised budget for FY2026 was $10.19bn, against an adopted budget of $9.56bn. Committed spend was $9.72bn, a utilisation of 95.4%, leaving $471.2m unspent. Departments with the lowest utilisation: General Services used 71.6% of a $397.9m budget; Non-Departmental - General City Purposes used 71.8% of a $263.5m budget; Mayor used 76.6% of a $89.1m budget.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "$10.19bn",
+        "class": "money",
+        "matched": [
+          "revised"
+        ]
+      },
+      {
+        "text": "$9.56bn",
+        "class": "money",
+        "matched": [
+          "adopted"
+        ]
+      },
+      {
+        "text": "$9.72bn",
+        "class": "money",
+        "matched": [
+          "committed"
+        ]
+      },
+      {
+        "text": "95.4%",
+        "class": "pct",
+        "matched": [
+          "utilisation"
+        ]
+      },
+      {
+        "text": "$471.2m",
+        "class": "money",
+        "matched": [
+          "unspent"
+        ]
+      },
+      {
+        "text": "71.6%",
+        "class": "pct",
+        "matched": [
+          "low1_util"
+        ]
+      },
+      {
+        "text": "$397.9m",
+        "class": "money",
+        "matched": [
+          "low1_revised"
+        ]
+      },
+      {
+        "text": "71.8%",
+        "class": "pct",
+        "matched": [
+          "low2_util"
+        ]
+      },
+      {
+        "text": "$263.5m",
+        "class": "money",
+        "matched": [
+          "low2_revised"
+        ]
+      },
+      {
+        "text": "76.6%",
+        "class": "pct",
+        "matched": [
+          "low3_util"
+        ]
+      },
+      {
+        "text": "$89.1m",
+        "class": "money",
+        "matched": [
+          "low3_revised"
+        ]
+      }
+    ],
+    "words": 67
+  }
+}

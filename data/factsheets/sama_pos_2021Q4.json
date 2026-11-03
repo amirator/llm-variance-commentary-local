@@ -1,0 +1,458 @@
+{
+  "id": "sama_pos_2021Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2021 vs Q4 2020",
+  "subject": "Saudi Arabia point-of-sale card spending (SAMA weekly statistics)",
+  "period": "Q4 2021",
+  "comparison_period": "Q4 2020",
+  "comparison": "year over year",
+  "currency": "SAR",
+  "facts": [
+    {
+      "key": "total_value_cur",
+      "label": "Average weekly POS value, Q4 2021",
+      "value": 9604806000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 9.60 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_prev",
+      "label": "Average weekly POS value, Q4 2020",
+      "value": 8035510538.461538,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 8.04 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "total_value_yoy",
+      "label": "Average weekly POS value, change vs same quarter last year",
+      "value": 19.529505362815634,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+19.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "total_value_chg",
+      "label": "Average weekly POS value, change",
+      "value": 1569295461.5384617,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 1.57 bn",
+      "decimals": 2,
+      "scale": "bn",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "txn_cur",
+      "label": "Average weekly transactions, Q4 2021",
+      "value": 115540307.6923077,
+      "unit": "count",
+      "kind": "level",
+      "display": "115.5 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_prev",
+      "label": "Average weekly transactions, Q4 2020",
+      "value": 74579000.0,
+      "unit": "count",
+      "kind": "level",
+      "display": "74.6 million",
+      "decimals": 1,
+      "scale": "mn",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "txn_yoy",
+      "label": "Average weekly transactions, change vs same quarter last year",
+      "value": 54.92338016372933,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+54.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "ticket_cur",
+      "label": "Average ticket, Q4 2021",
+      "value": 83.12948261812062,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 83.1",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_prev",
+      "label": "Average ticket, Q4 2020",
+      "value": 107.74494882556132,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 107.7",
+      "decimals": 1,
+      "scale": "",
+      "currency": "SAR",
+      "entity": null
+    },
+    {
+      "key": "ticket_yoy",
+      "label": "Average ticket, change vs same quarter last year",
+      "value": -22.846051230942678,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-22.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": null
+    },
+    {
+      "key": "drv1_chg",
+      "label": "Restaurants & Café: change in average weekly value",
+      "value": 304140846.1538464,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 304 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv1_yoy",
+      "label": "Restaurants & Café: change vs same quarter last year",
+      "value": 28.91561304341501,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+28.9%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv1_cur",
+      "label": "Restaurants & Café: average weekly value, Q4 2021",
+      "value": 1355963076.923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,356 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv1_prev",
+      "label": "Restaurants & Café: average weekly value, Q4 2020",
+      "value": 1051822230.7692307,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 1,052 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Restaurants & Café"
+    },
+    {
+      "key": "drv2_chg",
+      "label": "Gas Stations: change in average weekly value",
+      "value": 298649538.46153855,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 299 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv2_yoy",
+      "label": "Gas Stations: change vs same quarter last year",
+      "value": 94.4435957439563,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+94.4%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv2_cur",
+      "label": "Gas Stations: average weekly value, Q4 2021",
+      "value": 614869538.4615386,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 615 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv2_prev",
+      "label": "Gas Stations: average weekly value, Q4 2020",
+      "value": 316220000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 316 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Gas Stations"
+    },
+    {
+      "key": "drv3_chg",
+      "label": "Miscellaneous Goods and Services: change in average weekly value",
+      "value": 296309538.46153843,
+      "unit": "money",
+      "kind": "change",
+      "display": "+SAR 296 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_yoy",
+      "label": "Miscellaneous Goods and Services: change vs same quarter last year",
+      "value": 45.834238629264945,
+      "unit": "pct",
+      "kind": "change",
+      "display": "+45.8%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_cur",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q4 2021",
+      "value": 942790307.6923077,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 943 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv3_prev",
+      "label": "Miscellaneous Goods and Services: average weekly value, Q4 2020",
+      "value": 646480769.2307693,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 646 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Miscellaneous Goods and Services"
+    },
+    {
+      "key": "drv4_chg",
+      "label": "Electronic & Electric Devices: change in average weekly value",
+      "value": -31190769.230769277,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 31 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_yoy",
+      "label": "Electronic & Electric Devices: change vs same quarter last year",
+      "value": -9.993646142903145,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-10.0%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_cur",
+      "label": "Electronic & Electric Devices: average weekly value, Q4 2021",
+      "value": 280915230.7692307,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 281 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv4_prev",
+      "label": "Electronic & Electric Devices: average weekly value, Q4 2020",
+      "value": 312106000.0,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 312 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Electronic & Electric Devices"
+    },
+    {
+      "key": "drv5_chg",
+      "label": "Jewelry: change in average weekly value",
+      "value": -12159000.0,
+      "unit": "money",
+      "kind": "change",
+      "display": "-SAR 12 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_yoy",
+      "label": "Jewelry: change vs same quarter last year",
+      "value": -5.523451966161885,
+      "unit": "pct",
+      "kind": "change",
+      "display": "-5.5%",
+      "decimals": 1,
+      "scale": "",
+      "currency": null,
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_cur",
+      "label": "Jewelry: average weekly value, Q4 2021",
+      "value": 207975076.92307693,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 208 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    },
+    {
+      "key": "drv5_prev",
+      "label": "Jewelry: average weekly value, Q4 2020",
+      "value": 220134076.92307693,
+      "unit": "money",
+      "kind": "level",
+      "display": "SAR 220 mn",
+      "decimals": 0,
+      "scale": "mn",
+      "currency": "SAR",
+      "entity": "Jewelry"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Restaurants & Café",
+      "aliases": [
+        "restaurants & café",
+        "restaurants & cafe",
+        "restaurants and cafés",
+        "restaurants and cafes",
+        "restaurants",
+        "café",
+        "cafe"
+      ],
+      "change": 304140846.1538464,
+      "change_pct": 28.91561304341501,
+      "rank": 1
+    },
+    {
+      "name": "Gas Stations",
+      "aliases": [
+        "gas stations",
+        "fuel stations",
+        "petrol stations"
+      ],
+      "change": 298649538.46153855,
+      "change_pct": 94.4435957439563,
+      "rank": 2
+    },
+    {
+      "name": "Miscellaneous Goods and Services",
+      "aliases": [
+        "miscellaneous goods and services",
+        "miscellaneous goods",
+        "miscellaneous"
+      ],
+      "change": 296309538.46153843,
+      "change_pct": 45.834238629264945,
+      "rank": 3
+    },
+    {
+      "name": "Electronic & Electric Devices",
+      "aliases": [
+        "electronic & electric devices",
+        "electronic and electric devices",
+        "electronics"
+      ],
+      "change": -31190769.230769277,
+      "change_pct": -9.993646142903145,
+      "rank": 4
+    },
+    {
+      "name": "Jewelry",
+      "aliases": [
+        "jewelry"
+      ],
+      "change": -12159000.0,
+      "change_pct": -5.523451966161885,
+      "rank": 5
+    }
+  ],
+  "required": [
+    "Restaurants & Café",
+    "Gas Stations"
+  ],
+  "headline_key": "total_value_yoy",
+  "period_tokens": [
+    "2020",
+    "2021",
+    "Q4"
+  ],
+  "other_entities": [
+    "Beverage and Food",
+    "Clothing and Footwear",
+    "Construction & Building Materials",
+    "Education",
+    "Furniture",
+    "Health",
+    "Hotels",
+    "Other",
+    "Public Utilities",
+    "Recreation and Culture",
+    "Telecommunication",
+    "Transportation"
+  ],
+  "notes": [
+    "Quarters are grouped by week start date (13 weeks vs 13 weeks), so averages per week are compared."
+  ]
+}

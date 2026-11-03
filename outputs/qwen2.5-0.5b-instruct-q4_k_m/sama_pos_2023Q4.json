@@ -1,0 +1,71 @@
+{
+  "sheet_id": "sama_pos_2023Q4",
+  "domain": "sama_pos",
+  "title": "Saudi point-of-sale spending, Q4 2023 vs Q4 2022",
+  "source": "llm",
+  "passed_first": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in Q4 2023 compared to Q4 2022, with a 9.7% increase in the average weekly POS value. Beverage and Food and Restaurants & Café saw their values increase by 1.07 billion SAR, while Miscellaneous Goods and Services experienced a 14.1% increase. The increase in Beverage and Food was driven by a 14.1% increase in average weekly value, while Restaurants & Café increased by 12.3%. The increase in Miscellaneous Goods and Services was driven by a 15.3% increase in average weekly value. The largest movers (by size of change) were Beverage and Food, Restaurants & Café, and Miscellaneous Goods and Services.",
+      "passed": true,
+      "issues": [],
+      "usage": {
+        "prompt_tokens": 970,
+        "completion_tokens": 165,
+        "total_tokens": 1135,
+        "seconds": 6.77
+      }
+    }
+  ],
+  "final_text": "Saudi Arabia's point-of-sale card spending (SAMA) experienced a significant increase in Q4 2023 compared to Q4 2022, with a 9.7% increase in the average weekly POS value. Beverage and Food and Restaurants & Café saw their values increase by 1.07 billion SAR, while Miscellaneous Goods and Services experienced a 14.1% increase. The increase in Beverage and Food was driven by a 14.1% increase in average weekly value, while Restaurants & Café increased by 12.3%. The increase in Miscellaneous Goods and Services was driven by a 15.3% increase in average weekly value. The largest movers (by size of change) were Beverage and Food, Restaurants & Café, and Miscellaneous Goods and Services.",
+  "final_report": {
+    "passed": true,
+    "issues": [],
+    "numbers": [
+      {
+        "text": "9.7%",
+        "class": "pct",
+        "matched": [
+          "total_value_yoy"
+        ]
+      },
+      {
+        "text": "1.07 billion SAR",
+        "class": "money",
+        "matched": [
+          "total_value_chg"
+        ]
+      },
+      {
+        "text": "14.1%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "14.1%",
+        "class": "pct",
+        "matched": [
+          "drv1_yoy"
+        ]
+      },
+      {
+        "text": "12.3%",
+        "class": "pct",
+        "matched": [
+          "drv2_yoy"
+        ]
+      },
+      {
+        "text": "15.3%",
+        "class": "pct",
+        "matched": [
+          "drv3_yoy"
+        ]
+      }
+    ],
+    "words": 113
+  }
+}

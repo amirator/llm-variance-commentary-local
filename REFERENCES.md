@@ -1,0 +1,12 @@
+# References
+
+What I read before building this, and what I took from each. No code was copied; the validator,
+mutations and pipeline are written from scratch for this repo.
+
+| # | Source | What I borrowed |
+|---|--------|-----------------|
+| 1 | Kryściński, McCann, Xiong & Socher, *Evaluating the Factual Consistency of Abstractive Text Summarization* (EMNLP 2020), [arXiv:1910.12840](https://arxiv.org/abs/1910.12840) | The idea of testing a consistency checker with rule-based corruptions of correct text (number swap, entity swap, negation). `src/vcomm/mutate.py` applies the finance version of these (wrong figure, flipped direction word, injected entity, injected causal claim, dropped driver) to drafts that already passed, and `reports/validator_stress_test.json` counts how many are caught. The paper also notes that most summariser errors are wrong numbers and entity names, which is why those two checks come first. |
+| 2 | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) (Apache-2.0) | The pattern of explicit validators with an *on-fail* action (re-ask, raise, fix). Here the on-fail chain is: re-ask with the list of rejection reasons, up to 3 attempts, then a deterministic template. Their `CompetitorCheck` validator is the same idea as the "entity not in this fact sheet" check. I did not add the library as a dependency; the checks are domain-specific regexes. |
+| 3 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) (MIT) | GGUF format and the Q4_K_M 4-bit quantisation that lets a 1.5B model run on a CPU with no GPU. |
+| 4 | [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python) (MIT) | Python bindings: `Llama.create_chat_completion` with the chat template stored in the GGUF file, per-call `seed` for reproducible drafts, and the prebuilt CPU wheel index, so no compiler is needed. |
+| 5 | Qwen Team, [Qwen2.5-1.5B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF) and [Qwen2.5-0.5B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF) model cards; [Qwen2.5 blog](https://qwenlm.github.io/blog/qwen2.5/) | Model choice and licence (Apache-2.0 for the 0.5B and 1.5B sizes), the official `q4_k_m` files, and the blog's note that Qwen2.5 is better at understanding structured data such as tables. The prompt gives the facts as plain `label: value` lines; I did not compare that against a JSON prompt. |

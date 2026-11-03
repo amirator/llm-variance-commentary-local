@@ -1,0 +1,18 @@
+{
+  "sama_pos_sector_quarterly.csv": {
+    "rows": 374,
+    "sha256": "cbbbe8a4fbb25e663331340eb55349f59f5f59bae14536bff6d2690ebf9f3aeb"
+  },
+  "costco_fy.csv": {
+    "rows": 36,
+    "sha256": "3b2dac93f2cb1d9bfdda9ceb320c6f216e44551e386b2174d5e427a2b8189ba8"
+  },
+  "lacity_gf_monthly_by_department.csv": {
+    "rows": 1136,
+    "sha256": "a7781fff29dc1473c931378639b21fbd3a549738731a8799e49278b30d077326"
+  },
+  "lacity_gf_budget_by_department.csv": {
+    "rows": 97,
+    "sha256": "165fc865c069bcc48307bf9fd6bf996c92fbaf5f2beb1fbd442cfb2461f4264c"
+  }
+}
